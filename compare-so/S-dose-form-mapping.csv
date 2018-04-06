@@ -1,0 +1,29 @@
+concept_name,vocabulary_id,n,NoMatch,ExactMatchSNOMEDCTConcept,BroaderSNOMEDCTConcept,Note
+Stick,RxNorm Extension,376,,739007000,,
+Unknown Combination Pack Medical Aids,RxNorm Extension,282,,261665006,,
+Paint,RxNorm Extension,235,1,,,Paint as substance exist
+Shower Powder,RxNorm Extension,183,,,739005008 |Powder (basic dose form)|,
+Medicated Nail Polish,RxNorm Extension,165,1,,,Nail polish as substance exists
+Medicated nail lacquer,RxNorm Extension,95,1,,,
+Vaginal delivery system,RxNorm Extension,74,,,385292009 | Vaginal dose form (dose form),
+Variable Drug Form,RxNorm Extension,70,1,,,Vague - given SNOMED CT policy
+Bath Salts,RxNorm Extension,66,1,,,
+Impregnated cigarette,RxNorm Extension,48,1,,,
+Nasal Metered-Dose Aerosol,RxNorm Extension,48,,420847003,,
+Intramuscular Prolonged Release Suspension,RxNorm Extension,47,,,255559005 | Intramuscular (qualifier value) |,
+Collodion,RxNorm Extension,43,,385115001,,
+Oral Granules (Effervescents),RxNorm Extension,43,,385044001,,
+Intrauterine device,RxNorm Extension,35,,,398236008 | Intrauterine (qualifier value) |,
+Vaginal device,RxNorm Extension,26,,385181000,,
+Nasal Pin,RxNorm Extension,21,,,260540009 |Nasal (qualifier value)|,
+Intrauterine Drug Delivery System,RxNorm Extension,20,,,398236008 | Intrauterine (qualifier value) |,
+Nasal Metered-Dose Pump,RxNorm Extension,20,,,260540009 |Nasal (qualifier value)|,
+Dental Pin,RxNorm Extension,7,,,385273007 |Dental dose form (dose form)|,
+Poultice,RxNorm Extension,7,1,,,
+Subcutaneous Gel,RxNorm Extension,7,,,263887005 |Subcutaneous (qualifier value)|,
+Intravitreal Applicator,RxNorm Extension,5,,,418401004 |Intravitreal route (qualifier value)|,
+"Nasal Aerosol, Metered Dose",RxNorm Extension,5,,,,"duplicate within RxNorm Extension, formerly retired in OMOP Vocabulary"
+Wound Cones,RxNorm Extension,5,,,448598008 |Cutaneous route (qualifier value)|,
+Oral Gas,RxNorm Extension,3,,,385268001 |Oral dose form (dose form)|,
+Soft Tissue Injection Suspension,RxNorm Extension,3,,,385218009 |Injection (qualifier value)|,
+Subcutaneous Powder,RxNorm Extension,1,,,263887005 |Subcutaneous (qualifier value)|,

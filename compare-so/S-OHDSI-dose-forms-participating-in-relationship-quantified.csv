@@ -1,0 +1,169 @@
+concept_name,vocabulary_id,n
+Oral Tablet,RxNorm,320461
+Injectable Solution,RxNorm,220276
+Oral Solution,RxNorm,166684
+Oral Capsule,RxNorm,76432
+Delayed Release Oral Tablet,RxNorm,75030
+Prefilled Syringe,RxNorm,56541
+Topical Ointment,RxNorm,48763
+Extended Release Oral Tablet,RxNorm,45184
+Topical Cream,RxNorm,43054
+Injection,RxNorm,32107
+Oral Suspension,RxNorm,28646
+Oral Powder,RxNorm,25852
+Injectable Suspension,RxNorm,23085
+Topical Solution,RxNorm,22210
+Extended Release Oral Capsule,RxNorm,22150
+Topical Gel,RxNorm,14892
+Ophthalmic Solution,RxNorm,14092
+Prefilled Applicator,RxNorm,13776
+Inhalant Solution,RxNorm,12962
+Transdermal System,RxNorm,12214
+Rectal Suppository,RxNorm,10689
+Disintegrating Oral Tablet,RxNorm,10112
+Oral Granules,RxNorm,9093
+Medicated Shampoo,RxNorm,8697
+Delayed Release Oral Capsule,RxNorm,6993
+Chewable Tablet,RxNorm,6695
+Vaginal Gel,RxNorm,6346
+Intravenous Solution,RxNorm,5669
+Dry Powder Inhaler,RxNorm,5470
+Nasal Solution,RxNorm,5392
+Nasal Spray,RxNorm,4606
+Ophthalmic Ointment,RxNorm,4498
+Oral Lozenge,RxNorm,3925
+Medicated Liquid Soap,RxNorm,3375
+Topical Lotion,RxNorm,3294
+Topical Spray,RxNorm,3181
+Topical Oil,RxNorm,2770
+Oral Gel,RxNorm,2685
+Inhalant Powder,RxNorm,2529
+Effervescent Oral Tablet,RxNorm,2473
+Topical Powder,RxNorm,2298
+Powder for Oral Solution,RxNorm,2188
+Vaginal Cream,RxNorm,2161
+Sublingual Tablet,RxNorm,1926
+Powder for Oral Suspension,RxNorm,1912
+Oral Paste,RxNorm,1848
+Otic Solution,RxNorm,1772
+Vaginal Tablet,RxNorm,1625
+Metered Dose Inhaler,RxNorm,1537
+Cartridge,RxNorm,1523
+Oral Spray,RxNorm,1315
+Pack,RxNorm,1315
+Medicated Pad,RxNorm,1287
+Topical Suspension,RxNorm,1224
+Gas for Inhalation,RxNorm,1193
+Mouthwash,RxNorm,1094
+Rectal Solution,RxNorm,1028
+Drug Implant,RxNorm,1010
+Ophthalmic Suspension,RxNorm,907
+Topical Foam,RxNorm,907
+Intramuscular Solution,RxNorm,868
+Toothpaste,RxNorm,841
+Ophthalmic Gel,RxNorm,835
+Irrigation Solution,RxNorm,729
+Extended Release Suspension,RxNorm,721
+Nasal Suspension,RxNorm,694
+Auto-Injector,RxNorm,681
+Nasal Ointment,RxNorm,671
+Vaginal Suppository,RxNorm,639
+Granules for Oral Solution,RxNorm,637
+Pen Injector,RxNorm,620
+Medicated Bar Soap,RxNorm,573
+Oral Pellet,RxNorm,563
+Vaginal Ring,RxNorm,555
+Granules for Oral Suspension,RxNorm,485
+Enema,RxNorm,405
+Chewing Gum,RxNorm,401
+Stick,RxNorm Extension,376
+Rectal Foam,RxNorm,373
+Tablet for Oral Suspension,RxNorm,369
+Ophthalmic Cream,RxNorm,346
+Urethral Suppository,RxNorm,340
+Medicated Patch,RxNorm,303
+Intrathecal Suspension,RxNorm,288
+Rectal Cream,RxNorm,286
+Unknown Combination Pack Medical Aids,RxNorm Extension,282
+Rectal Ointment,RxNorm,281
+Vaginal Spray,RxNorm,262
+Paint,RxNorm Extension,235
+Rectal Spray,RxNorm,235
+Mucosal Spray,RxNorm,229
+Oral Ointment,RxNorm,225
+Buccal Tablet,RxNorm,206
+Powder,RxNorm,205
+Mucous Membrane Topical Solution,RxNorm,203
+Ophthalmic Irrigation Solution,RxNorm,189
+Shower Powder,RxNorm Extension,183
+Nasal Inhaler,RxNorm,178
+Rectal Suspension,RxNorm,175
+Medicated Nail Polish,RxNorm Extension,165
+Otic Suspension,RxNorm,157
+Buccal Film,RxNorm,152
+Oral Strip,RxNorm,150
+Otic Ointment,RxNorm,144
+Oil,RxNorm,143
+Oral Flakes,RxNorm,142
+Paste,RxNorm,136
+Inhalant,RxNorm,133
+Metered Dose Nasal Spray,RxNorm,118
+Rectal Gel,RxNorm,107
+Medicated nail lacquer,RxNorm Extension,95
+Oral Cream,RxNorm,93
+Vaginal Ointment,RxNorm,93
+Intraperitoneal Solution,RxNorm,92
+Nasal Cream,RxNorm,90
+Urethral Gel,RxNorm,83
+Nasal Gel,RxNorm,79
+Vaginal delivery system,RxNorm Extension,74
+Oral Wafer,RxNorm,71
+Variable Drug Form,RxNorm Extension,70
+Rectal Powder,RxNorm,69
+Bath Salts,RxNorm Extension,66
+Powder Spray,RxNorm,66
+Cement,RxNorm,64
+Intravenous Suspension,RxNorm,57
+Impregnated cigarette,RxNorm Extension,48
+Nasal Metered-Dose Aerosol,RxNorm Extension,48
+Intramuscular Prolonged Release Suspension,RxNorm Extension,47
+Collodion,RxNorm Extension,43
+Oral Granules (Effervescents),RxNorm Extension,43
+Oral Foam,RxNorm,39
+Intrauterine device,RxNorm Extension,35
+Intratracheal Suspension,RxNorm,30
+Douche,RxNorm,28
+Nasal Inhalant,RxNorm,28
+Vaginal device,RxNorm Extension,26
+Suspension,RxNorm,25
+Bar Soap,RxNorm,24
+Nasal Pin,RxNorm Extension,21
+Sustained Release Buccal Tablet,RxNorm,21
+Intrauterine Drug Delivery System,RxNorm Extension,20
+Nasal Metered-Dose Pump,RxNorm Extension,20
+Powder for Nasal Solution,RxNorm,17
+Injectable Foam,RxNorm,14
+Jet Injector,RxNorm,14
+Intrauterine System,RxNorm,13
+Dental Pin,RxNorm Extension,7
+Poultice,RxNorm Extension,7
+Subcutaneous Gel,RxNorm Extension,7
+Vaginal Foam,RxNorm,7
+Vaginal Powder,RxNorm,6
+Augmented Topical Cream,RxNorm,5
+Augmented Topical Lotion,RxNorm,5
+Intravitreal Applicator,RxNorm Extension,5
+"Nasal Aerosol, Metered Dose",RxNorm Extension,5
+Wound Cones,RxNorm Extension,5
+Medicated Tape,RxNorm,4
+Nasal Powder,RxNorm,4
+Sublingual Powder,RxNorm,4
+Topical Cake,RxNorm,4
+Vaginal Film,RxNorm,4
+Augmented Topical Gel,RxNorm,3
+Augmented Topical Ointment,RxNorm,3
+Chewable Bar,RxNorm,3
+Oral Gas,RxNorm Extension,3
+Soft Tissue Injection Suspension,RxNorm Extension,3
+Topical Liquefied Gas,RxNorm,3
+Subcutaneous Powder,RxNorm Extension,1
