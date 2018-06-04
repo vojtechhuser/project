@@ -1,4 +1,4 @@
-# DxNineTen
+#DxNineTen
 
 This tool helps to work with ICD9CM codes. It asks for Dx code (left panel) and based on that input it looks in three look up tables.
 
@@ -16,13 +16,13 @@ Vocabulary related work was partially helped by this R script https://github.com
 
 
 
-# versions
+#versions
 
-## version 1 (currently deployed)
+##version 1 (currently deployed)
 - initial deployment
 - Maps to relationship file is only one way (from 9 to 10)
 - ICD10CM codes (with dot) can currently be also entered, but only first data output displays meaningful output (to be improved in next version)
 
-## version 2 (planned improvements)
+##version 2 (planned improvements)
 - support better ICD10 code lookup
 - solve input better (with dot or without dot) (25000 vs 250.00) 
