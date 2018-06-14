@@ -1,4 +1,4 @@
-downcase_mesh_term,n,hiv_or_aids
+downcase_mesh_term,n,hiv_or_aids_or_zika
 hiv infections,4379,1
 hiv seropositivity,104,1
 aids-related complex,34,1
@@ -9,6 +9,7 @@ aids-related opportunistic infections,16,1
 hiv wasting syndrome,13,1
 aids-associated nephropathy,4,1
 hiv enteropathy,4,1
+zika virus infection,29,1
 diabetes mellitus,8347,
 breast neoplasms,6351,
 syndrome,5878,
@@ -1519,7 +1520,6 @@ tooth discoloration,29,
 ventricular premature complexes,29,
 von hippel-lindau disease,29,
 wiskott-aldrich syndrome,29,
-zika virus infection,29,
 abdominal injuries,28,
 "adenocarcinoma, follicular",28,
 brain infarction,28,
