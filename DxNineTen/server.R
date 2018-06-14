@@ -1,7 +1,14 @@
 library(shiny)
 library(DT)
 
+#install.packages('shinyapps')
 #source("plots.R")
+# devtools::install_github("rstudio/shinyapps")
+#rsconnect::configureApp("dxnineten", size="large")
+# deployApp()
+
+library(rsconnect)
+
 
 shinyServer(function(input, output, session) {
   

@@ -25,26 +25,10 @@ shinyUI(
                       dataTableOutput('relhits'),
                       h3("List all members of AHRQ CCS category where this code lands"),
                       dataTableOutput('csshits'),
-                      h5("For more info see", a("here", href="https://github.com/OHDSI/ShinyDeploy/blob/master/DxNineTen/README.md"))
+                      h5("For more info see", a("here", href="https://github.com/vojtechhuser/project/blob/master/DxNineTen/README.md"))
                       
                       
-                      #dataTableOutput("performanceMetrics")
-              #        div(style="display:inline-block", h4(textOutput("details"))), 
-              #        div(style="display:inline-block", actionLink("showSettings", "Details")),
-              #        
-              #        # conditionalPanel(condition = "output.details",
-              #        #                  tabsetPanel(
-              #        #                    tabPanel("Estimates", 
-              #        #                             uiOutput("hoverInfoEstimates"),
-              #        #                             plotOutput("estimates", 
-              #        #                                        height = "200px",
-              #        #                                        hover = hoverOpts("plotHoverInfoEstimates", 
-              #        #                                                          delay = 100, 
-              #        #                                                          delayType = "debounce"))
-              #        #                             ),
-              #        #                    tabPanel("ROC curves", plotOutput("rocCurves"))
-              #        #                  )
-              #        # )   
+                      
               )
             )
   )
