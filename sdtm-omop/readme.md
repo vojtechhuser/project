@@ -23,7 +23,8 @@ SDTM data for control arms
 SV do not have the same columns accross the trials. E.g., RUSUBJID vs USUBJID.
 
 [[x]] number indicates a separate trial
-`
+
+```
  [[1]]
  [1] "STUDYID"  "DOMAIN"   "SVSEQ"    "VISITNUM" "VISIT"    "SVUPDES"  "SVENDY"   "SVSTDY"
  [9] "RSUBJID"  "RUSUBJID"
@@ -37,11 +38,13 @@ SV do not have the same columns accross the trials. E.g., RUSUBJID vs USUBJID.
  [17] "CV_SEX"   "CV_RACE"  "CV_EGFRX" "CV_EGFRA" "CV_EGFRM" "ARMNO"    "ACTARMNO" "RACE"
  [25] "SEX"      "AGEU"     "ARMCD"    "ARM"      "TREAT"    "CV_BVEGF" "CV_BSVGF" "CV_BBFGF"
  [33] "CV_KRAS"  "AGE"      "SVENDTC"  "SVSTDTC"
-`
+	```
 
 ## Demographics (DM) domain in Study Data Tabulation Model (SDTM)
 
-`
+Common Columns accross analyzed data
+
+```
        cols usage_perc
 1      AGEU  100.00000
 2       ARM  100.00000
@@ -102,4 +105,4 @@ SV do not have the same columns accross the trials. E.g., RUSUBJID vs USUBJID.
 57    TREAT   33.33333
 58 VISITDTC   33.33333
 59 VISITNUM   33.33333
-`
+```
