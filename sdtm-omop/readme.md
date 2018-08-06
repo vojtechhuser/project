@@ -31,7 +31,7 @@ To comply with Project Data Sphere policies, we only provide R transformation co
 
 Open data sample (in SDTM format; not from Project Data Sphere) is here https://github.com/lhncbc/r-snippets-bmi/blob/master/cdisc/inst/extdata/cdisc01/csv 
 
-## Demographics (DM) domain in Study Data Tabulation Model (SDTM)
+### Demographics (DM) domain in Study Data Tabulation Model (SDTM)
 
 Common data elements accross analyzed data.
 AGEC is used in one dataset rather than AGE.
@@ -174,6 +174,56 @@ relevant reference https://www.lexjansen.com/pharmasug/2010/CD/CD09.pdf
      TREAT   33.33333
 
 ```
+
+### Laboratory data (LB domain)
+
+Listing was truncated to elements that are used in all studies in the sample
+
+```
+cols usage_perc
+   DOMAIN  100.00000
+   LBBLFL  100.00000
+    LBCAT  100.00000
+  LBNRIND  100.00000
+ LBORNRHI  100.00000
+ LBORNRLO  100.00000
+  LBORRES  100.00000
+ LBORRESU  100.00000
+    LBSEQ  100.00000
+ LBSTNRHI  100.00000
+ LBSTNRLO  100.00000
+ LBSTRESC  100.00000
+ LBSTRESN  100.00000
+ LBSTRESU  100.00000
+   LBTEST  100.00000
+ LBTESTCD  100.00000
+  STUDYID  100.00000
+ VISITNUM  100.00000 
+```
+
+Distribution of lab tests
+```
+   LBTESTCD   studies   total_cnt
+   <chr>    <int> <int>
+ PLAT         2 19961
+ HGB          2 16272
+ WBC          2 16200
+ NEUT         2 15767
+ ALT          2 14626
+ BILI         2 14575
+ AST          2 14490
+ ALP          2 13416
+ ALB          2  5202
+ CREAT        2 12477
+```
+
+for mapping - the sample source (urine vs serum/plasma) is missing in all datasets  
+per LOINC CDISC map, one needs  
+  
+LBSPEC (e.g.,blood,urine)	, LBMETHOD (automated count, test strip)  
+
+
+
 
 ## Mapping files
 ### S_SDTM_to_OMOP
