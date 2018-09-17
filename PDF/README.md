@@ -18,4 +18,4 @@ into a format that can be analyzed with statistical programs. The translation cr
 unneeded risk of further data-entry errors. For data that are already being made available,
 and particularly for data that may already exist in formats that facilitate incorporation into
 analytic software, costs to researchers can be reduced by ensuring that data are provided
-in files that support analysis is a straightforward way.
+in files that support analysis in a straightforward way.
