@@ -70,5 +70,103 @@ ab %>% names()
 
 
 #--mapping
-DM.USUBJID, person.person_id
-DM.SEX, person.gender
+#DM.USUBJID, person.person_id
+#DM.SEX, person.gender
+
+
+
+#--sdtm transformation preparatory work
+library(haven)
+#read all folders
+
+#reading and transforming all XPT files
+
+# fname='dm.xpt'
+# fname='xpt/lb.xpt'
+# library(foreign)
+# s=read.xport(fname)
+# write.csv(s,paste0(file=fname,'.csv'))
+
+#http://stackoverflow.com/questions/9564489/opening-all-files-in-a-folder-and-applying-a-function
+
+mypath='local/sdtm'
+#ofiles <- list.files(path = , pattern = '*.xpt')
+ofiles <- list.files(path = mypath, pattern = '*.xpt', full.names = TRUE)
+#ofiles =head(ofiles,10)
+ofiles
+basename(ofiles)
+files= Sys.glob(paste0(mypath,'/*.xpt'))
+files
+# data<-lapply(files,read.xport)
+# 
+# seq_along(files)
+# 
+# for (i in seq_along(files)) {
+#   print(i)
+#   print(files[i])
+#   assign(paste("Df", i, sep = "."), read.xport(files[i]))
+# }
+
+
+
+for (file in files) {
+  print(file)
+  #assign(paste("Df", file, sep = "."), read.xport(file))
+  fdata<-foreign::read.xport(file)
+  write.csv(fdata,paste0(file,'.csv'))
+}
+
+
+#read csv files #not really needed
+
+files= Sys.glob(paste0('example/sdtm-input-csv','/*.csv'))
+files
+
+
+
+#--create OMOP tables
+
+#--person table
+dm<-read_csv(files[3])
+names(dm)
+dm %<>% rename_all(tolower)
+person<-dm %>% select(person_id=usubjid,gender_source_value=sex)
+outpath<-'example/omop-output-csv'
+if (!file.exists(outpath))  dir.create(outpath)
+
+person %>% write_csv(file.path(outpath,'person.csv'))
+
+
+#--visit table              
+#using v6
+#https://github.com/OHDSI/CommonDataModel/blob/cdm_v6/Documentation/CommonDataModel_Wiki_Files/StandardizedClinicalDataTables/VISIT_OCCURRENCE.md
+files
+sv<-read_csv(files[16])
+names(sv)
+sv %<>% rename_all(tolower)
+visit_ocurrence<-sv %>% rename(person_id=usubjid,visit_start_date=svstdtc) %>% 
+  mutate(visit_source_value=sprintf('%s~%s|%s',visitnum,visit,visitdy)) %>% 
+  select(person_id,visit_start_date,visit_source_value)
+
+visit_ocurrence %>% write_csv(file.path(outpath,'visit_ocurrence.csv'))
+
+#visit concepts can be created based on TV domain (trial visit)
+
+#--lab
+files
+lb<-read_csv(files[6])
+lb %<>% rename_all(tolower)
+names(lb)
+
+measurement<-lb %>% rename(person_id=usubjid,measurement_datetime=lbdtc
+                           ,value_as_number=lbstresn
+                           #,value_as_
+                           ,unit_source_value=lbstresu
+                           ,value_source_value=lbstresc
+                           ) %>%  
+  mutate(measurement_source_value=sprintf('%s~%s|%s',lbtest,lbtestcd,lbcat)) %>% 
+  select(person_id,measurement_datetime,value_as_number,measurement_source_value,value_source_value,unit_source_value)
+
+measurement %>% write_csv(file.path(outpath,'measurement.csv'))
+aa<-measurement %>% count(measurement_source_value) %>% arrange(desc(n))
+ab<-measurement %>% count(measurement_source_value,value_source_value) %>% arrange(desc(n))
