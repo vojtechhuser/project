@@ -119,7 +119,7 @@ for (file in files) {
 
 #read csv files #not really needed
 
-files= Sys.glob(paste0('example/sdtm-input-csv','/*.csv'))
+files= Sys.glob(paste0('sdtm-input-csv','/*.csv'))
 files
 
 
@@ -131,7 +131,7 @@ dm<-read_csv(files[3])
 names(dm)
 dm %<>% rename_all(tolower)
 person<-dm %>% select(person_id=usubjid,gender_source_value=sex)
-outpath<-'example/omop-output-csv'
+outpath<-'omop-output-csv'
 if (!file.exists(outpath))  dir.create(outpath)
 
 person %>% write_csv(file.path(outpath,'person.csv'))
@@ -168,5 +168,9 @@ measurement<-lb %>% rename(person_id=usubjid,measurement_datetime=lbdtc
   select(person_id,measurement_datetime,value_as_number,measurement_source_value,value_source_value,unit_source_value)
 
 measurement %>% write_csv(file.path(outpath,'measurement.csv'))
+measurement %>%sample_n(size=2000) %>%  write_csv(file.path(outpath,'measurement-small.csv'))
+
 aa<-measurement %>% count(measurement_source_value) %>% arrange(desc(n))
 ab<-measurement %>% count(measurement_source_value,value_source_value) %>% arrange(desc(n))
+
+
