@@ -1,0 +1,53 @@
+measurement_source_value,unit_source_value,n
+Diastolic Blood Pressure~DIABP,mmHg,8205
+Systolic Blood Pressure~SYSBP,mmHg,8205
+Pulse Rate~PULSE,BEATS/MIN,8201
+Temperature~TEMP,C,2720
+Weight~WEIGHT,kg,2050
+Blood Urea Nitrogen~BUN|CHEMISTRY,mmol/L,1828
+Calcium~CA|CHEMISTRY,mmol/L,1828
+Cholesterol~CHOL|CHEMISTRY,mmol/L,1828
+Creatinine~CREAT|CHEMISTRY,umol/L,1828
+Gamma Glutamyl Transferase~GGT|CHEMISTRY,U/L,1828
+Protein~PROT|CHEMISTRY,g/L,1828
+Urate~URATE|CHEMISTRY,umol/L,1828
+Alkaline Phosphatase~ALP|CHEMISTRY,U/L,1824
+Phosphate~PHOS|CHEMISTRY,mmol/L,1822
+Alanine Aminotransferase~ALT|CHEMISTRY,U/L,1814
+Albumin~ALB|CHEMISTRY,g/L,1814
+Aspartate Aminotransferase~AST|CHEMISTRY,U/L,1814
+Bilirubin~BILI|CHEMISTRY,umol/L,1814
+Creatine Kinase~CK|CHEMISTRY,U/L,1814
+Glucose~GLUC|CHEMISTRY,mmol/L,1810
+Ery. Mean Corpuscular Hemoglobin~MCH|HEMATOLOGY,fmol(Fe),1809
+Erythrocytes~RBC|HEMATOLOGY,TI/L,1809
+Hemoglobin~HGB|HEMATOLOGY,mmol/L,1809
+Leukocytes~WBC|HEMATOLOGY,GI/L,1809
+Basophils~BASO|HEMATOLOGY,GI/L,1808
+Chloride~CL|CHEMISTRY,mmol/L,1808
+Eosinophils~EOS|HEMATOLOGY,GI/L,1808
+Lymphocytes~LYM|HEMATOLOGY,GI/L,1808
+Monocytes~MONO|HEMATOLOGY,GI/L,1808
+Sodium~SODIUM|CHEMISTRY,mmol/L,1808
+Potassium~K|CHEMISTRY,mmol/L,1802
+Ery. Mean Corpuscular HGB Concentration~MCHC|HEMATOLOGY,mmol/L,1790
+Ery. Mean Corpuscular Volume~MCV|HEMATOLOGY,fL,1790
+Hematocrit~HCT|HEMATOLOGY,1,1790
+Platelet~PLAT|HEMATOLOGY,GI/L,1788
+Color~COLOR|URINALYSIS,NA,874
+Ketones~KETONES|URINALYSIS,NA,874
+pH~PH|URINALYSIS,NA,874
+Specific Gravity~SPGRAV|URINALYSIS,NA,874
+Urobilinogen~UROBIL|URINALYSIS,NA,874
+Vitamin B12~VITB12|OTHER,pmol/L,272
+Thyrotropin~TSH|OTHER,mU/L,271
+Height~HEIGHT,cm,254
+Anisocytes~ANISO|HEMATOLOGY,NA,158
+Macrocytes~MACROCY|HEMATOLOGY,NA,102
+Polychromasia~POLYCHR|HEMATOLOGY,NA,29
+Hemoglobin A1C~HBA1C|NA,1,8
+Pulse Rate~PULSE,NA,3
+Systolic Blood Pressure~SYSBP,NA,3
+Diastolic Blood Pressure~DIABP,NA,2
+Microcytes~MICROCY|HEMATOLOGY,NA,2
+Poikilocytes~POIKILO|HEMATOLOGY,NA,2

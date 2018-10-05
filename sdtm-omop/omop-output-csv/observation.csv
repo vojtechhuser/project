@@ -1,0 +1,307 @@
+person_id,observation_date,observation_source_value
+01-701-1015,2013-12-26,Pbo~Placebo
+01-701-1023,2012-07-22,Pbo~Placebo
+01-701-1028,2013-07-11,Xan_Hi~Xanomeline High Dose
+01-701-1033,2014-03-10,Xan_Lo~Xanomeline Low Dose
+01-701-1034,2014-06-24,Xan_Hi~Xanomeline High Dose
+01-701-1047,2013-01-22,Pbo~Placebo
+01-701-1057,2013-12-20,Scrnfail~Screen Failure
+01-701-1097,2013-12-23,Xan_Lo~Xanomeline Low Dose
+01-701-1111,2012-08-25,Xan_Lo~Xanomeline Low Dose
+01-701-1115,2012-11-23,Xan_Lo~Xanomeline Low Dose
+01-701-1118,2014-02-27,Pbo~Placebo
+01-701-1130,2014-02-09,Pbo~Placebo
+01-701-1133,2012-10-23,Xan_Hi~Xanomeline High Dose
+01-701-1145,2013-09-05,Scrnfail~Screen Failure
+01-701-1146,2013-05-07,Xan_Hi~Xanomeline High Dose
+01-701-1148,2013-08-14,Xan_Hi~Xanomeline High Dose
+01-701-1153,2013-09-06,Pbo~Placebo
+01-701-1162,2013-04-18,Scrnfail~Screen Failure
+01-701-1176,2012-09-30,Scrnfail~Screen Failure
+01-701-1180,2013-01-28,Xan_Hi~Xanomeline High Dose
+01-701-1181,2013-11-26,Xan_Lo~Xanomeline Low Dose
+01-701-1188,2013-02-03,Xan_Lo~Xanomeline Low Dose
+01-701-1192,2012-07-08,Xan_Lo~Xanomeline Low Dose
+01-701-1203,2013-01-25,Pbo~Placebo
+01-701-1211,2012-10-30,Xan_Lo~Xanomeline Low Dose
+01-701-1234,2013-03-20,Pbo~Placebo
+01-701-1239,2013-12-28,Xan_Hi~Xanomeline High Dose
+01-701-1240,2013-09-22,Scrnfail~Screen Failure
+01-701-1275,2014-01-25,Xan_Hi~Xanomeline High Dose
+01-701-1287,2014-01-17,Xan_Hi~Xanomeline High Dose
+01-701-1294,2013-03-17,Xan_Lo~Xanomeline Low Dose
+01-701-1302,2013-08-20,Xan_Hi~Xanomeline High Dose
+01-701-1307,2013-12-08,Scrnfail~Screen Failure
+01-701-1317,2014-05-10,Xan_Lo~Xanomeline Low Dose
+01-701-1324,2012-09-16,Xan_Lo~Xanomeline Low Dose
+01-701-1341,2012-12-22,Xan_Lo~Xanomeline Low Dose
+01-701-1345,2013-10-01,Pbo~Placebo
+01-701-1356,2014-04-01,Scrnfail~Screen Failure
+01-701-1360,2013-07-24,Xan_Lo~Xanomeline Low Dose
+01-701-1363,2013-05-20,Pbo~Placebo
+01-701-1369,2013-09-18,Scrnfail~Screen Failure
+01-701-1383,2013-01-22,Xan_Hi~Xanomeline High Dose
+01-701-1386,2013-12-28,Scrnfail~Screen Failure
+01-701-1387,2014-02-23,Pbo~Placebo
+01-701-1392,2012-10-17,Pbo~Placebo
+01-701-1411,2012-11-14,Scrnfail~Screen Failure
+01-701-1415,2013-09-15,Pbo~Placebo
+01-701-1429,2013-02-25,Xan_Lo~Xanomeline Low Dose
+01-701-1440,2013-07-24,Pbo~Placebo
+01-701-1442,2013-10-17,Xan_Lo~Xanomeline Low Dose
+01-701-1444,2012-12-31,Xan_Hi~Xanomeline High Dose
+01-702-1082,2013-07-03,Xan_Lo~Xanomeline Low Dose
+01-703-1042,2013-02-23,Pbo~Placebo
+01-703-1076,2013-10-17,Xan_Hi~Xanomeline High Dose
+01-703-1086,2012-08-22,Xan_Lo~Xanomeline Low Dose
+01-703-1096,2012-12-19,Pbo~Placebo
+01-703-1100,2013-02-28,Pbo~Placebo
+01-703-1119,2013-02-02,Xan_Lo~Xanomeline Low Dose
+01-703-1175,2013-12-13,Pbo~Placebo
+01-703-1182,2013-10-08,Xan_Lo~Xanomeline Low Dose
+01-703-1197,2013-06-01,Xan_Lo~Xanomeline Low Dose
+01-703-1210,2013-03-08,Pbo~Placebo
+01-703-1258,2012-07-10,Xan_Hi~Xanomeline High Dose
+01-703-1279,2013-04-27,Xan_Lo~Xanomeline Low Dose
+01-703-1295,2013-10-24,Xan_Hi~Xanomeline High Dose
+01-703-1299,2012-09-07,Pbo~Placebo
+01-703-1335,2014-02-28,Xan_Hi~Xanomeline High Dose
+01-703-1379,2013-09-12,Xan_Lo~Xanomeline Low Dose
+01-703-1396,2014-02-09,Scrnfail~Screen Failure
+01-703-1403,2012-12-05,Xan_Lo~Xanomeline Low Dose
+01-703-1439,2014-03-04,Xan_Hi~Xanomeline High Dose
+01-704-1008,2013-01-06,Xan_Hi~Xanomeline High Dose
+01-704-1009,2013-08-20,Xan_Lo~Xanomeline Low Dose
+01-704-1010,2014-02-08,Pbo~Placebo
+01-704-1017,2013-09-20,Xan_Hi~Xanomeline High Dose
+01-704-1025,2013-09-18,Xan_Lo~Xanomeline Low Dose
+01-704-1065,2013-10-17,Xan_Hi~Xanomeline High Dose
+01-704-1074,2014-01-19,Xan_Hi~Xanomeline High Dose
+01-704-1093,2013-02-22,Xan_Hi~Xanomeline High Dose
+01-704-1114,2013-01-09,Xan_Lo~Xanomeline Low Dose
+01-704-1120,2013-11-18,Xan_Lo~Xanomeline Low Dose
+01-704-1127,2013-09-16,Pbo~Placebo
+01-704-1135,2013-10-23,Xan_Lo~Xanomeline Low Dose
+01-704-1164,2012-09-11,Pbo~Placebo
+01-704-1218,2012-11-11,Xan_Lo~Xanomeline Low Dose
+01-704-1233,2013-03-08,Pbo~Placebo
+01-704-1241,2013-08-14,Xan_Hi~Xanomeline High Dose
+01-704-1260,2012-08-23,Pbo~Placebo
+01-704-1266,2013-10-05,Xan_Hi~Xanomeline High Dose
+01-704-1323,2013-06-13,Xan_Lo~Xanomeline Low Dose
+01-704-1325,2014-04-16,Xan_Lo~Xanomeline Low Dose
+01-704-1332,2013-11-24,Xan_Hi~Xanomeline High Dose
+01-704-1351,2013-09-26,Pbo~Placebo
+01-704-1388,2012-11-28,Pbo~Placebo
+01-704-1435,2012-11-01,Pbo~Placebo
+01-704-1445,2014-05-01,Pbo~Placebo
+01-705-1011,2013-09-01,Scrnfail~Screen Failure
+01-705-1018,2013-06-30,Pbo~Placebo
+01-705-1031,2013-11-17,Xan_Lo~Xanomeline Low Dose
+01-705-1058,2013-12-02,Scrnfail~Screen Failure
+01-705-1059,2013-08-02,Pbo~Placebo
+01-705-1112,2014-02-23,Scrnfail~Screen Failure
+01-705-1186,2014-01-03,Pbo~Placebo
+01-705-1199,2013-09-11,Xan_Lo~Xanomeline Low Dose
+01-705-1243,2013-02-26,Scrnfail~Screen Failure
+01-705-1280,2014-01-11,Xan_Hi~Xanomeline High Dose
+01-705-1281,2013-11-26,Xan_Hi~Xanomeline High Dose
+01-705-1282,2012-12-23,Pbo~Placebo
+01-705-1292,2013-10-11,Xan_Lo~Xanomeline Low Dose
+01-705-1303,2013-12-10,Xan_Hi~Xanomeline High Dose
+01-705-1310,2013-10-26,Xan_Hi~Xanomeline High Dose
+01-705-1349,2013-02-24,Pbo~Placebo
+01-705-1377,2013-12-29,Xan_Hi~Xanomeline High Dose
+01-705-1382,2013-05-09,Xan_Lo~Xanomeline Low Dose
+01-705-1393,2012-09-02,Xan_Lo~Xanomeline Low Dose
+01-705-1421,2013-01-14,Scrnfail~Screen Failure
+01-705-1431,2013-06-16,Xan_Lo~Xanomeline Low Dose
+01-706-1041,2013-12-21,Pbo~Placebo
+01-706-1049,2013-04-30,Xan_Hi~Xanomeline High Dose
+01-706-1384,2012-08-25,Xan_Lo~Xanomeline Low Dose
+01-707-1037,2013-12-12,Xan_Lo~Xanomeline Low Dose
+01-707-1206,2013-10-20,Pbo~Placebo
+01-707-1276,2012-10-12,Scrnfail~Screen Failure
+01-707-1430,2014-02-14,Scrnfail~Screen Failure
+01-707-1434,2013-07-25,Scrnfail~Screen Failure
+01-708-1013,2012-10-13,Scrnfail~Screen Failure
+01-708-1019,2013-12-10,Xan_Lo~Xanomeline Low Dose
+01-708-1032,2013-02-02,Xan_Lo~Xanomeline Low Dose
+01-708-1054,2014-02-14,Scrnfail~Screen Failure
+01-708-1067,2013-02-07,Scrnfail~Screen Failure
+01-708-1084,2013-05-01,Xan_Lo~Xanomeline Low Dose
+01-708-1087,2012-10-06,Pbo~Placebo
+01-708-1104,2014-01-23,Scrnfail~Screen Failure
+01-708-1158,2014-02-01,Pbo~Placebo
+01-708-1171,2012-11-25,Pbo~Placebo
+01-708-1178,2013-12-13,Xan_Hi~Xanomeline High Dose
+01-708-1184,2013-01-14,Scrnfail~Screen Failure
+01-708-1213,2013-02-01,Xan_Lo~Xanomeline Low Dose
+01-708-1216,2012-10-14,Xan_Hi~Xanomeline High Dose
+01-708-1236,2013-09-08,Xan_Lo~Xanomeline Low Dose
+01-708-1242,2012-08-13,Scrnfail~Screen Failure
+01-708-1253,2013-04-26,Pbo~Placebo
+01-708-1272,2013-01-22,Xan_Lo~Xanomeline Low Dose
+01-708-1286,2013-08-25,Pbo~Placebo
+01-708-1296,2013-06-07,Pbo~Placebo
+01-708-1297,2013-01-15,Xan_Lo~Xanomeline Low Dose
+01-708-1316,2013-08-15,Pbo~Placebo
+01-708-1336,2012-11-21,Xan_Hi~Xanomeline High Dose
+01-708-1342,2012-12-21,Pbo~Placebo
+01-708-1347,2013-04-11,Xan_Hi~Xanomeline High Dose
+01-708-1348,2013-07-28,Xan_Lo~Xanomeline Low Dose
+01-708-1352,2013-09-16,Scrnfail~Screen Failure
+01-708-1353,2013-06-17,Xan_Lo~Xanomeline Low Dose
+01-708-1372,2013-04-03,Xan_Lo~Xanomeline Low Dose
+01-708-1378,2013-08-24,Pbo~Placebo
+01-708-1406,2013-12-06,Xan_Hi~Xanomeline High Dose
+01-708-1428,2013-11-02,Xan_Lo~Xanomeline Low Dose
+01-709-1001,2013-09-20,Pbo~Placebo
+01-709-1007,2012-07-21,Xan_Lo~Xanomeline Low Dose
+01-709-1020,2012-11-22,Xan_Lo~Xanomeline Low Dose
+01-709-1029,2012-12-10,Xan_Hi~Xanomeline High Dose
+01-709-1081,2014-01-09,Xan_Lo~Xanomeline Low Dose
+01-709-1088,2014-03-30,Pbo~Placebo
+01-709-1099,2013-10-14,Xan_Hi~Xanomeline High Dose
+01-709-1102,2013-01-07,Xan_Lo~Xanomeline Low Dose
+01-709-1168,2013-07-25,Xan_Hi~Xanomeline High Dose
+01-709-1217,2013-02-16,Xan_Lo~Xanomeline Low Dose
+01-709-1224,2013-11-18,Scrnfail~Screen Failure
+01-709-1237,2014-01-17,Scrnfail~Screen Failure
+01-709-1238,2013-05-02,Xan_Hi~Xanomeline High Dose
+01-709-1259,2013-01-13,Pbo~Placebo
+01-709-1285,2013-03-17,Xan_Lo~Xanomeline Low Dose
+01-709-1301,2013-07-14,Pbo~Placebo
+01-709-1306,2014-01-19,Pbo~Placebo
+01-709-1309,2013-06-09,Xan_Hi~Xanomeline High Dose
+01-709-1312,2014-04-13,Pbo~Placebo
+01-709-1326,2013-03-21,Xan_Lo~Xanomeline Low Dose
+01-709-1329,2013-08-01,Xan_Lo~Xanomeline Low Dose
+01-709-1339,2012-12-15,Pbo~Placebo
+01-709-1424,2013-02-15,Xan_Lo~Xanomeline Low Dose
+01-710-1002,2013-12-30,Xan_Lo~Xanomeline Low Dose
+01-710-1006,2013-01-27,Xan_Hi~Xanomeline High Dose
+01-710-1021,2013-09-19,Xan_Hi~Xanomeline High Dose
+01-710-1027,2014-02-03,Pbo~Placebo
+01-710-1045,2013-05-20,Xan_Lo~Xanomeline Low Dose
+01-710-1053,2012-12-15,Xan_Lo~Xanomeline Low Dose
+01-710-1060,2012-12-24,Pbo~Placebo
+01-710-1070,2012-08-28,Xan_Hi~Xanomeline High Dose
+01-710-1077,2013-11-03,Pbo~Placebo
+01-710-1078,2013-09-06,Pbo~Placebo
+01-710-1083,2013-07-09,Pbo~Placebo
+01-710-1129,2013-03-05,Scrnfail~Screen Failure
+01-710-1137,2013-10-03,Xan_Hi~Xanomeline High Dose
+01-710-1142,2012-09-12,Xan_Hi~Xanomeline High Dose
+01-710-1149,2013-11-16,Scrnfail~Screen Failure
+01-710-1154,2014-03-08,Xan_Lo~Xanomeline Low Dose
+01-710-1166,2012-11-10,Xan_Lo~Xanomeline Low Dose
+01-710-1183,2013-10-24,Pbo~Placebo
+01-710-1187,2012-10-26,Xan_Hi~Xanomeline High Dose
+01-710-1235,2012-09-13,Xan_Lo~Xanomeline Low Dose
+01-710-1249,2013-12-19,Xan_Hi~Xanomeline High Dose
+01-710-1257,2013-11-29,Scrnfail~Screen Failure
+01-710-1264,2013-06-02,Pbo~Placebo
+01-710-1270,2014-02-01,Xan_Lo~Xanomeline Low Dose
+01-710-1271,2012-09-04,Pbo~Placebo
+01-710-1278,2012-12-13,Xan_Hi~Xanomeline High Dose
+01-710-1300,2012-12-04,Xan_Lo~Xanomeline Low Dose
+01-710-1314,2013-04-21,Pbo~Placebo
+01-710-1315,2013-02-12,Pbo~Placebo
+01-710-1337,2013-12-30,Scrnfail~Screen Failure
+01-710-1354,2012-10-29,Xan_Hi~Xanomeline High Dose
+01-710-1358,2012-09-02,Xan_Lo~Xanomeline Low Dose
+01-710-1368,2013-10-21,Pbo~Placebo
+01-710-1376,2014-04-21,Scrnfail~Screen Failure
+01-710-1380,2013-06-02,Scrnfail~Screen Failure
+01-710-1385,2012-10-21,Xan_Lo~Xanomeline Low Dose
+01-710-1408,2012-12-26,Xan_Hi~Xanomeline High Dose
+01-710-1443,2013-12-13,Scrnfail~Screen Failure
+01-711-1012,2013-03-20,Xan_Hi~Xanomeline High Dose
+01-711-1022,2014-03-17,Scrnfail~Screen Failure
+01-711-1036,2012-07-20,Pbo~Placebo
+01-711-1143,2013-03-30,Xan_Lo~Xanomeline Low Dose
+01-711-1163,2012-11-08,Scrnfail~Screen Failure
+01-711-1173,2012-10-04,Scrnfail~Screen Failure
+01-711-1226,2013-10-24,Scrnfail~Screen Failure
+01-711-1251,2014-02-28,Scrnfail~Screen Failure
+01-711-1283,2014-03-27,Scrnfail~Screen Failure
+01-711-1284,2013-08-05,Scrnfail~Screen Failure
+01-711-1290,2013-12-20,Scrnfail~Screen Failure
+01-711-1433,2013-01-23,Xan_Lo~Xanomeline Low Dose
+01-713-1043,2013-08-17,Xan_Lo~Xanomeline Low Dose
+01-713-1073,2014-03-15,Xan_Lo~Xanomeline Low Dose
+01-713-1106,2012-10-03,Xan_Hi~Xanomeline High Dose
+01-713-1141,2013-05-23,Xan_Hi~Xanomeline High Dose
+01-713-1179,2013-07-11,Pbo~Placebo
+01-713-1209,2013-05-16,Xan_Hi~Xanomeline High Dose
+01-713-1256,2012-09-10,Pbo~Placebo
+01-713-1269,2014-01-14,Pbo~Placebo
+01-713-1448,2014-01-05,Xan_Lo~Xanomeline Low Dose
+01-714-1035,2014-04-03,Pbo~Placebo
+01-714-1068,2013-07-31,Xan_Lo~Xanomeline Low Dose
+01-714-1195,2013-04-16,Xan_Lo~Xanomeline Low Dose
+01-714-1288,2013-11-24,Xan_Hi~Xanomeline High Dose
+01-714-1375,2013-02-23,Pbo~Placebo
+01-714-1425,2013-08-11,Xan_Lo~Xanomeline Low Dose
+01-715-1085,2013-02-03,Xan_Lo~Xanomeline Low Dose
+01-715-1107,2013-02-12,Xan_Lo~Xanomeline Low Dose
+01-715-1134,2014-04-17,Scrnfail~Screen Failure
+01-715-1155,2013-11-29,Pbo~Placebo
+01-715-1207,2012-11-12,Pbo~Placebo
+01-715-1225,2013-01-22,Scrnfail~Screen Failure
+01-715-1319,2013-02-03,Xan_Hi~Xanomeline High Dose
+01-715-1321,2014-02-06,Xan_Hi~Xanomeline High Dose
+01-715-1333,2013-06-03,Scrnfail~Screen Failure
+01-715-1397,2013-03-20,Pbo~Placebo
+01-715-1405,2013-06-27,Xan_Lo~Xanomeline Low Dose
+01-715-1407,2012-10-24,Scrnfail~Screen Failure
+01-716-1003,2014-03-29,Scrnfail~Screen Failure
+01-716-1024,2012-07-06,Pbo~Placebo
+01-716-1026,2014-03-23,Pbo~Placebo
+01-716-1030,2013-12-25,Xan_Lo~Xanomeline Low Dose
+01-716-1044,2013-04-20,Pbo~Placebo
+01-716-1061,2014-02-14,Scrnfail~Screen Failure
+01-716-1063,2013-05-06,Xan_Lo~Xanomeline Low Dose
+01-716-1071,2013-06-03,Xan_Hi~Xanomeline High Dose
+01-716-1094,2012-12-16,Xan_Lo~Xanomeline Low Dose
+01-716-1103,2014-03-18,Xan_Lo~Xanomeline Low Dose
+01-716-1108,2013-02-04,Pbo~Placebo
+01-716-1151,2013-01-23,Xan_Lo~Xanomeline Low Dose
+01-716-1157,2013-09-23,Xan_Lo~Xanomeline Low Dose
+01-716-1160,2013-03-23,Pbo~Placebo
+01-716-1167,2012-09-30,Xan_Lo~Xanomeline Low Dose
+01-716-1177,2014-08-29,Pbo~Placebo
+01-716-1189,2012-10-07,Xan_Hi~Xanomeline High Dose
+01-716-1229,2013-02-14,Xan_Hi~Xanomeline High Dose
+01-716-1244,2013-08-15,Scrnfail~Screen Failure
+01-716-1298,2013-04-04,Xan_Lo~Xanomeline Low Dose
+01-716-1305,2013-08-06,Scrnfail~Screen Failure
+01-716-1308,2013-08-23,Pbo~Placebo
+01-716-1311,2014-05-08,Xan_Lo~Xanomeline Low Dose
+01-716-1331,2013-11-25,Scrnfail~Screen Failure
+01-716-1364,2013-06-27,Xan_Hi~Xanomeline High Dose
+01-716-1373,2012-11-24,Xan_Hi~Xanomeline High Dose
+01-716-1418,2013-04-27,Xan_Hi~Xanomeline High Dose
+01-716-1441,2014-01-13,Pbo~Placebo
+01-716-1447,2013-12-10,Xan_Hi~Xanomeline High Dose
+01-717-1004,2014-01-01,Xan_Lo~Xanomeline Low Dose
+01-717-1109,2014-01-20,Xan_Hi~Xanomeline High Dose
+01-717-1174,2013-01-16,Xan_Hi~Xanomeline High Dose
+01-717-1201,2013-12-12,Pbo~Placebo
+01-717-1344,2014-01-01,Pbo~Placebo
+01-717-1357,2013-04-21,Xan_Hi~Xanomeline High Dose
+01-717-1446,2013-08-20,Xan_Lo~Xanomeline Low Dose
+01-718-1066,2013-06-28,Xan_Lo~Xanomeline Low Dose
+01-718-1079,2012-09-11,Xan_Lo~Xanomeline Low Dose
+01-718-1101,2013-02-01,Xan_Hi~Xanomeline High Dose
+01-718-1139,2013-05-03,Pbo~Placebo
+01-718-1150,2013-01-12,Pbo~Placebo
+01-718-1170,2013-08-25,Xan_Lo~Xanomeline Low Dose
+01-718-1172,2013-09-15,Pbo~Placebo
+01-718-1250,2013-08-21,Xan_Lo~Xanomeline Low Dose
+01-718-1254,2013-06-28,Xan_Lo~Xanomeline Low Dose
+01-718-1328,2013-01-28,Xan_Hi~Xanomeline High Dose
+01-718-1355,2013-02-12,Pbo~Placebo
+01-718-1371,2013-04-11,Xan_Hi~Xanomeline High Dose
+01-718-1427,2012-12-13,Xan_Hi~Xanomeline High Dose

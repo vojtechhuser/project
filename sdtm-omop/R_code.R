@@ -124,17 +124,26 @@ files
 
 
 
-#--create OMOP tables
+#--create --OMOP tables
 
 #--person table
 dm<-read_csv(files[3])
 names(dm)
 dm %<>% rename_all(tolower)
-person<-dm %>% select(person_id=usubjid,gender_source_value=sex)
+person<-dm %>% select(person_id=usubjid,gender_source_value=sex,ethnicity_source_value=ethnic)
 outpath<-'omop-output-csv'
 if (!file.exists(outpath))  dir.create(outpath)
 
 person %>% write_csv(file.path(outpath,'person.csv'))
+
+names(dm)
+observation<-dm %>% rename(person_id=usubjid,observation_date=dmdtc) %>% 
+  mutate(observation_source_value=sprintf('%s~%s',actarmcd,actarm)
+         ,observation_concept_id=40771394) %>%  # loin code of 68839-0  research study note
+  select(person_id,observation_date,observation_source_value)
+
+observation %>% write_csv(file.path(outpath,'observation.csv'))
+
 
 
 #--visit table              
@@ -152,6 +161,7 @@ visit_ocurrence %>% write_csv(file.path(outpath,'visit_ocurrence.csv'))
 
 #visit concepts can be created based on TV domain (trial visit)
 
+
 #--lab
 files
 lb<-read_csv(files[6])
@@ -167,10 +177,37 @@ measurement<-lb %>% rename(person_id=usubjid,measurement_datetime=lbdtc
   mutate(measurement_source_value=sprintf('%s~%s|%s',lbtest,lbtestcd,lbcat)) %>% 
   select(person_id,measurement_datetime,value_as_number,measurement_source_value,value_source_value,unit_source_value)
 
-measurement %>% write_csv(file.path(outpath,'measurement.csv'))
-measurement %>%sample_n(size=2000) %>%  write_csv(file.path(outpath,'measurement-small.csv'))
+# measurement %>% write_csv(file.path(outpath,'measurement.csv'))
+# measurement %>%sample_n(size=2000) %>%  write_csv(file.path(outpath,'measurement-small.csv'))
 
 aa<-measurement %>% count(measurement_source_value) %>% arrange(desc(n))
 ab<-measurement %>% count(measurement_source_value,value_source_value) %>% arrange(desc(n))
 
+#--vs
+
+files
+vs<-read_csv(files[22])
+vs %<>% rename_all(tolower)
+names(vs)
+
+measurement2<-vs %>% rename(person_id=usubjid,measurement_date=vsdtc
+                           ,value_as_number=vsstresn
+                           #,value_as_
+                           ,unit_source_value=vsstresu
+                           ,value_source_value=vsorres
+) %>%  
+  mutate(measurement_source_value=sprintf('%s~%s',vstest,vstestcd)) %>% 
+  select(person_id,measurement_date,value_as_number,measurement_source_value,value_source_value,unit_source_value)
+
+measurement %<>% bind_rows(measurement2)
+measurement %>% write_csv(file.path(outpath,'measurement.csv'))
+nrow(measurement)
+#50k is about 3.6 mb
+measurement %>%sample_n(size=40000) %>%  write_csv(file.path(outpath,'measurement-small.csv'))
+names(measurement)
+aa<-measurement %>% count(measurement_source_value) %>% arrange(desc(n))
+ac<-measurement %>% count(measurement_source_value,unit_source_value) %>% arrange(desc(n))
+ab<-measurement %>% count(measurement_source_value,value_source_value) %>% arrange(desc(n))
+aa %>% write_csv(file.path(outpath,'measurement-S-tests.csv'))
+ac %>% write_csv(file.path(outpath,'measurement-S-tests-units.csv'))
 

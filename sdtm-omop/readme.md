@@ -244,18 +244,25 @@ CDISC provides example SDTM data (as part of SDTM/ADaM Pilot Project; from 2013)
 
 [sdtm-input-csv](sdtm-input-csv) folder shows this data.
 
+### Source-value-OMOP model
+`Source-value-OMOP` (svOMOP) is a interim and loosely standardized data model that does not follow all OMOP specifications (all columns, type of colums). It uses source_value columns to do a first-pass of data standardization. In next stage, svOMOP is further converted into pragmatic OMOP (pOMOP). svOMOP, however allows comparison of multiple sources using standardized source_value columns. It is comparable to Sentinel or PCORNet models by preserving data in source terminologies.
+
+#### Pragmatic-OMOP model
+`Pragmatic OMOP` (pOMOP) has all required and correctly typed columns per OMOP model and is more refined than svOMOP. pOMOP is meant as input into `pOMOP ETL script` (in development) that uses OMOP Vocabulary or source-to-concept mapping to populate X_concept_id columns.
+
 ### Conversion experience
 
 - SDTM manual is very long, in PDF format (this should change with CDISC SHARE initaitive)  
-- DM domain does not contain year of birth. It is not clear at what time age is calculated. (at first visit of the subject?; day 1 of the trial)
+- Demographic (DM) domain does not contain year of birth. It is not clear at what time age is calculated. (at first visit of the subject?; day 1 of the trial) (convention)
+- Demographic (DM) domain data on screen failure or arm: missing suitable concept_id  (issue) (tentatively using LOINC 68839-0| Research Note)
+- LOINC codes will be used in SDTM (in 2018, FDA clarified a LOINC strategy) so detailed mapping is not pursued.
+- Assignment into arms can be in COHORT table or as OBSERVATION or other table (convention).
+- Vital Signs (VS) domain is very similar to Laboratory (LB) domain. Both have standard units and original value and numeric value. LB has exact datetime, whereas VS has only date (issue).
+- _source_value columns were sometimes overloaded with multiple elements separated by delimiters (issue)
 
-- LOINC codes will be used in SDTM (in 2018, FDA clarified a LOINC strategy)
+### Trial metadata
 
-- Assignment into arms can be a cohort or observation.
-
-- Vital Signs (VS) domain is very similar to Laboratory (LB) domain. Both have standard units and original value and numeric value.
-
-
+- SDTM contains IPD data (=individual participant data) and data that is not on individual participant level. Trial Visit (TV) domain and Trial Arms (TA) can be put into METADATA or other table or kept in original format (convention). 
 
 ## Limitations
 

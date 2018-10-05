@@ -334,13 +334,24 @@ per LOINC CDISC map, one needs</p>
 <h2>Fully public SDTM data</h2>
 <p>CDISC provides example SDTM data (as part of SDTM/ADaM Pilot Project; from 2013).</p>
 <p><a href="sdtm-input-csv" class="uri">sdtm-input-csv</a> folder shows this data.</p>
+<div id="source-value-omop-model" class="section level3">
+<h3>Source-value-OMOP model</h3>
+<p><code>Source-value-OMOP</code> (svOMOP) is a interim and loosely standardized data model that does not follow all OMOP specifications (all columns, type of colums). It uses source_value columns to do a first-pass of data standardization. In next stage, svOMOP is further converted into pragmatic OMOP (pOMOP). svOMOP, however allows comparison of multiple sources using standardized source_value columns. It is comparable to Sentinel or PCORNet models by preserving data in source terminologies.</p>
+<div id="pragmatic-omop-model" class="section level4">
+<h4>Pragmatic-OMOP model</h4>
+<p><code>Pragmatic OMOP</code> (pOMOP) has all required and correctly typed columns per OMOP model and is more refined than svOMOP. pOMOP is meant as input into <code>pOMOP ETL script</code> (in development) that uses OMOP Vocabulary or source-to-concept mapping to populate X_concept_id columns.</p>
+</div>
+</div>
 <div id="conversion-experience" class="section level3">
 <h3>Conversion experience</h3>
 <ul>
 <li>SDTM manual is very long, in PDF format (this should change with CDISC SHARE initaitive)<br />
 </li>
-<li><p>DM domain does not contain year of birth. It is not clear at what time age is calculated. (at first visit of the subject?; day 1 of the trial)</p></li>
-<li></li>
+<li>DM domain does not contain year of birth. It is not clear at what time age is calculated. (at first visit of the subject?; day 1 of the trial; convention)</li>
+<li>LOINC codes will be used in SDTM (in 2018, FDA clarified a LOINC strategy) so detailed mapping is not pursued.</li>
+<li>Assignment into arms can be in COHORT table or as OBSERVATION or other table (convention).</li>
+<li>Vital Signs (VS) domain is very similar to Laboratory (LB) domain. Both have standard units and original value and numeric value. LB has exact datetime, whereas VS has only date (issue).</li>
+<li>_source_value columns were sometimes overloaded with multiple elements separated by delimiters (issue)</li>
 </ul>
 </div>
 </div>
