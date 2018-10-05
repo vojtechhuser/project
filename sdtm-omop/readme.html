@@ -342,16 +342,31 @@ per LOINC CDISC map, one needs</p>
 <p><code>Pragmatic OMOP</code> (pOMOP) has all required and correctly typed columns per OMOP model and is more refined than svOMOP. pOMOP is meant as input into <code>pOMOP ETL script</code> (in development) that uses OMOP Vocabulary or source-to-concept mapping to populate X_concept_id columns.</p>
 </div>
 </div>
-<div id="conversion-experience" class="section level3">
-<h3>Conversion experience</h3>
+<div id="sample-data-conversion-results" class="section level3">
+<h3>Sample data conversion results</h3>
 <ul>
+<li>sample CDISC data differes in format from trial RWD (3 trials)
+<ul>
+<li>person identifier used (SUBJID, RSUBJID,RUSUBJID))
+<ul>
+<li>large sample needed but not available; must also be recent (trial started and finished in the last 5 years)</li>
+</ul></li>
+</ul></li>
 <li>SDTM manual is very long, in PDF format (this should change with CDISC SHARE initaitive)<br />
 </li>
-<li>DM domain does not contain year of birth. It is not clear at what time age is calculated. (at first visit of the subject?; day 1 of the trial; convention)</li>
+<li>Demographic (DM) domain does not contain year of birth. It is not clear at what time age is calculated. (at first visit of the subject?; day 1 of the trial) (convention)</li>
+<li>Demographic (DM) domain data on screen failure or arm: missing suitable concept_id (issue) (tentatively using LOINC 68839-0| Research Note)</li>
 <li>LOINC codes will be used in SDTM (in 2018, FDA clarified a LOINC strategy) so detailed mapping is not pursued.</li>
 <li>Assignment into arms can be in COHORT table or as OBSERVATION or other table (convention).</li>
 <li>Vital Signs (VS) domain is very similar to Laboratory (LB) domain. Both have standard units and original value and numeric value. LB has exact datetime, whereas VS has only date (issue).</li>
 <li>_source_value columns were sometimes overloaded with multiple elements separated by delimiters (issue)</li>
+<li>Medical History (MH) domain captures a condition at a given visit (date1) but records onset date (date2). Date2 can be null (not known) (convention) (issue)</li>
+</ul>
+</div>
+<div id="trial-metadata" class="section level3">
+<h3>Trial metadata</h3>
+<ul>
+<li>SDTM contains IPD data (=individual participant data) and data that is not on individual participant level. Trial Visit (TV) domain and Trial Arms (TA) can be put into METADATA or other table or kept in original format (convention).</li>
 </ul>
 </div>
 </div>

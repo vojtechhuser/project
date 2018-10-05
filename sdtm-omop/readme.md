@@ -250,15 +250,21 @@ CDISC provides example SDTM data (as part of SDTM/ADaM Pilot Project; from 2013)
 #### Pragmatic-OMOP model
 `Pragmatic OMOP` (pOMOP) has all required and correctly typed columns per OMOP model and is more refined than svOMOP. pOMOP is meant as input into `pOMOP ETL script` (in development) that uses OMOP Vocabulary or source-to-concept mapping to populate X_concept_id columns.
 
-### Conversion experience
+### Sample data conversion results
 
+- sample CDISC data differes in format from trial RWD (3 trials) 
+    - person identifier used (SUBJID, RSUBJID,RUSUBJID))
+        - large sample needed but not available; must also be recent (trial started and finished in the last 5 years)
 - SDTM manual is very long, in PDF format (this should change with CDISC SHARE initaitive)  
 - Demographic (DM) domain does not contain year of birth. It is not clear at what time age is calculated. (at first visit of the subject?; day 1 of the trial) (convention)
-- Demographic (DM) domain data on screen failure or arm: missing suitable concept_id  (issue) (tentatively using LOINC 68839-0| Research Note)
+- trial data may be organized by visit number (not absolute date)
+- Demographic (DM) domain data on screen failure or arm: missing suitable concept_id  (issue) (tentatively using LOINC 68839-0| Research Note) (todo new concept)
 - LOINC codes will be used in SDTM (in 2018, FDA clarified a LOINC strategy) so detailed mapping is not pursued.
 - Assignment into arms can be in COHORT table or as OBSERVATION or other table (convention).
 - Vital Signs (VS) domain is very similar to Laboratory (LB) domain. Both have standard units and original value and numeric value. LB has exact datetime, whereas VS has only date (issue).
 - _source_value columns were sometimes overloaded with multiple elements separated by delimiters (issue)
+- Medical History (MH) domain captures a condition at a given visit (date1) but records onset date (date2). Date2 can be null (not known)  (convention) (issue)
+
 
 ### Trial metadata
 

@@ -117,6 +117,8 @@ for (file in files) {
 }
 
 
+#--create --OMOP tables
+
 #read csv files #not really needed
 
 files= Sys.glob(paste0('sdtm-input-csv','/*.csv'))
@@ -124,7 +126,6 @@ files
 
 
 
-#--create --OMOP tables
 
 #--person table
 dm<-read_csv(files[3])
@@ -208,6 +209,27 @@ names(measurement)
 aa<-measurement %>% count(measurement_source_value) %>% arrange(desc(n))
 ac<-measurement %>% count(measurement_source_value,unit_source_value) %>% arrange(desc(n))
 ab<-measurement %>% count(measurement_source_value,value_source_value) %>% arrange(desc(n))
-aa %>% write_csv(file.path(outpath,'measurement-S-tests.csv'))
-ac %>% write_csv(file.path(outpath,'measurement-S-tests-units.csv'))
+aa %>% write_csv(file.path(outpath,'measurement-S-freq.csv'))
+ac %>% write_csv(file.path(outpath,'measurement-S-freq-with-units.csv'))
 
+#--mh
+#--vs
+
+files
+mh<-read_csv(files[7])
+mh %<>% rename_all(tolower)
+names(mh)
+
+co<-mh %>% rename(person_id=usubjid,condition_start_date=mhstdtc) %>%  
+  mutate(condition_source_value=sprintf('%s~%s|%s^%s',mhdecod,mhcat,mhllt,mhterm)) %>% 
+  select(person_id,condition_start_date,condition_source_value)
+
+
+co %>% write_csv(file.path(outpath,'condition_occurrence.csv'))
+
+ad <-co %>% count(condition_source_value) %>% arrange(desc(n))
+ad
+ad %>% write_csv(file.path(outpath,'condition_occurrence-S-freq.csv'))
+
+
+#50k is about 3.6 mb
