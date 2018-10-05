@@ -238,6 +238,25 @@ If value of flag is 0, target model can not accomodate
 If value is null the mapping has not been analyzed in the pilot stage.
 Value . indicates that the mapping is provided in other row of the file. E.g., person_id was already mapped in person table (demographics table) and is not repeated 
 
+## Fully public SDTM data
+
+CDISC provides example SDTM data (as part of SDTM/ADaM Pilot Project; from 2013).  
+
+[sdtm-input-csv](sdtm-input-csv) folder shows this data.
+
+### Conversion experience
+
+- SDTM manual is very long, in PDF format (this should change with CDISC SHARE initaitive)  
+- DM domain does not contain year of birth. It is not clear at what time age is calculated. (at first visit of the subject?; day 1 of the trial)
+
+- LOINC codes will be used in SDTM (in 2018, FDA clarified a LOINC strategy)
+
+- Assignment into arms can be a cohort or observation.
+
+- Vital Signs (VS) domain is very similar to Laboratory (LB) domain. Both have standard units and original value and numeric value.
+
+
+
 ## Limitations
 
 A small set of trials was analyzed (and only control arms data).
