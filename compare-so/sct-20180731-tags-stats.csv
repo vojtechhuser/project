@@ -1,0 +1,59 @@
+tag,n
+disorder,75991
+procedure,55325
+finding,35645
+organism,34406
+body structure,32188
+substance,26728
+physical object,15556
+qualifier value,9926
+observable entity,8937
+morphologic abnormality,4894
+clinical drug,4850
+product,4760
+situation,4592
+medicinal product,3767
+occupation,3696
+event,3380
+regime/therapy,2917
+medicinal product form,2128
+specimen,1696
+assessment scale,1307
+environment,1200
+attribute,1172
+cell,703
+navigational concept,641
+geographic location,618
+cell structure,511
+person,453
+record artifact,416
+disposition,305
+dose form,287
+ethnic group,280
+foundation metadata concept,250
+namespace concept,220
+tumor staging,215
+religion/philosophy,204
+physical force,171
+basic dose form,60
+unit of presentation,51
+core metadata concept,49
+intended site,26
+social concept,23
+life style,21
+racial group,19
+staging scale,16
+administration method,12
+inactive concept,8
+link assertion,8
+release characteristic,8
+transformation,6
+state of matter,5
+OWL metadata concept,4
+role,2
+environment / location,1
+linkage concept,1
+metadata,1
+number,1
+SNOMED RT+CTV3,1
+special concept,1
