@@ -1,0 +1,185 @@
+concept$concept_class_id,n
+11-digit NDC,626983
+Marketed Product,483951
+Branded Drug Box,216805
+Branded Drug,199148
+Pharma/Biol Product,189304
+Physical Object,186929
+9-digit NDC,182627
+Clinical Finding,180876
+Branded Drug Comp,171786
+OTC Drug,145351
+Branded Drug Form,137854
+Clinical Drug,117923
+ICD10PCS Hierarchy,107874
+Clinical Drug Box,107528
+Prescription Drug,105790
+Quant Branded Drug,100089
+Clinical Drug Comp,97947
+Procedure,96446
+Quant Branded Box,94981
+Brand Name,93704
+Quant Clinical Drug,80320
+ICD10PCS,79578
+Quant Clinical Box,75483
+7-char billing code,64661
+ICDO Condition,58512
+VA Product,54768
+Lab Test,54758
+Clinical Drug Form,50941
+LOINC Hierarchy,39757
+Organism,38657
+Body Structure,36112
+Substance,32665
+Clinical Observation,23029
+Branded Dose Group,21884
+Answer,18472
+Qualifier Value,16968
+Clinical Dose Group,16703
+Ingredient,16450
+Observable Entity,15342
+SPL,14719
+ICD10 code,14271
+Context-dependent,13424
+Drug Interaction,10843
+Chemical Structure,10560
+6-char billing code,10022
+Device,9506
+6-char nonbill code,9362
+Survey,8824
+Social Context,8485
+5-dig billing code,8212
+HCPCS,7829
+Supplier,7774
+Pharma Preparation,7709
+4-dig billing code,7524
+5-char nonbill code,7007
+Main Heading,6956
+5-char billing code,6699
+Morph Abnormality,6118
+4-char billing code,5510
+ATC 5th,4949
+Ind / CI,4938
+Suppl Concept,4501
+4-char nonbill code,4499
+Event,4193
+Undefined,3831
+Precise Ingredient,2781
+Staging / Scales,2417
+Branded Pack,2284
+Clinical Pack,2219
+Location,2057
+ICD10 Hierarchy,2050
+Specimen,1940
+Physiologic Effect,1866
+4-dig nonbill code,1730
+3-char nonbill code,1687
+3-dig nonbill code,1505
+ICDO Histology,1368
+Record Artifact,1306
+Claims Attachment,1286
+4-dig billing E code,1247
+Attribute,1123
+ICD9CM V code,1108
+Clinical Pack Box,1025
+Unit,941
+ATC 4th,887
+NUCC,855
+Model Comp,790
+Question,767
+MS-DRG,758
+CDT,691
+Mechanism of Action,638
+5-dig billing V code,634
+Pharmacologic Class,626
+DRG,604
+Revenue Code,538
+Plasma Derivative,498
+Relationship,498
+Drug,490
+VA Class,486
+4-dig billing V code,474
+Dose Form,444
+Branded Pack Box,435
+Admin Concept,402
+ICDO Topography,400
+Condition,390
+HCPCS Modifier,358
+Vaccine,342
+Supplement,338
+Concept Class,327
+3-dig billing code,313
+LOINC Class,300
+ATC 3rd,267
+3-char billing code,259
+Full,247
+Namespace Concept,220
+Specialty,218
+Physical Force,204
+Animal Drug,202
+Currency,180
+3-dig nonbill E code,171
+4-dig nonbill V code,159
+Non-Stand Allergenic,148
+Doc Subject Matter,137
+Doc Type of Service,135
+Navi Concept,123
+LOINC Document Type,122
+HCPCS Class,106
+Condition Type,103
+Cosmetic,102
+CDT Hierarchy,101
+2-dig nonbill code,100
+Procedure Type,97
+Vocabulary,95
+ATC 2nd,94
+3-dig nonbill V code,89
+Topic,88
+Standard Allergenic,79
+Cohort,78
+Doc Kind,66
+Place of Service,60
+PK,59
+Domain,56
+Race,53
+Dose Form Group,45
+3-dig billing E code,44
+UB04 Pt dis status,41
+Canonical Unit,35
+Special Concept,31
+Typ bill 3 digits,31
+Therapeutic Class,30
+Summary,27
+Cellular Therapy,24
+Detail,24
+Observation,24
+Doc Role,23
+Measurement,22
+Frequency code,20
+Doc Setting,18
+Visit Type,18
+Drug Type,16
+Food,16
+Observation Type,15
+ATC 1st,14
+Death Type,14
+ICD9CM code,12
+Visit,12
+Module,10
+Note Type,10
+UB04 Point of Origin,10
+Linkage Assertion,9
+Inactive Concept,8
+Meas Type,8
+Obs Period Type,6
+PPI Modifier,6
+UB04 Pri Typ of Adm,6
+Gender,5
+Device Type,4
+Cost Type,3
+Type Concept,3
+Biological Function,2
+Ethnicity,2
+3-dig billing V code,1
+Patient Status,1
+Specimen Type,1

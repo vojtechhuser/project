@@ -1,0 +1,56 @@
+vocabulary_id,n
+RxNorm Extension,1817443
+SNOMED,839877
+NDC,817899
+RxNorm,282244
+SPL,269426
+ICD10PCS,187452
+LOINC,144385
+ICD10CM,109706
+ICDO3,60280
+VA Product,54768
+NDFRT,37486
+ICD9CM,18672
+ICD10,16321
+MeSH,12455
+HCPCS,8293
+ATC,6211
+ICD9Proc,4657
+PPI,3440
+DRG,1362
+UCUM,976
+NUCC,855
+CDT,792
+Revenue Code,538
+Relationship,498
+VA Class,486
+Concept Class,327
+UB04 Typ bill,298
+Currency,180
+Specialty,120
+Condition Type,103
+ABMS,98
+Procedure Type,97
+Vocabulary,95
+Cohort,78
+Place of Service,60
+Domain,56
+Race,53
+Cost,51
+UB04 Pt dis status,41
+Visit Type,18
+Drug Type,16
+Observation Type,15
+Death Type,14
+Visit,12
+Note Type,10
+UB04 Point of Origin,10
+Meas Type,8
+Cost Type,6
+Obs Period Type,6
+UB04 Pri Typ of Adm,6
+Gender,5
+Device Type,4
+Ethnicity,2
+None,1
+Specimen Type,1
