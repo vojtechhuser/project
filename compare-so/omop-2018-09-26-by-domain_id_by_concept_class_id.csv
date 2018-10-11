@@ -1,0 +1,317 @@
+domain_id,concept_class_id,n
+Condition,Clinical Finding,161320
+Condition,7-char billing code,60339
+Condition,ICDO Condition,58512
+Condition,ICD10 code,12626
+Condition,6-char billing code,9462
+Condition,6-char nonbill code,8998
+Condition,5-dig billing code,8141
+Condition,5-char billing code,6134
+Condition,5-char nonbill code,6093
+Condition,4-char billing code,5090
+Condition,Main Heading,4057
+Condition,4-dig billing code,3806
+Condition,4-char nonbill code,3244
+Condition,Suppl Concept,1964
+Condition,4-dig nonbill code,1708
+Condition,ICD10 Hierarchy,1656
+Condition,3-char nonbill code,1384
+Condition,3-dig nonbill code,827
+Condition,Answer,701
+Condition,4-dig billing E code,665
+Condition,Condition,390
+Condition,3-char billing code,245
+Condition,5-dig billing V code,138
+Condition,4-dig billing V code,137
+Condition,ICD9CM V code,137
+Condition,3-dig billing code,92
+Condition,Cohort,66
+Condition,3-dig nonbill E code,51
+Condition,4-dig nonbill V code,40
+Condition,3-dig nonbill V code,30
+Condition,3-dig billing E code,20
+Condition,ICD9CM code,3
+Condition,3-dig billing V code,1
+Condition,HCPCS Modifier,1
+Condition/Device,4-char billing code,1
+Condition/Meas,7-char billing code,77
+Condition/Meas,ICD9CM V code,33
+Condition/Meas,3-char billing code,1
+Condition/Procedure,ICD9CM V code,19
+Cost,Summary,27
+Cost,Detail,24
+Currency,Currency,180
+Device,Physical Object,185443
+Device,Device,9506
+Device,HCPCS,3424
+Device,Substance,1279
+Device,Pharma/Biol Product,394
+Device,CDT,341
+Device,HCPCS Modifier,42
+Device,Qualifier Value,33
+Device,HCPCS Class,7
+Device,4-char billing code,4
+Drug,11-digit NDC,626983
+Drug,Marketed Product,483951
+Drug,Branded Drug Box,216805
+Drug,Branded Drug,199148
+Drug,9-digit NDC,182627
+Drug,Pharma/Biol Product,179144
+Drug,Branded Drug Comp,171786
+Drug,OTC Drug,145351
+Drug,Branded Drug Form,137854
+Drug,Clinical Drug,117923
+Drug,Clinical Drug Box,107528
+Drug,Prescription Drug,105790
+Drug,Quant Branded Drug,100089
+Drug,Clinical Drug Comp,97947
+Drug,Quant Branded Box,94981
+Drug,Brand Name,93704
+Drug,Quant Clinical Drug,80320
+Drug,Quant Clinical Box,75483
+Drug,VA Product,54768
+Drug,Clinical Drug Form,50941
+Drug,Branded Dose Group,21884
+Drug,Clinical Dose Group,16703
+Drug,Ingredient,16450
+Drug,SPL,14719
+Drug,Drug Interaction,10843
+Drug,Chemical Structure,10560
+Drug,Supplier,7774
+Drug,Pharma Preparation,7708
+Drug,Substance,6293
+Drug,ATC 5th,4949
+Drug,Ind / CI,4938
+Drug,Precise Ingredient,2781
+Drug,Suppl Concept,2536
+Drug,Undefined,2366
+Drug,Branded Pack,2284
+Drug,Clinical Pack,2219
+Drug,Main Heading,1910
+Drug,Physiologic Effect,1866
+Drug,HCPCS,1170
+Drug,Clinical Pack Box,1025
+Drug,ATC 4th,887
+Drug,Mechanism of Action,638
+Drug,Pharmacologic Class,626
+Drug,Plasma Derivative,498
+Drug,Drug,490
+Drug,VA Class,486
+Drug,Dose Form,444
+Drug,Branded Pack Box,435
+Drug,Vaccine,342
+Drug,Supplement,338
+Drug,Qualifier Value,316
+Drug,ATC 3rd,267
+Drug,Animal Drug,202
+Drug,Non-Stand Allergenic,148
+Drug,ATC 2nd,94
+Drug,Standard Allergenic,79
+Drug,PK,59
+Drug,Dose Form Group,45
+Drug,Physical Object,33
+Drug,Therapeutic Class,30
+Drug,Cellular Therapy,24
+Drug,ATC 1st,14
+Drug,Cohort,12
+Ethnicity,Ethnicity,2
+Gender,Clinical Finding,10
+Gender,Gender,5
+Meas Value,Answer,17660
+Meas Value,Qualifier Value,224
+Meas Value,Doc Subject Matter,137
+Meas Value,Doc Type of Service,135
+Meas Value,Doc Kind,66
+Meas Value,Doc Role,23
+Meas Value,Doc Setting,18
+Meas Value Operator,Qualifier Value,5
+Meas/Procedure,ICD9CM V code,22
+Measurement,Lab Test,54758
+Measurement,LOINC Hierarchy,37764
+Measurement,Clinical Observation,23028
+Measurement,Procedure,10977
+Measurement,Observable Entity,261
+Measurement,LOINC Class,203
+Measurement,Main Heading,133
+Measurement,HCPCS,119
+Measurement,ICD10 code,112
+Measurement,LOINC Document Type,112
+Measurement,Clinical Finding,48
+Measurement,Question,29
+Measurement,5-dig billing code,26
+Measurement,Measurement,22
+Measurement,ICD10 Hierarchy,21
+Measurement,4-char billing code,20
+Measurement,4-dig billing code,19
+Measurement,5-char billing code,14
+Measurement,ICD9CM V code,13
+Measurement,3-char nonbill code,12
+Measurement,4-dig nonbill code,9
+Measurement,5-dig billing V code,9
+Measurement,4-char nonbill code,8
+Measurement,HCPCS Modifier,8
+Measurement,4-dig billing V code,6
+Measurement,3-dig nonbill code,2
+Measurement,3-dig nonbill V code,2
+Measurement,4-dig nonbill V code,2
+Measurement,3-char billing code,1
+Metadata,Model Comp,790
+Metadata,Relationship,498
+Metadata,Concept Class,327
+Metadata,Namespace Concept,220
+Metadata,Navi Concept,123
+Metadata,Vocabulary,95
+Metadata,Domain,56
+Metadata,Inactive Concept,8
+Metadata,Undefined,2
+Metadata,Pharma Preparation,1
+Metadata,Special Concept,1
+Observation,Organism,38657
+Observation,Substance,25093
+Observation,Clinical Finding,19487
+Observation,Qualifier Value,15784
+Observation,Observable Entity,15081
+Observation,Context-dependent,13424
+Observation,Pharma/Biol Product,9766
+Observation,Survey,8824
+Observation,Procedure,7583
+Observation,Social Context,7466
+Observation,Morph Abnormality,6118
+Observation,7-char billing code,4245
+Observation,Event,4193
+Observation,Staging / Scales,2417
+Observation,Body Structure,2290
+Observation,LOINC Hierarchy,1993
+Observation,Location,1661
+Observation,Undefined,1463
+Observation,Physical Object,1453
+Observation,HCPCS,1372
+Observation,ICDO Histology,1368
+Observation,ICD10 code,1328
+Observation,Claims Attachment,1286
+Observation,4-char nonbill code,1204
+Observation,Attribute,1123
+Observation,5-char nonbill code,893
+Observation,MS-DRG,758
+Observation,Question,738
+Observation,DRG,604
+Observation,4-dig billing E code,581
+Observation,ICD9CM V code,570
+Observation,6-char billing code,497
+Observation,5-char billing code,452
+Observation,ICDO Topography,400
+Observation,5-dig billing V code,389
+Observation,6-char nonbill code,364
+Observation,ICD10 Hierarchy,354
+Observation,4-char billing code,306
+Observation,HCPCS Modifier,305
+Observation,3-char nonbill code,271
+Observation,Physical Force,204
+Observation,4-dig billing V code,202
+Observation,CDT,132
+Observation,Specimen,125
+Observation,3-dig nonbill E code,120
+Observation,Cosmetic,102
+Observation,CDT Hierarchy,101
+Observation,LOINC Class,97
+Observation,Answer,96
+Observation,Record Artifact,93
+Observation,4-dig nonbill V code,88
+Observation,Topic,88
+Observation,Admin Concept,81
+Observation,HCPCS Class,39
+Observation,3-dig nonbill V code,35
+Observation,Special Concept,30
+Observation,3-dig billing E code,24
+Observation,Observation,24
+Observation,5-dig billing code,18
+Observation,Food,16
+Observation,4-dig billing code,13
+Observation,LOINC Document Type,10
+Observation,Module,10
+Observation,ICD9CM code,9
+Observation,Linkage Assertion,9
+Observation,3-char billing code,8
+Observation,4-dig nonbill code,7
+Observation,PPI Modifier,6
+Observation,UB04 Pri Typ of Adm,6
+Observation,3-dig nonbill code,3
+Observation,Biological Function,2
+Observation,Clinical Observation,1
+Observation,Patient Status,1
+Place of Service,Location,396
+Place of Service,Social Context,1
+Procedure,ICD10PCS Hierarchy,107874
+Procedure,ICD10PCS,79578
+Procedure,Procedure,77884
+Procedure,4-dig billing code,3686
+Procedure,HCPCS,1744
+Procedure,Main Heading,856
+Procedure,3-dig nonbill code,673
+Procedure,ICD9CM V code,314
+Procedure,3-dig billing code,221
+Procedure,CDT,218
+Procedure,ICD10 code,205
+Procedure,4-dig billing V code,129
+Procedure,2-dig nonbill code,100
+Procedure,5-char billing code,99
+Procedure,5-dig billing V code,98
+Procedure,4-char billing code,89
+Procedure,6-char billing code,63
+Procedure,HCPCS Class,60
+Procedure,4-char nonbill code,43
+Procedure,4-dig nonbill V code,29
+Procedure,5-dig billing code,27
+Procedure,3-dig nonbill V code,22
+Procedure,5-char nonbill code,21
+Procedure,3-char nonbill code,20
+Procedure,ICD10 Hierarchy,19
+Procedure,Answer,13
+Procedure,Clinical Finding,7
+Procedure,4-dig nonbill code,6
+Procedure,3-char billing code,4
+Procedure,HCPCS Modifier,2
+Procedure,4-dig billing E code,1
+Procedure,Suppl Concept,1
+Provider Specialty,NUCC,855
+Provider Specialty,Social Context,510
+Provider Specialty,Specialty,218
+Provider Specialty,Clinical Finding,2
+Race,Social Context,310
+Race,Race,53
+Race,Clinical Finding,1
+Relationship,Social Context,198
+Relationship,Answer,2
+Revenue Code,Revenue Code,538
+Route,Qualifier Value,196
+Spec Anatomic Site,Body Structure,33822
+Spec Disease Status,Qualifier Value,3
+Specimen,Specimen,1815
+Type Concept,Record Artifact,1213
+Type Concept,Admin Concept,321
+Type Concept,Qualifier Value,171
+Type Concept,Condition Type,103
+Type Concept,Procedure Type,97
+Type Concept,Visit Type,18
+Type Concept,Drug Type,16
+Type Concept,Observation Type,15
+Type Concept,Death Type,14
+Type Concept,Note Type,10
+Type Concept,Meas Type,8
+Type Concept,Obs Period Type,6
+Type Concept,Device Type,4
+Type Concept,Cost Type,3
+Type Concept,Type Concept,3
+Type Concept,Procedure,2
+Type Concept,Clinical Finding,1
+Type Concept,Specimen Type,1
+Unit,Unit,941
+Unit,Qualifier Value,236
+Unit,Canonical Unit,35
+Visit,Full,247
+Visit,Place of Service,60
+Visit,UB04 Pt dis status,41
+Visit,Typ bill 3 digits,31
+Visit,Frequency code,20
+Visit,Visit,12
+Visit,UB04 Point of Origin,10
