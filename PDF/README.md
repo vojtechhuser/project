@@ -19,3 +19,15 @@ unneeded risk of further data-entry errors. For data that are already being made
 and particularly for data that may already exist in formats that facilitate incorporation into
 analytic software, costs to researchers can be reduced by ensuring that data are provided
 in files that support analysis in a straightforward way.
+
+
+# Complex text (alternative to PDF)
+
+Ability to have rich text and tables is important for many documents.
+
+## PubMed Central
+
+Scientific journal articles provide an example of complex text. PubMed Central (PMC) uses epub format as a fully equivalent alternative to PDF. Epub format can be viewed in some internet browsers (e.g., Edge (from Microsoft))
+Example EPUB https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4832051/epub/
+(same article as PDF https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4832051/pdf/kwv254.pdf )
+
