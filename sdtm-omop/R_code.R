@@ -10,6 +10,7 @@ writeClipboard(gsub("\\\\", "/", readClipboard()))
 
 #--one domain subject visit
 path<-'q:/w/d/hiv/'
+#path<-'o:/HIV/01-trials/'
 
 ofiles <- list.files(path = path, pattern = 'sv.sas7bdat.csv', full.names = TRUE,recursive = TRUE)
 ofiles

@@ -1,0 +1,15 @@
+group,t2washper,episodegap,expextper,t2cohortdef,t2fupwashper,minepisdur,maxepisdur,mindaysupp,censor_dth,eventcount,blackoutper,ittdays,censor_output,censor_dpend,censor_qryend
+lybext,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+lybext_incall,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+lybext_vte2,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+lybext_90,183,30,30,01,183,0,90,0,Y,2,1,NA,N,N,Y
+lybext_183,183,30,30,01,183,0,183,0,Y,2,1,NA,N,N,Y
+lyb_only,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+ext_only,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+cyc,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+cyc_incall,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+cyc_vte2,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+cyc_90,183,30,30,01,183,0,90,0,Y,2,1,NA,N,N,Y
+cyc_183,183,30,30,01,183,0,183,0,Y,2,1,NA,N,N,Y
+cyc_lybonly,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y
+cyc_extonly,183,30,30,01,183,0,NA,0,Y,2,1,NA,N,N,Y

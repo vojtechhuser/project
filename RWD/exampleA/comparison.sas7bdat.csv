@@ -1,0 +1,8 @@
+comp_order,comp,control,caliper,ratio,class,noclass,hdps,hdpswinfrom,hdpswinto
+1,lybext,cyc,0.01,F,Sex Year Covar1 Covar2 Covar3 Covar4 Covar5 Covar7 Covar8 Covar9 Covar10 Covar12 Covar14 Covar17 Covar19,Age Comorbidscore NumIP NumIS NumED NumAV NumRX NumGeneric,N,NA,NA
+2,lybext_incall,cyc_incall,0.01,F,Sex Year Covar1 Covar2 Covar3 Covar4 Covar5 Covar7 Covar8 Covar9 Covar10 Covar12 Covar14 Covar17 Covar19,Age Comorbidscore NumIP NumIS NumED NumAV NumRX NumGeneric,N,NA,NA
+3,lybext_vte2,cyc_vte2,0.01,F,Sex Year Covar1 Covar2 Covar3 Covar4 Covar5 Covar7 Covar8 Covar9 Covar10 Covar12 Covar14 Covar17 Covar19,Age Comorbidscore NumIP NumIS NumED NumAV NumRX NumGeneric,N,NA,NA
+4,lybext_90,cyc_90,0.01,F,Sex Year Covar1 Covar2 Covar3 Covar4 Covar5 Covar7 Covar8 Covar9 Covar10 Covar12 Covar14 Covar17 Covar19,Age Comorbidscore NumIP NumIS NumED NumAV NumRX NumGeneric,N,NA,NA
+5,lybext_183,cyc_183,0.01,F,Sex Year Covar1 Covar2 Covar3 Covar4 Covar5 Covar7 Covar8 Covar9 Covar10 Covar12 Covar14 Covar17 Covar19,Age Comorbidscore NumIP NumIS NumED NumAV NumRX NumGeneric,N,NA,NA
+6,lyb_only,cyc_lybonly,0.01,F,Sex Year Covar1 Covar2 Covar3 Covar4 Covar5 Covar7 Covar8 Covar9 Covar10 Covar12 Covar14 Covar17 Covar19,Age Comorbidscore NumIP NumIS NumED NumAV NumRX NumGeneric,N,NA,NA
+7,ext_only,cyc_extonly,0.01,F,Sex Year Covar1 Covar2 Covar3 Covar4 Covar5 Covar7 Covar8 Covar9 Covar10 Covar12 Covar14 Covar17 Covar19,Age Comorbidscore NumIP NumIS NumED NumAV NumRX NumGeneric,N,NA,NA

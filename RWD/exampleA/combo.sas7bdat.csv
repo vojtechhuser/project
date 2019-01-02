@@ -1,0 +1,3 @@
+CombGroup,CombDescr,CombCode,CombBehavior,CombEncType,CombPDX,RawGroup,RawOrder,RawEpiType,RawEpiGap,RawExclusion,RawDaysFromStartDt,RawDaysFromEndDt,RawDurat,CombOrder,RawADateType,RawEDateType
+vte2,,VTE2,DX,AV,,vteavoa,1,0,0,0,,,NA,1,,
+vte2,,VTE2,DX,AV,,anticoags,2,0,0,0,"0,28",,NA,1,ADATEB,ADATEB

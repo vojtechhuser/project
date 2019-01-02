@@ -1,0 +1,15 @@
+group,caresettings,csstrat,medutilfrom,medutilto,drugutilfrom,drugutilto
+lybext,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+lybext_incall,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+lybext_vte2,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+lybext_90,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+lybext_183,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+lyb_only,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+ext_only,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+cyc,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+cyc_incall,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+cyc_vte2,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+cyc_90,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+cyc_183,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+cyc_lybonly,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1
+cyc_extonly,'IP' 'ED' 'AV' 'OA' 'IS',0 1 2-4 5-7 8+,-183,0,-183,-1

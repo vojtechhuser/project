@@ -1,0 +1,15 @@
+group,indexdays,ccigroup,comorbfrom,comorbto
+lybext,0,Low-0 1 2-3 4-7 8+,-183,0
+lybext_incall,0,Low-0 1 2-3 4-7 8+,-183,0
+lybext_vte2,0,Low-0 1 2-3 4-7 8+,-183,0
+lybext_90,0,Low-0 1 2-3 4-7 8+,-183,0
+lybext_183,0,Low-0 1 2-3 4-7 8+,-183,0
+lyb_only,0,Low-0 1 2-3 4-7 8+,-183,0
+ext_only,0,Low-0 1 2-3 4-7 8+,-183,0
+cyc,0,Low-0 1 2-3 4-7 8+,-183,0
+cyc_incall,0,Low-0 1 2-3 4-7 8+,-183,0
+cyc_vte2,0,Low-0 1 2-3 4-7 8+,-183,0
+cyc_90,0,Low-0 1 2-3 4-7 8+,-183,0
+cyc_183,0,Low-0 1 2-3 4-7 8+,-183,0
+cyc_lybonly,0,Low-0 1 2-3 4-7 8+,-183,0
+cyc_extonly,0,Low-0 1 2-3 4-7 8+,-183,0

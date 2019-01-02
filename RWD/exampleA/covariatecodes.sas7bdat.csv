@@ -1,0 +1,2247 @@
+keep,codecat,codetype,code,caresettingprincipal,covfrom,covto,studyname,covarnum
+0,DX,09,4280,,-183,-1,Cardiacconditions,1
+0,DX,09,454,,-183,-1,Cardiacconditions,1
+0,DX,09,4540,,-183,-1,Cardiacconditions,1
+0,DX,09,4541,,-183,-1,Cardiacconditions,1
+0,DX,09,4542,,-183,-1,Cardiacconditions,1
+0,DX,09,4548,,-183,-1,Cardiacconditions,1
+0,DX,09,4549,,-183,-1,Cardiacconditions,1
+0,DX,09,456,,-183,-1,Cardiacconditions,1
+0,DX,09,6710,,-183,-1,Cardiacconditions,1
+0,DX,09,67100,,-183,-1,Cardiacconditions,1
+0,DX,09,67101,,-183,-1,Cardiacconditions,1
+0,DX,09,67102,,-183,-1,Cardiacconditions,1
+0,DX,09,67103,,-183,-1,Cardiacconditions,1
+0,DX,09,67104,,-183,-1,Cardiacconditions,1
+0,DX,09,6711,,-183,-1,Cardiacconditions,1
+0,DX,09,67110,,-183,-1,Cardiacconditions,1
+0,DX,09,67111,,-183,-1,Cardiacconditions,1
+0,DX,09,67112,,-183,-1,Cardiacconditions,1
+0,DX,09,67113,,-183,-1,Cardiacconditions,1
+0,DX,09,67114,,-183,-1,Cardiacconditions,1
+0,DX,09,745,,-183,-1,Cardiacconditions,1
+0,DX,09,7450,,-183,-1,Cardiacconditions,1
+0,DX,09,7451,,-183,-1,Cardiacconditions,1
+0,DX,09,7452,,-183,-1,Cardiacconditions,1
+0,DX,09,7453,,-183,-1,Cardiacconditions,1
+0,DX,09,7454,,-183,-1,Cardiacconditions,1
+0,DX,09,7455,,-183,-1,Cardiacconditions,1
+0,DX,09,7456,,-183,-1,Cardiacconditions,1
+0,DX,09,7457,,-183,-1,Cardiacconditions,1
+0,DX,09,7458,,-183,-1,Cardiacconditions,1
+0,DX,09,7459,,-183,-1,Cardiacconditions,1
+0,DX,09,746,,-183,-1,Cardiacconditions,1
+0,DX,09,7460,,-183,-1,Cardiacconditions,1
+0,DX,09,7461,,-183,-1,Cardiacconditions,1
+0,DX,09,7462,,-183,-1,Cardiacconditions,1
+0,DX,09,7463,,-183,-1,Cardiacconditions,1
+0,DX,09,7464,,-183,-1,Cardiacconditions,1
+0,DX,09,7465,,-183,-1,Cardiacconditions,1
+0,DX,09,7466,,-183,-1,Cardiacconditions,1
+0,DX,09,7467,,-183,-1,Cardiacconditions,1
+0,DX,09,7468,,-183,-1,Cardiacconditions,1
+0,DX,09,7469,,-183,-1,Cardiacconditions,1
+0,DX,09,747,,-183,-1,Cardiacconditions,1
+0,DX,09,7470,,-183,-1,Cardiacconditions,1
+0,DX,09,7471,,-183,-1,Cardiacconditions,1
+0,DX,09,7472,,-183,-1,Cardiacconditions,1
+0,DX,09,7473,,-183,-1,Cardiacconditions,1
+0,DX,09,7474,,-183,-1,Cardiacconditions,1
+0,DX,09,7475,,-183,-1,Cardiacconditions,1
+0,DX,09,7476,,-183,-1,Cardiacconditions,1
+0,DX,09,7478,,-183,-1,Cardiacconditions,1
+0,DX,09,7479,,-183,-1,Cardiacconditions,1
+0,DX,09,250,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2500,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2501,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2502,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2503,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2504,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2505,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2506,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2507,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2508,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2509,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2720,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2721,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2722,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2723,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2724,,-183,-1,Cardiovascularconditions,2
+0,DX,09,2777,,-183,-1,Cardiovascularconditions,2
+0,DX,09,3572,,-183,-1,Cardiovascularconditions,2
+0,DX,09,3620,,-183,-1,Cardiovascularconditions,2
+0,DX,09,36201,,-183,-1,Cardiovascularconditions,2
+0,DX,09,36202,,-183,-1,Cardiovascularconditions,2
+0,DX,09,36203,,-183,-1,Cardiovascularconditions,2
+0,DX,09,36204,,-183,-1,Cardiovascularconditions,2
+0,DX,09,36205,,-183,-1,Cardiovascularconditions,2
+0,DX,09,36206,,-183,-1,Cardiovascularconditions,2
+0,DX,09,36207,,-183,-1,Cardiovascularconditions,2
+0,DX,09,401,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4010,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4011,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4019,,-183,-1,Cardiovascularconditions,2
+0,DX,09,402,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4020,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4021,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4029,,-183,-1,Cardiovascularconditions,2
+0,DX,09,403,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4030,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4031,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4039,,-183,-1,Cardiovascularconditions,2
+0,DX,09,404,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4040,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4041,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4049,,-183,-1,Cardiovascularconditions,2
+0,DX,09,405,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4050,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4051,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4059,,-183,-1,Cardiovascularconditions,2
+0,DX,09,410,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4100,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41000,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41001,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41002,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4101,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41010,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41011,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41012,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4102,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41020,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41021,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41022,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4103,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41030,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41031,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41032,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4104,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41040,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41041,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41042,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4105,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41050,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41051,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41052,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4106,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41060,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41061,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41062,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4107,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41070,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41071,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41072,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4108,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41080,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41081,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41082,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4109,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41090,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41091,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41092,,-183,-1,Cardiovascularconditions,2
+0,DX,09,411,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4110,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4111,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4118,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41181,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41189,,-183,-1,Cardiovascularconditions,2
+0,DX,09,413,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4130,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4131,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4139,,-183,-1,Cardiovascularconditions,2
+0,DX,09,414,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4140,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41400,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41401,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41402,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41403,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41404,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41405,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41406,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41407,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4141,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41410,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41411,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41412,,-183,-1,Cardiovascularconditions,2
+0,DX,09,41419,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4142,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4143,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4144,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4148,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4149,,-183,-1,Cardiovascularconditions,2
+0,DX,09,429,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4290,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4291,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4292,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4293,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4294,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4295,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4296,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4297,,-183,-1,Cardiovascularconditions,2
+0,DX,09,42971,,-183,-1,Cardiovascularconditions,2
+0,DX,09,42979,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4298,,-183,-1,Cardiovascularconditions,2
+0,DX,09,42981,,-183,-1,Cardiovascularconditions,2
+0,DX,09,42982,,-183,-1,Cardiovascularconditions,2
+0,DX,09,42983,,-183,-1,Cardiovascularconditions,2
+0,DX,09,42989,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4299,,-183,-1,Cardiovascularconditions,2
+0,DX,09,440,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4400,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4401,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4402,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44020,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44021,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44022,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44023,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44024,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44029,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4403,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44030,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44031,,-183,-1,Cardiovascularconditions,2
+0,DX,09,44032,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4404,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4408,,-183,-1,Cardiovascularconditions,2
+0,DX,09,4409,,-183,-1,Cardiovascularconditions,2
+0,DX,09,99791,,-183,-1,Cardiovascularconditions,2
+0,DX,09,33371,,-183,-1,CerebralPalsy,15
+0,DX,09,343,,-183,-1,CerebralPalsy,15
+0,DX,09,3430,,-183,-1,CerebralPalsy,15
+0,DX,09,3431,,-183,-1,CerebralPalsy,15
+0,DX,09,3432,,-183,-1,CerebralPalsy,15
+0,DX,09,3433,,-183,-1,CerebralPalsy,15
+0,DX,09,3438,,-183,-1,CerebralPalsy,15
+0,DX,09,3439,,-183,-1,CerebralPalsy,15
+0,DX,09,2770,,-183,-1,CysticFibrosis,16
+0,DX,09,27700,,-183,-1,CysticFibrosis,16
+0,DX,09,27701,,-183,-1,CysticFibrosis,16
+0,DX,09,27702,,-183,-1,CysticFibrosis,16
+0,DX,09,27703,,-183,-1,CysticFibrosis,16
+0,DX,09,27709,,-183,-1,CysticFibrosis,16
+0,DX,09,V8381,,-183,-1,CysticFibrosis,16
+0,DX,09,218,,-183,-1,Gynecologicalconditions,14
+0,DX,09,2180,,-183,-1,Gynecologicalconditions,14
+0,DX,09,2181,,-183,-1,Gynecologicalconditions,14
+0,DX,09,2182,,-183,-1,Gynecologicalconditions,14
+0,DX,09,2189,,-183,-1,Gynecologicalconditions,14
+0,DX,09,2564,,-183,-1,Gynecologicalconditions,14
+0,DX,09,346,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3460,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34600,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34601,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34602,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34603,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3461,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34610,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34611,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34612,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34613,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3462,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34620,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34621,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34622,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34623,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3463,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34630,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34631,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34632,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34633,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3464,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34640,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34641,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34642,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34643,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3465,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34650,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34651,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34652,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34653,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3466,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34660,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34661,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34662,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34663,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3467,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34670,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34671,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34672,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34673,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3468,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34680,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34681,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34682,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34683,,-183,-1,Gynecologicalconditions,14
+0,DX,09,3469,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34690,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34691,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34692,,-183,-1,Gynecologicalconditions,14
+0,DX,09,34693,,-183,-1,Gynecologicalconditions,14
+0,DX,09,614,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6140,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6141,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6142,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6143,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6144,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6145,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6146,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6147,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6148,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6149,,-183,-1,Gynecologicalconditions,14
+0,DX,09,615,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6150,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6151,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6159,,-183,-1,Gynecologicalconditions,14
+0,DX,09,616,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6160,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6161,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61610,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61611,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6162,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6163,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6164,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6165,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61650,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61651,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6168,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61681,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61689,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6169,,-183,-1,Gynecologicalconditions,14
+0,DX,09,617,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6170,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6171,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6172,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6173,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6174,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6175,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6176,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6178,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6179,,-183,-1,Gynecologicalconditions,14
+0,DX,09,618,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6180,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61800,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61801,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61802,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61803,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61804,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61805,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61809,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6181,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6182,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6183,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6184,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6185,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6186,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6187,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6188,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61881,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61882,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61883,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61884,,-183,-1,Gynecologicalconditions,14
+0,DX,09,61889,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6189,,-183,-1,Gynecologicalconditions,14
+0,DX,09,619,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6190,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6191,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6192,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6198,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6199,,-183,-1,Gynecologicalconditions,14
+0,DX,09,620,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6200,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6201,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6202,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6203,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6204,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6205,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6206,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6207,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6208,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6209,,-183,-1,Gynecologicalconditions,14
+0,DX,09,621,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6210,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6211,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6212,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6213,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62130,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62131,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62132,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62133,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62134,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62135,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6214,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6215,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6216,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6217,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6218,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6219,,-183,-1,Gynecologicalconditions,14
+0,DX,09,622,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6220,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6221,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62210,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62211,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62212,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6222,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6223,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6224,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6225,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6226,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6227,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6228,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6229,,-183,-1,Gynecologicalconditions,14
+0,DX,09,623,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6230,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6231,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6232,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6233,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6234,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6235,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6236,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6237,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6238,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6239,,-183,-1,Gynecologicalconditions,14
+0,DX,09,624,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6240,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62401,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62402,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62409,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6241,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6242,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6243,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6244,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6245,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6246,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6248,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6249,,-183,-1,Gynecologicalconditions,14
+0,DX,09,625,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6250,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6251,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6252,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6253,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6254,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6255,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6256,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6257,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62570,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62571,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62579,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6258,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6259,,-183,-1,Gynecologicalconditions,14
+0,DX,09,626,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6260,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6261,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6262,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6263,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6264,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6265,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6266,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6267,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6268,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6269,,-183,-1,Gynecologicalconditions,14
+0,DX,09,627,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6270,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6271,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6272,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6273,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6274,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6278,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6279,,-183,-1,Gynecologicalconditions,14
+0,DX,09,628,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6280,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6281,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6282,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6283,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6284,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6288,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6289,,-183,-1,Gynecologicalconditions,14
+0,DX,09,629,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6290,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6291,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6292,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62920,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62921,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62922,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62923,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62929,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6293,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62931,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62932,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6298,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62981,,-183,-1,Gynecologicalconditions,14
+0,DX,09,62989,,-183,-1,Gynecologicalconditions,14
+0,DX,09,6299,,-183,-1,Gynecologicalconditions,14
+0,DX,09,7041,,-183,-1,Gynecologicalconditions,14
+0,DX,09,7060,,-183,-1,Gynecologicalconditions,14
+0,DX,09,7061,,-183,-1,Gynecologicalconditions,14
+0,DX,09,2704,,-183,-1,Hypercoagulablestates,3
+0,DX,09,2863,,-183,-1,Hypercoagulablestates,3
+0,DX,09,2866,,-183,-1,Hypercoagulablestates,3
+0,DX,09,28981,,-183,-1,Hypercoagulablestates,3
+0,DX,09,28982,,-183,-1,Hypercoagulablestates,3
+0,PX,C4,29000,,-183,-1,Immobilityconditions,12
+0,PX,C4,29305,,-183,-1,Immobilityconditions,12
+0,PX,C4,29325,,-183,-1,Immobilityconditions,12
+0,PX,C4,29345,,-183,-1,Immobilityconditions,12
+0,PX,C4,29365,,-183,-1,Immobilityconditions,12
+0,DX,09,342,,-183,-1,Immobilityconditions,12
+0,DX,09,3420,,-183,-1,Immobilityconditions,12
+0,DX,09,3421,,-183,-1,Immobilityconditions,12
+0,DX,09,3428,,-183,-1,Immobilityconditions,12
+0,DX,09,3429,,-183,-1,Immobilityconditions,12
+0,DX,09,3434,,-183,-1,Immobilityconditions,12
+0,DX,09,344,,-183,-1,Immobilityconditions,12
+0,DX,09,3440,,-183,-1,Immobilityconditions,12
+0,DX,09,3441,,-183,-1,Immobilityconditions,12
+0,DX,09,3442,,-183,-1,Immobilityconditions,12
+0,DX,09,3443,,-183,-1,Immobilityconditions,12
+0,DX,09,3444,,-183,-1,Immobilityconditions,12
+0,DX,09,3445,,-183,-1,Immobilityconditions,12
+0,DX,09,3446,,-183,-1,Immobilityconditions,12
+0,DX,09,3448,,-183,-1,Immobilityconditions,12
+0,DX,09,3449,,-183,-1,Immobilityconditions,12
+0,DX,09,741,,-183,-1,Immobilityconditions,12
+0,DX,09,7410,,-183,-1,Immobilityconditions,12
+0,DX,09,7419,,-183,-1,Immobilityconditions,12
+0,DX,09,800,,-183,-1,Immobilityconditions,12
+0,DX,09,8000,,-183,-1,Immobilityconditions,12
+0,DX,09,8001,,-183,-1,Immobilityconditions,12
+0,DX,09,8002,,-183,-1,Immobilityconditions,12
+0,DX,09,8003,,-183,-1,Immobilityconditions,12
+0,DX,09,8004,,-183,-1,Immobilityconditions,12
+0,DX,09,8005,,-183,-1,Immobilityconditions,12
+0,DX,09,8006,,-183,-1,Immobilityconditions,12
+0,DX,09,8007,,-183,-1,Immobilityconditions,12
+0,DX,09,8008,,-183,-1,Immobilityconditions,12
+0,DX,09,8009,,-183,-1,Immobilityconditions,12
+0,DX,09,801,,-183,-1,Immobilityconditions,12
+0,DX,09,8010,,-183,-1,Immobilityconditions,12
+0,DX,09,8011,,-183,-1,Immobilityconditions,12
+0,DX,09,8012,,-183,-1,Immobilityconditions,12
+0,DX,09,8013,,-183,-1,Immobilityconditions,12
+0,DX,09,8014,,-183,-1,Immobilityconditions,12
+0,DX,09,8015,,-183,-1,Immobilityconditions,12
+0,DX,09,8016,,-183,-1,Immobilityconditions,12
+0,DX,09,8017,,-183,-1,Immobilityconditions,12
+0,DX,09,8018,,-183,-1,Immobilityconditions,12
+0,DX,09,8019,,-183,-1,Immobilityconditions,12
+0,DX,09,802,,-183,-1,Immobilityconditions,12
+0,DX,09,8020,,-183,-1,Immobilityconditions,12
+0,DX,09,8021,,-183,-1,Immobilityconditions,12
+0,DX,09,8022,,-183,-1,Immobilityconditions,12
+0,DX,09,8023,,-183,-1,Immobilityconditions,12
+0,DX,09,8024,,-183,-1,Immobilityconditions,12
+0,DX,09,8025,,-183,-1,Immobilityconditions,12
+0,DX,09,8026,,-183,-1,Immobilityconditions,12
+0,DX,09,8027,,-183,-1,Immobilityconditions,12
+0,DX,09,8028,,-183,-1,Immobilityconditions,12
+0,DX,09,8029,,-183,-1,Immobilityconditions,12
+0,DX,09,803,,-183,-1,Immobilityconditions,12
+0,DX,09,8030,,-183,-1,Immobilityconditions,12
+0,DX,09,8031,,-183,-1,Immobilityconditions,12
+0,DX,09,8032,,-183,-1,Immobilityconditions,12
+0,DX,09,8033,,-183,-1,Immobilityconditions,12
+0,DX,09,8034,,-183,-1,Immobilityconditions,12
+0,DX,09,8035,,-183,-1,Immobilityconditions,12
+0,DX,09,8036,,-183,-1,Immobilityconditions,12
+0,DX,09,8037,,-183,-1,Immobilityconditions,12
+0,DX,09,8038,,-183,-1,Immobilityconditions,12
+0,DX,09,8039,,-183,-1,Immobilityconditions,12
+0,DX,09,804,,-183,-1,Immobilityconditions,12
+0,DX,09,8040,,-183,-1,Immobilityconditions,12
+0,DX,09,8041,,-183,-1,Immobilityconditions,12
+0,DX,09,8042,,-183,-1,Immobilityconditions,12
+0,DX,09,8043,,-183,-1,Immobilityconditions,12
+0,DX,09,8044,,-183,-1,Immobilityconditions,12
+0,DX,09,8045,,-183,-1,Immobilityconditions,12
+0,DX,09,8046,,-183,-1,Immobilityconditions,12
+0,DX,09,8047,,-183,-1,Immobilityconditions,12
+0,DX,09,8048,,-183,-1,Immobilityconditions,12
+0,DX,09,8049,,-183,-1,Immobilityconditions,12
+0,DX,09,805,,-183,-1,Immobilityconditions,12
+0,DX,09,8050,,-183,-1,Immobilityconditions,12
+0,DX,09,8051,,-183,-1,Immobilityconditions,12
+0,DX,09,8052,,-183,-1,Immobilityconditions,12
+0,DX,09,8053,,-183,-1,Immobilityconditions,12
+0,DX,09,8054,,-183,-1,Immobilityconditions,12
+0,DX,09,8055,,-183,-1,Immobilityconditions,12
+0,DX,09,8056,,-183,-1,Immobilityconditions,12
+0,DX,09,8057,,-183,-1,Immobilityconditions,12
+0,DX,09,8058,,-183,-1,Immobilityconditions,12
+0,DX,09,8059,,-183,-1,Immobilityconditions,12
+0,DX,09,806,,-183,-1,Immobilityconditions,12
+0,DX,09,8060,,-183,-1,Immobilityconditions,12
+0,DX,09,8061,,-183,-1,Immobilityconditions,12
+0,DX,09,8062,,-183,-1,Immobilityconditions,12
+0,DX,09,8063,,-183,-1,Immobilityconditions,12
+0,DX,09,8064,,-183,-1,Immobilityconditions,12
+0,DX,09,8065,,-183,-1,Immobilityconditions,12
+0,DX,09,8066,,-183,-1,Immobilityconditions,12
+0,DX,09,8067,,-183,-1,Immobilityconditions,12
+0,DX,09,8068,,-183,-1,Immobilityconditions,12
+0,DX,09,8069,,-183,-1,Immobilityconditions,12
+0,DX,09,807,,-183,-1,Immobilityconditions,12
+0,DX,09,8070,,-183,-1,Immobilityconditions,12
+0,DX,09,8071,,-183,-1,Immobilityconditions,12
+0,DX,09,8072,,-183,-1,Immobilityconditions,12
+0,DX,09,8073,,-183,-1,Immobilityconditions,12
+0,DX,09,8074,,-183,-1,Immobilityconditions,12
+0,DX,09,8075,,-183,-1,Immobilityconditions,12
+0,DX,09,8076,,-183,-1,Immobilityconditions,12
+0,DX,09,808,,-183,-1,Immobilityconditions,12
+0,DX,09,8080,,-183,-1,Immobilityconditions,12
+0,DX,09,8081,,-183,-1,Immobilityconditions,12
+0,DX,09,8082,,-183,-1,Immobilityconditions,12
+0,DX,09,8083,,-183,-1,Immobilityconditions,12
+0,DX,09,8084,,-183,-1,Immobilityconditions,12
+0,DX,09,8085,,-183,-1,Immobilityconditions,12
+0,DX,09,8088,,-183,-1,Immobilityconditions,12
+0,DX,09,8089,,-183,-1,Immobilityconditions,12
+0,DX,09,809,,-183,-1,Immobilityconditions,12
+0,DX,09,8090,,-183,-1,Immobilityconditions,12
+0,DX,09,8091,,-183,-1,Immobilityconditions,12
+0,DX,09,820,,-183,-1,Immobilityconditions,12
+0,DX,09,8200,,-183,-1,Immobilityconditions,12
+0,DX,09,8201,,-183,-1,Immobilityconditions,12
+0,DX,09,8202,,-183,-1,Immobilityconditions,12
+0,DX,09,8203,,-183,-1,Immobilityconditions,12
+0,DX,09,8208,,-183,-1,Immobilityconditions,12
+0,DX,09,8209,,-183,-1,Immobilityconditions,12
+0,DX,09,821,,-183,-1,Immobilityconditions,12
+0,DX,09,8210,,-183,-1,Immobilityconditions,12
+0,DX,09,8211,,-183,-1,Immobilityconditions,12
+0,DX,09,8212,,-183,-1,Immobilityconditions,12
+0,DX,09,8213,,-183,-1,Immobilityconditions,12
+0,DX,09,822,,-183,-1,Immobilityconditions,12
+0,DX,09,8220,,-183,-1,Immobilityconditions,12
+0,DX,09,8221,,-183,-1,Immobilityconditions,12
+0,DX,09,823,,-183,-1,Immobilityconditions,12
+0,DX,09,8230,,-183,-1,Immobilityconditions,12
+0,DX,09,8231,,-183,-1,Immobilityconditions,12
+0,DX,09,8232,,-183,-1,Immobilityconditions,12
+0,DX,09,8233,,-183,-1,Immobilityconditions,12
+0,DX,09,8234,,-183,-1,Immobilityconditions,12
+0,DX,09,8238,,-183,-1,Immobilityconditions,12
+0,DX,09,8239,,-183,-1,Immobilityconditions,12
+0,DX,09,824,,-183,-1,Immobilityconditions,12
+0,DX,09,8240,,-183,-1,Immobilityconditions,12
+0,DX,09,8241,,-183,-1,Immobilityconditions,12
+0,DX,09,8242,,-183,-1,Immobilityconditions,12
+0,DX,09,8243,,-183,-1,Immobilityconditions,12
+0,DX,09,8244,,-183,-1,Immobilityconditions,12
+0,DX,09,8245,,-183,-1,Immobilityconditions,12
+0,DX,09,8246,,-183,-1,Immobilityconditions,12
+0,DX,09,8247,,-183,-1,Immobilityconditions,12
+0,DX,09,8248,,-183,-1,Immobilityconditions,12
+0,DX,09,8249,,-183,-1,Immobilityconditions,12
+0,DX,09,825,,-183,-1,Immobilityconditions,12
+0,DX,09,8250,,-183,-1,Immobilityconditions,12
+0,DX,09,8251,,-183,-1,Immobilityconditions,12
+0,DX,09,8252,,-183,-1,Immobilityconditions,12
+0,DX,09,8253,,-183,-1,Immobilityconditions,12
+0,DX,09,826,,-183,-1,Immobilityconditions,12
+0,DX,09,8260,,-183,-1,Immobilityconditions,12
+0,DX,09,8261,,-183,-1,Immobilityconditions,12
+0,DX,09,827,,-183,-1,Immobilityconditions,12
+0,DX,09,8270,,-183,-1,Immobilityconditions,12
+0,DX,09,8271,,-183,-1,Immobilityconditions,12
+0,DX,09,828,,-183,-1,Immobilityconditions,12
+0,DX,09,8280,,-183,-1,Immobilityconditions,12
+0,DX,09,8281,,-183,-1,Immobilityconditions,12
+0,DX,09,829,,-183,-1,Immobilityconditions,12
+0,DX,09,8290,,-183,-1,Immobilityconditions,12
+0,DX,09,8291,,-183,-1,Immobilityconditions,12
+0,DX,09,851,,-183,-1,Immobilityconditions,12
+0,DX,09,8510,,-183,-1,Immobilityconditions,12
+0,DX,09,8511,,-183,-1,Immobilityconditions,12
+0,DX,09,8512,,-183,-1,Immobilityconditions,12
+0,DX,09,8513,,-183,-1,Immobilityconditions,12
+0,DX,09,8514,,-183,-1,Immobilityconditions,12
+0,DX,09,8515,,-183,-1,Immobilityconditions,12
+0,DX,09,8516,,-183,-1,Immobilityconditions,12
+0,DX,09,8517,,-183,-1,Immobilityconditions,12
+0,DX,09,8518,,-183,-1,Immobilityconditions,12
+0,DX,09,8519,,-183,-1,Immobilityconditions,12
+0,DX,09,852,,-183,-1,Immobilityconditions,12
+0,DX,09,8520,,-183,-1,Immobilityconditions,12
+0,DX,09,8521,,-183,-1,Immobilityconditions,12
+0,DX,09,8522,,-183,-1,Immobilityconditions,12
+0,DX,09,8523,,-183,-1,Immobilityconditions,12
+0,DX,09,8524,,-183,-1,Immobilityconditions,12
+0,DX,09,8525,,-183,-1,Immobilityconditions,12
+0,DX,09,853,,-183,-1,Immobilityconditions,12
+0,DX,09,8530,,-183,-1,Immobilityconditions,12
+0,DX,09,8531,,-183,-1,Immobilityconditions,12
+0,DX,09,854,,-183,-1,Immobilityconditions,12
+0,DX,09,8540,,-183,-1,Immobilityconditions,12
+0,DX,09,8541,,-183,-1,Immobilityconditions,12
+0,DX,09,861,,-183,-1,Immobilityconditions,12
+0,DX,09,8610,,-183,-1,Immobilityconditions,12
+0,DX,09,8611,,-183,-1,Immobilityconditions,12
+0,DX,09,8612,,-183,-1,Immobilityconditions,12
+0,DX,09,8613,,-183,-1,Immobilityconditions,12
+0,DX,09,862,,-183,-1,Immobilityconditions,12
+0,DX,09,8620,,-183,-1,Immobilityconditions,12
+0,DX,09,8621,,-183,-1,Immobilityconditions,12
+0,DX,09,8622,,-183,-1,Immobilityconditions,12
+0,DX,09,8623,,-183,-1,Immobilityconditions,12
+0,DX,09,8628,,-183,-1,Immobilityconditions,12
+0,DX,09,8629,,-183,-1,Immobilityconditions,12
+0,DX,09,863,,-183,-1,Immobilityconditions,12
+0,DX,09,8630,,-183,-1,Immobilityconditions,12
+0,DX,09,8631,,-183,-1,Immobilityconditions,12
+0,DX,09,8632,,-183,-1,Immobilityconditions,12
+0,DX,09,8633,,-183,-1,Immobilityconditions,12
+0,DX,09,8634,,-183,-1,Immobilityconditions,12
+0,DX,09,8635,,-183,-1,Immobilityconditions,12
+0,DX,09,8638,,-183,-1,Immobilityconditions,12
+0,DX,09,8639,,-183,-1,Immobilityconditions,12
+0,DX,09,864,,-183,-1,Immobilityconditions,12
+0,DX,09,8640,,-183,-1,Immobilityconditions,12
+0,DX,09,8641,,-183,-1,Immobilityconditions,12
+0,DX,09,865,,-183,-1,Immobilityconditions,12
+0,DX,09,8650,,-183,-1,Immobilityconditions,12
+0,DX,09,8651,,-183,-1,Immobilityconditions,12
+0,DX,09,866,,-183,-1,Immobilityconditions,12
+0,DX,09,8660,,-183,-1,Immobilityconditions,12
+0,DX,09,8661,,-183,-1,Immobilityconditions,12
+0,DX,09,867,,-183,-1,Immobilityconditions,12
+0,DX,09,8670,,-183,-1,Immobilityconditions,12
+0,DX,09,8671,,-183,-1,Immobilityconditions,12
+0,DX,09,8672,,-183,-1,Immobilityconditions,12
+0,DX,09,8673,,-183,-1,Immobilityconditions,12
+0,DX,09,8674,,-183,-1,Immobilityconditions,12
+0,DX,09,8675,,-183,-1,Immobilityconditions,12
+0,DX,09,8676,,-183,-1,Immobilityconditions,12
+0,DX,09,8677,,-183,-1,Immobilityconditions,12
+0,DX,09,8678,,-183,-1,Immobilityconditions,12
+0,DX,09,8679,,-183,-1,Immobilityconditions,12
+0,DX,09,868,,-183,-1,Immobilityconditions,12
+0,DX,09,8680,,-183,-1,Immobilityconditions,12
+0,DX,09,8681,,-183,-1,Immobilityconditions,12
+0,DX,09,869,,-183,-1,Immobilityconditions,12
+0,DX,09,8690,,-183,-1,Immobilityconditions,12
+0,DX,09,8691,,-183,-1,Immobilityconditions,12
+0,DX,09,925,,-183,-1,Immobilityconditions,12
+0,DX,09,9251,,-183,-1,Immobilityconditions,12
+0,DX,09,9252,,-183,-1,Immobilityconditions,12
+0,DX,09,926,,-183,-1,Immobilityconditions,12
+0,DX,09,9260,,-183,-1,Immobilityconditions,12
+0,DX,09,9261,,-183,-1,Immobilityconditions,12
+0,DX,09,9268,,-183,-1,Immobilityconditions,12
+0,DX,09,9269,,-183,-1,Immobilityconditions,12
+0,DX,09,927,,-183,-1,Immobilityconditions,12
+0,DX,09,9270,,-183,-1,Immobilityconditions,12
+0,DX,09,9271,,-183,-1,Immobilityconditions,12
+0,DX,09,9272,,-183,-1,Immobilityconditions,12
+0,DX,09,9273,,-183,-1,Immobilityconditions,12
+0,DX,09,9278,,-183,-1,Immobilityconditions,12
+0,DX,09,9279,,-183,-1,Immobilityconditions,12
+0,DX,09,928,,-183,-1,Immobilityconditions,12
+0,DX,09,9280,,-183,-1,Immobilityconditions,12
+0,DX,09,9281,,-183,-1,Immobilityconditions,12
+0,DX,09,9282,,-183,-1,Immobilityconditions,12
+0,DX,09,9283,,-183,-1,Immobilityconditions,12
+0,DX,09,9288,,-183,-1,Immobilityconditions,12
+0,DX,09,9289,,-183,-1,Immobilityconditions,12
+0,DX,09,929,,-183,-1,Immobilityconditions,12
+0,DX,09,9290,,-183,-1,Immobilityconditions,12
+0,DX,09,9299,,-183,-1,Immobilityconditions,12
+0,DX,09,9481,,-183,-1,Immobilityconditions,12
+0,DX,09,9482,,-183,-1,Immobilityconditions,12
+0,DX,09,9483,,-183,-1,Immobilityconditions,12
+0,DX,09,9484,,-183,-1,Immobilityconditions,12
+0,DX,09,9485,,-183,-1,Immobilityconditions,12
+0,DX,09,9486,,-183,-1,Immobilityconditions,12
+0,DX,09,9487,,-183,-1,Immobilityconditions,12
+0,DX,09,9488,,-183,-1,Immobilityconditions,12
+0,DX,09,9489,,-183,-1,Immobilityconditions,12
+0,DX,09,952,,-183,-1,Immobilityconditions,12
+0,DX,09,9520,,-183,-1,Immobilityconditions,12
+0,DX,09,9521,,-183,-1,Immobilityconditions,12
+0,DX,09,9522,,-183,-1,Immobilityconditions,12
+0,DX,09,9523,,-183,-1,Immobilityconditions,12
+0,DX,09,9524,,-183,-1,Immobilityconditions,12
+0,DX,09,9528,,-183,-1,Immobilityconditions,12
+0,DX,09,9529,,-183,-1,Immobilityconditions,12
+0,DX,09,V5413,,-183,-1,Immobilityconditions,12
+0,DX,09,V5414,,-183,-1,Immobilityconditions,12
+0,DX,09,V5415,,-183,-1,Immobilityconditions,12
+0,DX,09,V5416,,-183,-1,Immobilityconditions,12
+0,DX,09,V5417,,-183,-1,Immobilityconditions,12
+0,DX,09,V5423,,-183,-1,Immobilityconditions,12
+0,DX,09,V5424,,-183,-1,Immobilityconditions,12
+0,DX,09,V5425,,-183,-1,Immobilityconditions,12
+0,DX,09,V5426,,-183,-1,Immobilityconditions,12
+0,DX,09,V5427,,-183,-1,Immobilityconditions,12
+0,DX,09,0031,,-183,-1,Infectiondiseases,11
+0,DX,09,00324,,-183,-1,Infectiondiseases,11
+0,DX,09,0202,,-183,-1,Infectiondiseases,11
+0,DX,09,0223,,-183,-1,Infectiondiseases,11
+0,DX,09,0362,,-183,-1,Infectiondiseases,11
+0,DX,09,038,,-183,-1,Infectiondiseases,11
+0,DX,09,0380,,-183,-1,Infectiondiseases,11
+0,DX,09,0381,,-183,-1,Infectiondiseases,11
+0,DX,09,0382,,-183,-1,Infectiondiseases,11
+0,DX,09,0383,,-183,-1,Infectiondiseases,11
+0,DX,09,0384,,-183,-1,Infectiondiseases,11
+0,DX,09,0388,,-183,-1,Infectiondiseases,11
+0,DX,09,0389,,-183,-1,Infectiondiseases,11
+0,DX,09,0545,,-183,-1,Infectiondiseases,11
+0,DX,09,449,,-183,-1,Infectiondiseases,11
+0,DX,09,7300,,-183,-1,Infectiondiseases,11
+0,DX,09,73000,,-183,-1,Infectiondiseases,11
+0,DX,09,73001,,-183,-1,Infectiondiseases,11
+0,DX,09,73002,,-183,-1,Infectiondiseases,11
+0,DX,09,73003,,-183,-1,Infectiondiseases,11
+0,DX,09,73004,,-183,-1,Infectiondiseases,11
+0,DX,09,73005,,-183,-1,Infectiondiseases,11
+0,DX,09,73006,,-183,-1,Infectiondiseases,11
+0,DX,09,73007,,-183,-1,Infectiondiseases,11
+0,DX,09,73008,,-183,-1,Infectiondiseases,11
+0,DX,09,73009,,-183,-1,Infectiondiseases,11
+0,DX,09,7301,,-183,-1,Infectiondiseases,11
+0,DX,09,73010,,-183,-1,Infectiondiseases,11
+0,DX,09,73011,,-183,-1,Infectiondiseases,11
+0,DX,09,73012,,-183,-1,Infectiondiseases,11
+0,DX,09,73013,,-183,-1,Infectiondiseases,11
+0,DX,09,73014,,-183,-1,Infectiondiseases,11
+0,DX,09,73015,,-183,-1,Infectiondiseases,11
+0,DX,09,73016,,-183,-1,Infectiondiseases,11
+0,DX,09,73017,,-183,-1,Infectiondiseases,11
+0,DX,09,73018,,-183,-1,Infectiondiseases,11
+0,DX,09,73019,,-183,-1,Infectiondiseases,11
+0,DX,09,7302,,-183,-1,Infectiondiseases,11
+0,DX,09,73020,,-183,-1,Infectiondiseases,11
+0,DX,09,73021,,-183,-1,Infectiondiseases,11
+0,DX,09,73022,,-183,-1,Infectiondiseases,11
+0,DX,09,73023,,-183,-1,Infectiondiseases,11
+0,DX,09,73024,,-183,-1,Infectiondiseases,11
+0,DX,09,73025,,-183,-1,Infectiondiseases,11
+0,DX,09,73026,,-183,-1,Infectiondiseases,11
+0,DX,09,73027,,-183,-1,Infectiondiseases,11
+0,DX,09,73028,,-183,-1,Infectiondiseases,11
+0,DX,09,73029,,-183,-1,Infectiondiseases,11
+0,DX,09,78552,,-183,-1,Infectiondiseases,11
+0,DX,09,99591,,-183,-1,Infectiondiseases,11
+0,DX,09,99592,,-183,-1,Infectiondiseases,11
+0,PX,C2,0540F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,3455F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,3470F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,3471F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,3472F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,3475F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,3476F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,4187F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,4192F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,4193F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,4194F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,4195F,,-183,-1,Inflammatoryconditions,10
+0,PX,C2,4196F,,-183,-1,Inflammatoryconditions,10
+0,DX,09,555,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5550,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5551,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5552,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5559,,-183,-1,Inflammatoryconditions,10
+0,DX,09,556,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5560,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5561,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5562,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5563,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5564,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5565,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5566,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5568,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5569,,-183,-1,Inflammatoryconditions,10
+0,DX,09,5641,,-183,-1,Inflammatoryconditions,10
+0,DX,09,6954,,-183,-1,Inflammatoryconditions,10
+0,DX,09,696,,-183,-1,Inflammatoryconditions,10
+0,DX,09,6961,,-183,-1,Inflammatoryconditions,10
+0,DX,09,6962,,-183,-1,Inflammatoryconditions,10
+0,DX,09,6968,,-183,-1,Inflammatoryconditions,10
+0,DX,09,714,,-183,-1,Inflammatoryconditions,10
+0,DX,09,7140,,-183,-1,Inflammatoryconditions,10
+0,DX,09,7141,,-183,-1,Inflammatoryconditions,10
+0,DX,09,7142,,-183,-1,Inflammatoryconditions,10
+0,DX,09,7143,,-183,-1,Inflammatoryconditions,10
+0,DX,09,7144,,-183,-1,Inflammatoryconditions,10
+0,DX,09,7148,,-183,-1,Inflammatoryconditions,10
+0,DX,09,7149,,-183,-1,Inflammatoryconditions,10
+0,DX,09,27800,,-183,-1,Obesityandoverweight,7
+0,DX,09,27801,,-183,-1,Obesityandoverweight,7
+0,DX,09,27802,,-183,-1,Obesityandoverweight,7
+0,DX,09,27803,,-183,-1,Obesityandoverweight,7
+0,DX,09,V853,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8530,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8531,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8532,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8533,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8534,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8535,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8536,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8537,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8538,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8539,,-183,-1,Obesityandoverweight,7
+0,DX,09,V854,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8541,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8542,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8543,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8544,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8545,,-183,-1,Obesityandoverweight,7
+0,DX,09,V8554,,-183,-1,Obesityandoverweight,7
+0,PX,C4,36145,,-183,-1,Renalconditions ,8
+0,PX,C4,36800,,-183,-1,Renalconditions ,8
+0,PX,C4,36810,,-183,-1,Renalconditions ,8
+0,PX,C4,36815,,-183,-1,Renalconditions ,8
+0,PX,C4,36825,,-183,-1,Renalconditions ,8
+0,PX,C4,36830,,-183,-1,Renalconditions ,8
+0,PX,C4,36831,,-183,-1,Renalconditions ,8
+0,PX,C4,36832,,-183,-1,Renalconditions ,8
+0,PX,C4,36833,,-183,-1,Renalconditions ,8
+0,PX,09,3895,,-183,-1,Renalconditions ,8
+0,PX,09,3927,,-183,-1,Renalconditions ,8
+0,PX,09,3942,,-183,-1,Renalconditions ,8
+0,PX,09,3943,,-183,-1,Renalconditions ,8
+0,PX,09,3953,,-183,-1,Renalconditions ,8
+0,PX,09,3993,,-183,-1,Renalconditions ,8
+0,PX,09,3994,,-183,-1,Renalconditions ,8
+0,PX,09,3995,,-183,-1,Renalconditions ,8
+0,DX,09,45821,,-183,-1,Renalconditions ,8
+0,PX,C4,50323,,-183,-1,Renalconditions ,8
+0,PX,C4,50325,,-183,-1,Renalconditions ,8
+0,PX,C4,50327,,-183,-1,Renalconditions ,8
+0,PX,C4,50328,,-183,-1,Renalconditions ,8
+0,PX,C4,50329,,-183,-1,Renalconditions ,8
+0,PX,C4,50340,,-183,-1,Renalconditions ,8
+0,PX,C4,50341,,-183,-1,Renalconditions ,8
+0,PX,C4,50360,,-183,-1,Renalconditions ,8
+0,PX,C4,50365,,-183,-1,Renalconditions ,8
+0,PX,C4,50366,,-183,-1,Renalconditions ,8
+0,PX,09,5498,,-183,-1,Renalconditions ,8
+0,DX,09,581,,-183,-1,Renalconditions ,8
+0,DX,09,5810,,-183,-1,Renalconditions ,8
+0,DX,09,5811,,-183,-1,Renalconditions ,8
+0,DX,09,5812,,-183,-1,Renalconditions ,8
+0,DX,09,5813,,-183,-1,Renalconditions ,8
+0,DX,09,5818,,-183,-1,Renalconditions ,8
+0,DX,09,5819,,-183,-1,Renalconditions ,8
+0,DX,09,5820,,-183,-1,Renalconditions ,8
+0,DX,09,5821,,-183,-1,Renalconditions ,8
+0,DX,09,5822,,-183,-1,Renalconditions ,8
+0,DX,09,5824,,-183,-1,Renalconditions ,8
+0,DX,09,5828,,-183,-1,Renalconditions ,8
+0,DX,09,5829,,-183,-1,Renalconditions ,8
+0,DX,09,5830,,-183,-1,Renalconditions ,8
+0,DX,09,5831,,-183,-1,Renalconditions ,8
+0,DX,09,5832,,-183,-1,Renalconditions ,8
+0,DX,09,5834,,-183,-1,Renalconditions ,8
+0,DX,09,5836,,-183,-1,Renalconditions ,8
+0,DX,09,5837,,-183,-1,Renalconditions ,8
+0,DX,09,5838,,-183,-1,Renalconditions ,8
+0,DX,09,5839,,-183,-1,Renalconditions ,8
+0,DX,09,585,,-183,-1,Renalconditions ,8
+0,DX,09,5851,,-183,-1,Renalconditions ,8
+0,DX,09,5852,,-183,-1,Renalconditions ,8
+0,DX,09,5853,,-183,-1,Renalconditions ,8
+0,DX,09,5854,,-183,-1,Renalconditions ,8
+0,DX,09,5855,,-183,-1,Renalconditions ,8
+0,DX,09,58881,,-183,-1,Renalconditions ,8
+0,DX,09,58889,,-183,-1,Renalconditions ,8
+0,PX,C4,90918,,-183,-1,Renalconditions ,8
+0,PX,C4,90919,,-183,-1,Renalconditions ,8
+0,PX,C4,90920,,-183,-1,Renalconditions ,8
+0,PX,C4,90921,,-183,-1,Renalconditions ,8
+0,PX,C4,90922,,-183,-1,Renalconditions ,8
+0,PX,C4,90923,,-183,-1,Renalconditions ,8
+0,PX,C4,90924,,-183,-1,Renalconditions ,8
+0,PX,C4,90925,,-183,-1,Renalconditions ,8
+0,PX,C4,90935,,-183,-1,Renalconditions ,8
+0,PX,C4,90937,,-183,-1,Renalconditions ,8
+0,PX,C4,90939,,-183,-1,Renalconditions ,8
+0,PX,C4,90940,,-183,-1,Renalconditions ,8
+0,PX,C4,90941,,-183,-1,Renalconditions ,8
+0,PX,C4,90942,,-183,-1,Renalconditions ,8
+0,PX,C4,90943,,-183,-1,Renalconditions ,8
+0,PX,C4,90944,,-183,-1,Renalconditions ,8
+0,PX,C4,90945,,-183,-1,Renalconditions ,8
+0,PX,C4,90947,,-183,-1,Renalconditions ,8
+0,PX,C4,90951,,-183,-1,Renalconditions ,8
+0,PX,C4,90952,,-183,-1,Renalconditions ,8
+0,PX,C4,90953,,-183,-1,Renalconditions ,8
+0,PX,C4,90954,,-183,-1,Renalconditions ,8
+0,PX,C4,90955,,-183,-1,Renalconditions ,8
+0,PX,C4,90956,,-183,-1,Renalconditions ,8
+0,PX,C4,90957,,-183,-1,Renalconditions ,8
+0,PX,C4,90958,,-183,-1,Renalconditions ,8
+0,PX,C4,90959,,-183,-1,Renalconditions ,8
+0,PX,C4,90960,,-183,-1,Renalconditions ,8
+0,PX,C4,90961,,-183,-1,Renalconditions ,8
+0,PX,C4,90962,,-183,-1,Renalconditions ,8
+0,PX,C4,90963,,-183,-1,Renalconditions ,8
+0,PX,C4,90964,,-183,-1,Renalconditions ,8
+0,PX,C4,90965,,-183,-1,Renalconditions ,8
+0,PX,C4,90966,,-183,-1,Renalconditions ,8
+0,PX,C4,90967,,-183,-1,Renalconditions ,8
+0,PX,C4,90968,,-183,-1,Renalconditions ,8
+0,PX,C4,90969,,-183,-1,Renalconditions ,8
+0,PX,C4,90970,,-183,-1,Renalconditions ,8
+0,PX,C4,90976,,-183,-1,Renalconditions ,8
+0,PX,C4,90977,,-183,-1,Renalconditions ,8
+0,PX,C4,90978,,-183,-1,Renalconditions ,8
+0,PX,C4,90979,,-183,-1,Renalconditions ,8
+0,PX,C4,90982,,-183,-1,Renalconditions ,8
+0,PX,C4,90983,,-183,-1,Renalconditions ,8
+0,PX,C4,90984,,-183,-1,Renalconditions ,8
+0,PX,C4,90985,,-183,-1,Renalconditions ,8
+0,PX,C4,90989,,-183,-1,Renalconditions ,8
+0,PX,C4,90993,,-183,-1,Renalconditions ,8
+0,PX,C4,90995,,-183,-1,Renalconditions ,8
+0,PX,C4,90996,,-183,-1,Renalconditions ,8
+0,PX,C4,90997,,-183,-1,Renalconditions ,8
+0,PX,C4,90998,,-183,-1,Renalconditions ,8
+0,PX,C4,90999,,-183,-1,Renalconditions ,8
+0,PX,C4,93990,,-183,-1,Renalconditions ,8
+0,PX,C4,99512,,-183,-1,Renalconditions ,8
+0,DX,09,99656,,-183,-1,Renalconditions ,8
+0,DX,09,99668,,-183,-1,Renalconditions ,8
+0,DX,09,99673,,-183,-1,Renalconditions ,8
+0,PX,HC,A4653,,-183,-1,Renalconditions ,8
+0,PX,HC,A4656,,-183,-1,Renalconditions ,8
+0,PX,HC,A4657,,-183,-1,Renalconditions ,8
+0,PX,HC,A4670,,-183,-1,Renalconditions ,8
+0,PX,HC,A4671,,-183,-1,Renalconditions ,8
+0,PX,HC,A4672,,-183,-1,Renalconditions ,8
+0,PX,HC,A4673,,-183,-1,Renalconditions ,8
+0,PX,HC,A4674,,-183,-1,Renalconditions ,8
+0,PX,HC,A4680,,-183,-1,Renalconditions ,8
+0,PX,HC,A4706,,-183,-1,Renalconditions ,8
+0,PX,HC,A4707,,-183,-1,Renalconditions ,8
+0,PX,HC,A4708,,-183,-1,Renalconditions ,8
+0,PX,HC,A4709,,-183,-1,Renalconditions ,8
+0,PX,HC,A4712,,-183,-1,Renalconditions ,8
+0,PX,HC,A4714,,-183,-1,Renalconditions ,8
+0,PX,HC,A4719,,-183,-1,Renalconditions ,8
+0,PX,HC,A4720,,-183,-1,Renalconditions ,8
+0,PX,HC,A4721,,-183,-1,Renalconditions ,8
+0,PX,HC,A4722,,-183,-1,Renalconditions ,8
+0,PX,HC,A4723,,-183,-1,Renalconditions ,8
+0,PX,HC,A4724,,-183,-1,Renalconditions ,8
+0,PX,HC,A4725,,-183,-1,Renalconditions ,8
+0,PX,HC,A4726,,-183,-1,Renalconditions ,8
+0,PX,HC,A4728,,-183,-1,Renalconditions ,8
+0,PX,HC,A4730,,-183,-1,Renalconditions ,8
+0,PX,HC,A4736,,-183,-1,Renalconditions ,8
+0,PX,HC,A4737,,-183,-1,Renalconditions ,8
+0,PX,HC,A4740,,-183,-1,Renalconditions ,8
+0,PX,HC,A4750,,-183,-1,Renalconditions ,8
+0,PX,HC,A4755,,-183,-1,Renalconditions ,8
+0,PX,HC,A4760,,-183,-1,Renalconditions ,8
+0,PX,HC,A4765,,-183,-1,Renalconditions ,8
+0,PX,HC,A4766,,-183,-1,Renalconditions ,8
+0,PX,HC,A4770,,-183,-1,Renalconditions ,8
+0,PX,HC,A4771,,-183,-1,Renalconditions ,8
+0,PX,HC,A4773,,-183,-1,Renalconditions ,8
+0,PX,HC,A4774,,-183,-1,Renalconditions ,8
+0,PX,HC,A4802,,-183,-1,Renalconditions ,8
+0,PX,HC,A4860,,-183,-1,Renalconditions ,8
+0,PX,HC,A4870,,-183,-1,Renalconditions ,8
+0,PX,HC,A4890,,-183,-1,Renalconditions ,8
+0,PX,HC,A4911,,-183,-1,Renalconditions ,8
+0,PX,HC,A4913,,-183,-1,Renalconditions ,8
+0,PX,HC,A4918,,-183,-1,Renalconditions ,8
+0,PX,HC,A4928,,-183,-1,Renalconditions ,8
+0,PX,HC,A4929,,-183,-1,Renalconditions ,8
+0,PX,HC,C1881,,-183,-1,Renalconditions ,8
+0,PX,HC,E1500,,-183,-1,Renalconditions ,8
+0,PX,HC,E1520,,-183,-1,Renalconditions ,8
+0,PX,HC,E1530,,-183,-1,Renalconditions ,8
+0,PX,HC,E1540,,-183,-1,Renalconditions ,8
+0,PX,HC,E1550,,-183,-1,Renalconditions ,8
+0,PX,HC,E1560,,-183,-1,Renalconditions ,8
+0,PX,HC,E1570,,-183,-1,Renalconditions ,8
+0,PX,HC,E1575,,-183,-1,Renalconditions ,8
+0,PX,HC,E1580,,-183,-1,Renalconditions ,8
+0,PX,HC,E1600,,-183,-1,Renalconditions ,8
+0,PX,HC,E1610,,-183,-1,Renalconditions ,8
+0,PX,HC,E1615,,-183,-1,Renalconditions ,8
+0,PX,HC,E1620,,-183,-1,Renalconditions ,8
+0,PX,HC,E1625,,-183,-1,Renalconditions ,8
+0,PX,HC,E1634,,-183,-1,Renalconditions ,8
+0,PX,HC,E1635,,-183,-1,Renalconditions ,8
+0,PX,HC,E1636,,-183,-1,Renalconditions ,8
+0,PX,HC,E1637,,-183,-1,Renalconditions ,8
+0,PX,HC,E1638,,-183,-1,Renalconditions ,8
+0,PX,HC,E1639,,-183,-1,Renalconditions ,8
+0,PX,HC,E1699,,-183,-1,Renalconditions ,8
+0,PX,HC,G0257,,-183,-1,Renalconditions ,8
+0,PX,HC,G0308,,-183,-1,Renalconditions ,8
+0,PX,HC,G0309,,-183,-1,Renalconditions ,8
+0,PX,HC,G0310,,-183,-1,Renalconditions ,8
+0,PX,HC,G0311,,-183,-1,Renalconditions ,8
+0,PX,HC,G0312,,-183,-1,Renalconditions ,8
+0,PX,HC,G0313,,-183,-1,Renalconditions ,8
+0,PX,HC,G0314,,-183,-1,Renalconditions ,8
+0,PX,HC,G0315,,-183,-1,Renalconditions ,8
+0,PX,HC,G0316,,-183,-1,Renalconditions ,8
+0,PX,HC,G0317,,-183,-1,Renalconditions ,8
+0,PX,HC,G0318,,-183,-1,Renalconditions ,8
+0,PX,HC,G0319,,-183,-1,Renalconditions ,8
+0,PX,HC,G0320,,-183,-1,Renalconditions ,8
+0,PX,HC,G0321,,-183,-1,Renalconditions ,8
+0,PX,HC,G0322,,-183,-1,Renalconditions ,8
+0,PX,HC,G0323,,-183,-1,Renalconditions ,8
+0,PX,HC,G0324,,-183,-1,Renalconditions ,8
+0,PX,HC,G0325,,-183,-1,Renalconditions ,8
+0,PX,HC,G0326,,-183,-1,Renalconditions ,8
+0,PX,HC,G0327,,-183,-1,Renalconditions ,8
+0,PX,HC,G0420,,-183,-1,Renalconditions ,8
+0,PX,HC,G0421,,-183,-1,Renalconditions ,8
+0,PX,HC,G8487,,-183,-1,Renalconditions ,8
+0,PX,HC,G8727,,-183,-1,Renalconditions ,8
+0,PX,HC,G8771,,-183,-1,Renalconditions ,8
+0,PX,HC,G9013,,-183,-1,Renalconditions ,8
+0,PX,HC,G9014,,-183,-1,Renalconditions ,8
+0,PX,HC,J0635,,-183,-1,Renalconditions ,8
+0,PX,HC,J0636,,-183,-1,Renalconditions ,8
+0,PX,HC,S2065,,-183,-1,Renalconditions ,8
+0,PX,HC,S9335,,-183,-1,Renalconditions ,8
+0,PX,HC,S9339,,-183,-1,Renalconditions ,8
+0,DX,09,V451,,-183,-1,Renalconditions ,8
+0,DX,09,V56,,-183,-1,Renalconditions ,8
+0,DX,09,28241,,-183,-1,Sicklecellanemia,6
+0,DX,09,28242,,-183,-1,Sicklecellanemia,6
+0,DX,09,2826,,-183,-1,Sicklecellanemia,6
+0,DX,09,28260,,-183,-1,Sicklecellanemia,6
+0,DX,09,28263,,-183,-1,Sicklecellanemia,6
+0,DX,09,28264,,-183,-1,Sicklecellanemia,6
+0,DX,09,28268,,-183,-1,Sicklecellanemia,6
+0,DX,09,28269,,-183,-1,Sicklecellanemia,6
+0,PX,09,007,,-183,-1,Surgery,5
+0,PX,09,0071,,-183,-1,Surgery,5
+0,PX,09,0072,,-183,-1,Surgery,5
+0,PX,09,0073,,-183,-1,Surgery,5
+0,PX,09,0074,,-183,-1,Surgery,5
+0,PX,09,0075,,-183,-1,Surgery,5
+0,PX,09,0076,,-183,-1,Surgery,5
+0,PX,09,0077,,-183,-1,Surgery,5
+0,PX,09,0080,,-183,-1,Surgery,5
+0,PX,09,0081,,-183,-1,Surgery,5
+0,PX,09,0082,,-183,-1,Surgery,5
+0,PX,09,0083,,-183,-1,Surgery,5
+0,PX,09,0084,,-183,-1,Surgery,5
+0,PX,09,0085,,-183,-1,Surgery,5
+0,PX,09,0086,,-183,-1,Surgery,5
+0,PX,09,0087,,-183,-1,Surgery,5
+0,PX,C4,00797,,-183,-1,Surgery,5
+0,PX,09,012,,-183,-1,Surgery,5
+0,PX,09,0120,,-183,-1,Surgery,5
+0,PX,09,0121,,-183,-1,Surgery,5
+0,PX,09,0122,,-183,-1,Surgery,5
+0,PX,09,0123,,-183,-1,Surgery,5
+0,PX,09,0124,,-183,-1,Surgery,5
+0,PX,09,0125,,-183,-1,Surgery,5
+0,PX,09,0126,,-183,-1,Surgery,5
+0,PX,09,0127,,-183,-1,Surgery,5
+0,PX,09,0128,,-183,-1,Surgery,5
+0,PX,09,0129,,-183,-1,Surgery,5
+0,PX,C4,01214,,-183,-1,Surgery,5
+0,PX,C4,01215,,-183,-1,Surgery,5
+0,PX,C4,01402,,-183,-1,Surgery,5
+0,PX,09,030,,-183,-1,Surgery,5
+0,PX,09,0301,,-183,-1,Surgery,5
+0,PX,09,0302,,-183,-1,Surgery,5
+0,PX,09,0309,,-183,-1,Surgery,5
+0,PX,09,035,,-183,-1,Surgery,5
+0,PX,09,0351,,-183,-1,Surgery,5
+0,PX,09,0352,,-183,-1,Surgery,5
+0,PX,09,0353,,-183,-1,Surgery,5
+0,PX,09,0359,,-183,-1,Surgery,5
+0,PX,C4,22100,,-183,-1,Surgery,5
+0,PX,C4,22101,,-183,-1,Surgery,5
+0,PX,C4,22102,,-183,-1,Surgery,5
+0,PX,C4,22103,,-183,-1,Surgery,5
+0,PX,C4,22532,,-183,-1,Surgery,5
+0,PX,C4,22533,,-183,-1,Surgery,5
+0,PX,C4,22534,,-183,-1,Surgery,5
+0,PX,C4,22548,,-183,-1,Surgery,5
+0,PX,C4,22550,,-183,-1,Surgery,5
+0,PX,C4,22551,,-183,-1,Surgery,5
+0,PX,C4,22552,,-183,-1,Surgery,5
+0,PX,C4,22554,,-183,-1,Surgery,5
+0,PX,C4,22555,,-183,-1,Surgery,5
+0,PX,C4,22556,,-183,-1,Surgery,5
+0,PX,C4,22558,,-183,-1,Surgery,5
+0,PX,C4,22560,,-183,-1,Surgery,5
+0,PX,C4,22561,,-183,-1,Surgery,5
+0,PX,C4,22565,,-183,-1,Surgery,5
+0,PX,C4,22585,,-183,-1,Surgery,5
+0,PX,C4,22586,,-183,-1,Surgery,5
+0,PX,C4,22590,,-183,-1,Surgery,5
+0,PX,C4,22595,,-183,-1,Surgery,5
+0,PX,C4,22600,,-183,-1,Surgery,5
+0,PX,C4,22605,,-183,-1,Surgery,5
+0,PX,C4,22610,,-183,-1,Surgery,5
+0,PX,C4,22612,,-183,-1,Surgery,5
+0,PX,C4,22614,,-183,-1,Surgery,5
+0,PX,C4,22615,,-183,-1,Surgery,5
+0,PX,C4,22617,,-183,-1,Surgery,5
+0,PX,C4,22620,,-183,-1,Surgery,5
+0,PX,C4,22625,,-183,-1,Surgery,5
+0,PX,C4,22630,,-183,-1,Surgery,5
+0,PX,C4,22632,,-183,-1,Surgery,5
+0,PX,C4,22800,,-183,-1,Surgery,5
+0,PX,C4,22801,,-183,-1,Surgery,5
+0,PX,C4,22802,,-183,-1,Surgery,5
+0,PX,C4,22803,,-183,-1,Surgery,5
+0,PX,C4,22804,,-183,-1,Surgery,5
+0,PX,C4,22808,,-183,-1,Surgery,5
+0,PX,C4,22810,,-183,-1,Surgery,5
+0,PX,C4,22812,,-183,-1,Surgery,5
+0,PX,C4,22818,,-183,-1,Surgery,5
+0,PX,C4,22819,,-183,-1,Surgery,5
+0,PX,C4,22840,,-183,-1,Surgery,5
+0,PX,C4,22841,,-183,-1,Surgery,5
+0,PX,C4,22842,,-183,-1,Surgery,5
+0,PX,C4,22843,,-183,-1,Surgery,5
+0,PX,C4,22844,,-183,-1,Surgery,5
+0,PX,C4,22845,,-183,-1,Surgery,5
+0,PX,C4,22846,,-183,-1,Surgery,5
+0,PX,C4,22847,,-183,-1,Surgery,5
+0,PX,C4,22848,,-183,-1,Surgery,5
+0,PX,C4,22849,,-183,-1,Surgery,5
+0,PX,C4,22850,,-183,-1,Surgery,5
+0,PX,C4,22851,,-183,-1,Surgery,5
+0,PX,C4,22852,,-183,-1,Surgery,5
+0,PX,C4,22855,,-183,-1,Surgery,5
+0,PX,C4,26992,,-183,-1,Surgery,5
+0,PX,C4,27050,,-183,-1,Surgery,5
+0,PX,C4,27052,,-183,-1,Surgery,5
+0,PX,C4,27054,,-183,-1,Surgery,5
+0,PX,C4,27057,,-183,-1,Surgery,5
+0,PX,C4,27059,,-183,-1,Surgery,5
+0,PX,C4,27060,,-183,-1,Surgery,5
+0,PX,C4,27062,,-183,-1,Surgery,5
+0,PX,C4,27065,,-183,-1,Surgery,5
+0,PX,C4,27066,,-183,-1,Surgery,5
+0,PX,C4,27067,,-183,-1,Surgery,5
+0,PX,C4,27070,,-183,-1,Surgery,5
+0,PX,C4,27071,,-183,-1,Surgery,5
+0,PX,C4,27075,,-183,-1,Surgery,5
+0,PX,C4,27076,,-183,-1,Surgery,5
+0,PX,C4,27077,,-183,-1,Surgery,5
+0,PX,C4,27078,,-183,-1,Surgery,5
+0,PX,C4,27097,,-183,-1,Surgery,5
+0,PX,C4,27098,,-183,-1,Surgery,5
+0,PX,C4,27100,,-183,-1,Surgery,5
+0,PX,C4,27105,,-183,-1,Surgery,5
+0,PX,C4,27110,,-183,-1,Surgery,5
+0,PX,C4,27111,,-183,-1,Surgery,5
+0,PX,C4,27115,,-183,-1,Surgery,5
+0,PX,C4,27120,,-183,-1,Surgery,5
+0,PX,C4,27122,,-183,-1,Surgery,5
+0,PX,C4,27125,,-183,-1,Surgery,5
+0,PX,C4,27126,,-183,-1,Surgery,5
+0,PX,C4,27127,,-183,-1,Surgery,5
+0,PX,C4,27130,,-183,-1,Surgery,5
+0,PX,C4,27131,,-183,-1,Surgery,5
+0,PX,C4,27132,,-183,-1,Surgery,5
+0,PX,C4,27134,,-183,-1,Surgery,5
+0,PX,C4,27135,,-183,-1,Surgery,5
+0,PX,C4,27137,,-183,-1,Surgery,5
+0,PX,C4,27138,,-183,-1,Surgery,5
+0,PX,C4,27140,,-183,-1,Surgery,5
+0,PX,C4,27146,,-183,-1,Surgery,5
+0,PX,C4,27147,,-183,-1,Surgery,5
+0,PX,C4,27151,,-183,-1,Surgery,5
+0,PX,C4,27156,,-183,-1,Surgery,5
+0,PX,C4,27157,,-183,-1,Surgery,5
+0,PX,C4,27158,,-183,-1,Surgery,5
+0,PX,C4,27161,,-183,-1,Surgery,5
+0,PX,C4,27165,,-183,-1,Surgery,5
+0,PX,C4,27170,,-183,-1,Surgery,5
+0,PX,C4,27175,,-183,-1,Surgery,5
+0,PX,C4,27176,,-183,-1,Surgery,5
+0,PX,C4,27177,,-183,-1,Surgery,5
+0,PX,C4,27178,,-183,-1,Surgery,5
+0,PX,C4,27179,,-183,-1,Surgery,5
+0,PX,C4,27181,,-183,-1,Surgery,5
+0,PX,C4,27185,,-183,-1,Surgery,5
+0,PX,C4,27187,,-183,-1,Surgery,5
+0,PX,C4,27202,,-183,-1,Surgery,5
+0,PX,C4,27215,,-183,-1,Surgery,5
+0,PX,C4,27217,,-183,-1,Surgery,5
+0,PX,C4,27218,,-183,-1,Surgery,5
+0,PX,C4,27226,,-183,-1,Surgery,5
+0,PX,C4,27227,,-183,-1,Surgery,5
+0,PX,C4,27228,,-183,-1,Surgery,5
+0,PX,C4,27236,,-183,-1,Surgery,5
+0,PX,C4,27248,,-183,-1,Surgery,5
+0,PX,C4,27253,,-183,-1,Surgery,5
+0,PX,C4,27254,,-183,-1,Surgery,5
+0,PX,C4,27258,,-183,-1,Surgery,5
+0,PX,C4,27269,,-183,-1,Surgery,5
+0,PX,C4,27437,,-183,-1,Surgery,5
+0,PX,C4,27438,,-183,-1,Surgery,5
+0,PX,C4,27440,,-183,-1,Surgery,5
+0,PX,C4,27441,,-183,-1,Surgery,5
+0,PX,C4,27442,,-183,-1,Surgery,5
+0,PX,C4,27443,,-183,-1,Surgery,5
+0,PX,C4,27444,,-183,-1,Surgery,5
+0,PX,C4,27445,,-183,-1,Surgery,5
+0,PX,C4,27446,,-183,-1,Surgery,5
+0,PX,C4,27447,,-183,-1,Surgery,5
+0,PX,C4,27486,,-183,-1,Surgery,5
+0,PX,C4,27487,,-183,-1,Surgery,5
+0,PX,C4,27506,,-183,-1,Surgery,5
+0,PX,C4,27507,,-183,-1,Surgery,5
+0,PX,C4,27511,,-183,-1,Surgery,5
+0,PX,C4,27513,,-183,-1,Surgery,5
+0,PX,C4,27514,,-183,-1,Surgery,5
+0,PX,C4,27519,,-183,-1,Surgery,5
+0,PX,C4,27524,,-183,-1,Surgery,5
+0,PX,C4,27535,,-183,-1,Surgery,5
+0,PX,C4,27540,,-183,-1,Surgery,5
+0,PX,C4,27556,,-183,-1,Surgery,5
+0,PX,C4,27566,,-183,-1,Surgery,5
+0,PX,09,437,,-183,-1,Surgery,5
+0,PX,09,4382,,-183,-1,Surgery,5
+0,PX,09,4389,,-183,-1,Surgery,5
+0,PX,C4,43644,,-183,-1,Surgery,5
+0,PX,C4,43645,,-183,-1,Surgery,5
+0,PX,C4,43770,,-183,-1,Surgery,5
+0,PX,C4,43771,,-183,-1,Surgery,5
+0,PX,C4,43772,,-183,-1,Surgery,5
+0,PX,C4,43773,,-183,-1,Surgery,5
+0,PX,C4,43774,,-183,-1,Surgery,5
+0,PX,C4,43775,,-183,-1,Surgery,5
+0,PX,C4,43842,,-183,-1,Surgery,5
+0,PX,C4,43843,,-183,-1,Surgery,5
+0,PX,C4,43844,,-183,-1,Surgery,5
+0,PX,C4,43845,,-183,-1,Surgery,5
+0,PX,C4,43846,,-183,-1,Surgery,5
+0,PX,C4,43847,,-183,-1,Surgery,5
+0,PX,C4,43848,,-183,-1,Surgery,5
+0,PX,C4,43850,,-183,-1,Surgery,5
+0,PX,C4,43855,,-183,-1,Surgery,5
+0,PX,C4,43860,,-183,-1,Surgery,5
+0,PX,C4,43865,,-183,-1,Surgery,5
+0,PX,C4,43886,,-183,-1,Surgery,5
+0,PX,C4,43887,,-183,-1,Surgery,5
+0,PX,C4,43888,,-183,-1,Surgery,5
+0,PX,09,4431,,-183,-1,Surgery,5
+0,PX,09,4438,,-183,-1,Surgery,5
+0,PX,09,4439,,-183,-1,Surgery,5
+0,PX,09,445,,-183,-1,Surgery,5
+0,PX,09,4468,,-183,-1,Surgery,5
+0,PX,09,4469,,-183,-1,Surgery,5
+0,PX,09,4495,,-183,-1,Surgery,5
+0,PX,09,4496,,-183,-1,Surgery,5
+0,PX,09,4497,,-183,-1,Surgery,5
+0,PX,09,4498,,-183,-1,Surgery,5
+0,PX,09,4499,,-183,-1,Surgery,5
+0,PX,C4,44005,,-183,-1,Surgery,5
+0,PX,C4,44120,,-183,-1,Surgery,5
+0,PX,C4,44121,,-183,-1,Surgery,5
+0,PX,C4,44125,,-183,-1,Surgery,5
+0,PX,C4,44126,,-183,-1,Surgery,5
+0,PX,C4,44127,,-183,-1,Surgery,5
+0,PX,C4,44128,,-183,-1,Surgery,5
+0,PX,C4,44139,,-183,-1,Surgery,5
+0,PX,C4,44140,,-183,-1,Surgery,5
+0,PX,C4,44141,,-183,-1,Surgery,5
+0,PX,C4,44143,,-183,-1,Surgery,5
+0,PX,C4,44144,,-183,-1,Surgery,5
+0,PX,C4,44145,,-183,-1,Surgery,5
+0,PX,C4,44146,,-183,-1,Surgery,5
+0,PX,C4,44147,,-183,-1,Surgery,5
+0,PX,C4,44150,,-183,-1,Surgery,5
+0,PX,C4,44151,,-183,-1,Surgery,5
+0,PX,C4,44152,,-183,-1,Surgery,5
+0,PX,C4,44153,,-183,-1,Surgery,5
+0,PX,C4,44155,,-183,-1,Surgery,5
+0,PX,C4,44156,,-183,-1,Surgery,5
+0,PX,C4,44157,,-183,-1,Surgery,5
+0,PX,C4,44158,,-183,-1,Surgery,5
+0,PX,C4,44160,,-183,-1,Surgery,5
+0,PX,C4,44602,,-183,-1,Surgery,5
+0,PX,C4,44603,,-183,-1,Surgery,5
+0,PX,C4,44604,,-183,-1,Surgery,5
+0,PX,C4,44605,,-183,-1,Surgery,5
+0,PX,C4,44610,,-183,-1,Surgery,5
+0,PX,C4,44615,,-183,-1,Surgery,5
+0,PX,C4,44620,,-183,-1,Surgery,5
+0,PX,C4,44625,,-183,-1,Surgery,5
+0,PX,C4,44626,,-183,-1,Surgery,5
+0,PX,C4,44640,,-183,-1,Surgery,5
+0,PX,C4,44650,,-183,-1,Surgery,5
+0,PX,C4,44660,,-183,-1,Surgery,5
+0,PX,C4,44661,,-183,-1,Surgery,5
+0,PX,C4,44680,,-183,-1,Surgery,5
+0,PX,09,4551,,-183,-1,Surgery,5
+0,PX,09,456,,-183,-1,Surgery,5
+0,PX,09,457,,-183,-1,Surgery,5
+0,PX,09,458,,-183,-1,Surgery,5
+0,PX,09,459,,-183,-1,Surgery,5
+0,PX,09,4590,,-183,-1,Surgery,5
+0,PX,09,4591,,-183,-1,Surgery,5
+0,PX,09,4592,,-183,-1,Surgery,5
+0,PX,09,4593,,-183,-1,Surgery,5
+0,PX,09,4594,,-183,-1,Surgery,5
+0,PX,09,4595,,-183,-1,Surgery,5
+0,PX,C4,45000,,-183,-1,Surgery,5
+0,PX,C4,45005,,-183,-1,Surgery,5
+0,PX,C4,45020,,-183,-1,Surgery,5
+0,PX,C4,45100,,-183,-1,Surgery,5
+0,PX,C4,45105,,-183,-1,Surgery,5
+0,PX,C4,45108,,-183,-1,Surgery,5
+0,PX,C4,45110,,-183,-1,Surgery,5
+0,PX,C4,45111,,-183,-1,Surgery,5
+0,PX,C4,45112,,-183,-1,Surgery,5
+0,PX,C4,45113,,-183,-1,Surgery,5
+0,PX,C4,45114,,-183,-1,Surgery,5
+0,PX,C4,45116,,-183,-1,Surgery,5
+0,PX,C4,45119,,-183,-1,Surgery,5
+0,PX,C4,45120,,-183,-1,Surgery,5
+0,PX,C4,45121,,-183,-1,Surgery,5
+0,PX,C4,45123,,-183,-1,Surgery,5
+0,PX,C4,45126,,-183,-1,Surgery,5
+0,PX,C4,45130,,-183,-1,Surgery,5
+0,PX,C4,45135,,-183,-1,Surgery,5
+0,PX,C4,45136,,-183,-1,Surgery,5
+0,PX,C4,45150,,-183,-1,Surgery,5
+0,PX,C4,45160,,-183,-1,Surgery,5
+0,PX,C4,45170,,-183,-1,Surgery,5
+0,PX,C4,45171,,-183,-1,Surgery,5
+0,PX,C4,45172,,-183,-1,Surgery,5
+0,PX,C4,45180,,-183,-1,Surgery,5
+0,PX,C4,45181,,-183,-1,Surgery,5
+0,PX,C4,45190,,-183,-1,Surgery,5
+0,PX,09,467,,-183,-1,Surgery,5
+0,PX,09,4671,,-183,-1,Surgery,5
+0,PX,09,4672,,-183,-1,Surgery,5
+0,PX,09,4673,,-183,-1,Surgery,5
+0,PX,09,4674,,-183,-1,Surgery,5
+0,PX,09,4675,,-183,-1,Surgery,5
+0,PX,09,4676,,-183,-1,Surgery,5
+0,PX,09,4679,,-183,-1,Surgery,5
+0,PX,C4,46270,,-183,-1,Surgery,5
+0,PX,C4,46275,,-183,-1,Surgery,5
+0,PX,C4,46280,,-183,-1,Surgery,5
+0,PX,C4,46281,,-183,-1,Surgery,5
+0,PX,C4,46285,,-183,-1,Surgery,5
+0,PX,C4,46288,,-183,-1,Surgery,5
+0,PX,C4,46320,,-183,-1,Surgery,5
+0,PX,C4,46700,,-183,-1,Surgery,5
+0,PX,C4,46705,,-183,-1,Surgery,5
+0,PX,C4,46706,,-183,-1,Surgery,5
+0,PX,C4,46707,,-183,-1,Surgery,5
+0,PX,C4,46710,,-183,-1,Surgery,5
+0,PX,C4,46712,,-183,-1,Surgery,5
+0,PX,C4,46715,,-183,-1,Surgery,5
+0,PX,C4,46716,,-183,-1,Surgery,5
+0,PX,C4,46730,,-183,-1,Surgery,5
+0,PX,C4,46735,,-183,-1,Surgery,5
+0,PX,C4,46740,,-183,-1,Surgery,5
+0,PX,C4,46742,,-183,-1,Surgery,5
+0,PX,C4,46744,,-183,-1,Surgery,5
+0,PX,C4,46746,,-183,-1,Surgery,5
+0,PX,C4,46748,,-183,-1,Surgery,5
+0,PX,C4,46750,,-183,-1,Surgery,5
+0,PX,C4,46751,,-183,-1,Surgery,5
+0,PX,C4,46753,,-183,-1,Surgery,5
+0,PX,C4,46754,,-183,-1,Surgery,5
+0,PX,C4,46760,,-183,-1,Surgery,5
+0,PX,C4,46761,,-183,-1,Surgery,5
+0,PX,C4,46762,,-183,-1,Surgery,5
+0,PX,C4,46900,,-183,-1,Surgery,5
+0,PX,C4,46910,,-183,-1,Surgery,5
+0,PX,C4,46916,,-183,-1,Surgery,5
+0,PX,C4,46917,,-183,-1,Surgery,5
+0,PX,C4,46922,,-183,-1,Surgery,5
+0,PX,C4,46924,,-183,-1,Surgery,5
+0,PX,C4,46930,,-183,-1,Surgery,5
+0,PX,C4,46934,,-183,-1,Surgery,5
+0,PX,C4,46935,,-183,-1,Surgery,5
+0,PX,C4,46936,,-183,-1,Surgery,5
+0,PX,C4,46937,,-183,-1,Surgery,5
+0,PX,C4,46938,,-183,-1,Surgery,5
+0,PX,C4,46940,,-183,-1,Surgery,5
+0,PX,C4,46942,,-183,-1,Surgery,5
+0,PX,C4,46945,,-183,-1,Surgery,5
+0,PX,C4,46946,,-183,-1,Surgery,5
+0,PX,C4,46947,,-183,-1,Surgery,5
+0,PX,C4,47120,,-183,-1,Surgery,5
+0,PX,C4,47122,,-183,-1,Surgery,5
+0,PX,C4,47125,,-183,-1,Surgery,5
+0,PX,C4,47130,,-183,-1,Surgery,5
+0,PX,C4,47300,,-183,-1,Surgery,5
+0,PX,C4,47350,,-183,-1,Surgery,5
+0,PX,C4,47355,,-183,-1,Surgery,5
+0,PX,C4,47360,,-183,-1,Surgery,5
+0,PX,C4,47361,,-183,-1,Surgery,5
+0,PX,C4,47362,,-183,-1,Surgery,5
+0,PX,09,484,,-183,-1,Surgery,5
+0,PX,09,485,,-183,-1,Surgery,5
+0,PX,09,486,,-183,-1,Surgery,5
+0,PX,09,487,,-183,-1,Surgery,5
+0,PX,09,488,,-183,-1,Surgery,5
+0,PX,09,489,,-183,-1,Surgery,5
+0,PX,09,4891,,-183,-1,Surgery,5
+0,PX,09,4892,,-183,-1,Surgery,5
+0,PX,09,4893,,-183,-1,Surgery,5
+0,PX,09,4899,,-183,-1,Surgery,5
+0,PX,C4,48000,,-183,-1,Surgery,5
+0,PX,C4,48001,,-183,-1,Surgery,5
+0,PX,C4,48005,,-183,-1,Surgery,5
+0,PX,C4,48020,,-183,-1,Surgery,5
+0,PX,C4,48100,,-183,-1,Surgery,5
+0,PX,C4,48102,,-183,-1,Surgery,5
+0,PX,C4,48105,,-183,-1,Surgery,5
+0,PX,C4,48120,,-183,-1,Surgery,5
+0,PX,C4,48140,,-183,-1,Surgery,5
+0,PX,C4,48145,,-183,-1,Surgery,5
+0,PX,C4,48146,,-183,-1,Surgery,5
+0,PX,C4,48148,,-183,-1,Surgery,5
+0,PX,C4,48150,,-183,-1,Surgery,5
+0,PX,C4,48151,,-183,-1,Surgery,5
+0,PX,C4,48152,,-183,-1,Surgery,5
+0,PX,C4,48153,,-183,-1,Surgery,5
+0,PX,C4,48154,,-183,-1,Surgery,5
+0,PX,C4,48155,,-183,-1,Surgery,5
+0,PX,C4,48160,,-183,-1,Surgery,5
+0,PX,C4,48180,,-183,-1,Surgery,5
+0,PX,C4,48400,,-183,-1,Surgery,5
+0,PX,C4,48500,,-183,-1,Surgery,5
+0,PX,C4,48510,,-183,-1,Surgery,5
+0,PX,C4,48511,,-183,-1,Surgery,5
+0,PX,C4,48520,,-183,-1,Surgery,5
+0,PX,C4,48540,,-183,-1,Surgery,5
+0,PX,C4,48545,,-183,-1,Surgery,5
+0,PX,C4,48547,,-183,-1,Surgery,5
+0,PX,C4,48548,,-183,-1,Surgery,5
+0,PX,C4,49000,,-183,-1,Surgery,5
+0,PX,C4,49002,,-183,-1,Surgery,5
+0,PX,C4,49010,,-183,-1,Surgery,5
+0,PX,C4,49020,,-183,-1,Surgery,5
+0,PX,C4,49021,,-183,-1,Surgery,5
+0,PX,C4,49040,,-183,-1,Surgery,5
+0,PX,C4,49041,,-183,-1,Surgery,5
+0,PX,C4,49060,,-183,-1,Surgery,5
+0,PX,C4,49061,,-183,-1,Surgery,5
+0,PX,C4,49062,,-183,-1,Surgery,5
+0,PX,C4,49080,,-183,-1,Surgery,5
+0,PX,C4,49081,,-183,-1,Surgery,5
+0,PX,C4,49215,,-183,-1,Surgery,5
+0,PX,C4,49900,,-183,-1,Surgery,5
+0,PX,09,5022,,-183,-1,Surgery,5
+0,PX,09,503,,-183,-1,Surgery,5
+0,PX,09,504,,-183,-1,Surgery,5
+0,PX,09,506,,-183,-1,Surgery,5
+0,PX,09,5061,,-183,-1,Surgery,5
+0,PX,09,5069,,-183,-1,Surgery,5
+0,PX,C4,50010,,-183,-1,Surgery,5
+0,PX,C4,50020,,-183,-1,Surgery,5
+0,PX,C4,50021,,-183,-1,Surgery,5
+0,PX,C4,50040,,-183,-1,Surgery,5
+0,PX,C4,50045,,-183,-1,Surgery,5
+0,PX,C4,50100,,-183,-1,Surgery,5
+0,PX,C4,50120,,-183,-1,Surgery,5
+0,PX,C4,50125,,-183,-1,Surgery,5
+0,PX,C4,50130,,-183,-1,Surgery,5
+0,PX,C4,50135,,-183,-1,Surgery,5
+0,PX,C4,50220,,-183,-1,Surgery,5
+0,PX,C4,50225,,-183,-1,Surgery,5
+0,PX,C4,50230,,-183,-1,Surgery,5
+0,PX,C4,50234,,-183,-1,Surgery,5
+0,PX,C4,50236,,-183,-1,Surgery,5
+0,PX,C4,50240,,-183,-1,Surgery,5
+0,PX,C4,50400,,-183,-1,Surgery,5
+0,PX,C4,50405,,-183,-1,Surgery,5
+0,PX,C4,50430,,-183,-1,Surgery,5
+0,PX,C4,50431,,-183,-1,Surgery,5
+0,PX,C4,50432,,-183,-1,Surgery,5
+0,PX,C4,50433,,-183,-1,Surgery,5
+0,PX,C4,50434,,-183,-1,Surgery,5
+0,PX,C4,50435,,-183,-1,Surgery,5
+0,PX,C4,50500,,-183,-1,Surgery,5
+0,PX,C4,50520,,-183,-1,Surgery,5
+0,PX,C4,50525,,-183,-1,Surgery,5
+0,PX,C4,50526,,-183,-1,Surgery,5
+0,PX,C4,50540,,-183,-1,Surgery,5
+0,PX,C4,51800,,-183,-1,Surgery,5
+0,PX,C4,51820,,-183,-1,Surgery,5
+0,PX,C4,51840,,-183,-1,Surgery,5
+0,PX,C4,51841,,-183,-1,Surgery,5
+0,PX,C4,51845,,-183,-1,Surgery,5
+0,PX,C4,51860,,-183,-1,Surgery,5
+0,PX,C4,51865,,-183,-1,Surgery,5
+0,PX,C4,51880,,-183,-1,Surgery,5
+0,PX,C4,51900,,-183,-1,Surgery,5
+0,PX,C4,51920,,-183,-1,Surgery,5
+0,PX,C4,51925,,-183,-1,Surgery,5
+0,PX,C4,51940,,-183,-1,Surgery,5
+0,PX,C4,51960,,-183,-1,Surgery,5
+0,PX,C4,51980,,-183,-1,Surgery,5
+0,PX,09,5411,,-183,-1,Surgery,5
+0,PX,09,554,,-183,-1,Surgery,5
+0,PX,09,555,,-183,-1,Surgery,5
+0,PX,09,5551,,-183,-1,Surgery,5
+0,PX,09,5552,,-183,-1,Surgery,5
+0,PX,09,5553,,-183,-1,Surgery,5
+0,PX,09,5554,,-183,-1,Surgery,5
+0,PX,C4,58140,,-183,-1,Surgery,5
+0,PX,C4,58145,,-183,-1,Surgery,5
+0,PX,C4,58146,,-183,-1,Surgery,5
+0,PX,C4,58700,,-183,-1,Surgery,5
+0,PX,C4,58720,,-183,-1,Surgery,5
+0,PX,C4,58740,,-183,-1,Surgery,5
+0,PX,C4,58750,,-183,-1,Surgery,5
+0,PX,C4,58752,,-183,-1,Surgery,5
+0,PX,C4,58760,,-183,-1,Surgery,5
+0,PX,C4,58770,,-183,-1,Surgery,5
+0,PX,C4,58800,,-183,-1,Surgery,5
+0,PX,C4,58805,,-183,-1,Surgery,5
+0,PX,C4,58820,,-183,-1,Surgery,5
+0,PX,C4,58822,,-183,-1,Surgery,5
+0,PX,C4,58823,,-183,-1,Surgery,5
+0,PX,C4,58825,,-183,-1,Surgery,5
+0,PX,C4,58900,,-183,-1,Surgery,5
+0,PX,C4,58920,,-183,-1,Surgery,5
+0,PX,C4,58925,,-183,-1,Surgery,5
+0,PX,C4,58940,,-183,-1,Surgery,5
+0,PX,C4,58942,,-183,-1,Surgery,5
+0,PX,C4,58943,,-183,-1,Surgery,5
+0,PX,C4,58945,,-183,-1,Surgery,5
+0,PX,C4,58950,,-183,-1,Surgery,5
+0,PX,C4,58951,,-183,-1,Surgery,5
+0,PX,C4,58952,,-183,-1,Surgery,5
+0,PX,C4,58953,,-183,-1,Surgery,5
+0,PX,C4,58954,,-183,-1,Surgery,5
+0,PX,C4,58956,,-183,-1,Surgery,5
+0,PX,C4,58957,,-183,-1,Surgery,5
+0,PX,C4,58958,,-183,-1,Surgery,5
+0,PX,C4,58960,,-183,-1,Surgery,5
+0,PX,C4,59100,,-183,-1,Surgery,5
+0,PX,C4,59101,,-183,-1,Surgery,5
+0,PX,C4,59105,,-183,-1,Surgery,5
+0,PX,C4,59106,,-183,-1,Surgery,5
+0,PX,C4,59120,,-183,-1,Surgery,5
+0,PX,C4,59121,,-183,-1,Surgery,5
+0,PX,C4,59125,,-183,-1,Surgery,5
+0,PX,C4,59126,,-183,-1,Surgery,5
+0,PX,C4,59130,,-183,-1,Surgery,5
+0,PX,C4,59135,,-183,-1,Surgery,5
+0,PX,C4,59136,,-183,-1,Surgery,5
+0,PX,C4,59140,,-183,-1,Surgery,5
+0,PX,C4,61304,,-183,-1,Surgery,5
+0,PX,C4,61305,,-183,-1,Surgery,5
+0,PX,C4,61310,,-183,-1,Surgery,5
+0,PX,C4,61311,,-183,-1,Surgery,5
+0,PX,C4,61312,,-183,-1,Surgery,5
+0,PX,C4,61313,,-183,-1,Surgery,5
+0,PX,C4,61314,,-183,-1,Surgery,5
+0,PX,C4,61315,,-183,-1,Surgery,5
+0,PX,C4,61316,,-183,-1,Surgery,5
+0,PX,C4,61320,,-183,-1,Surgery,5
+0,PX,C4,61321,,-183,-1,Surgery,5
+0,PX,C4,61322,,-183,-1,Surgery,5
+0,PX,C4,61323,,-183,-1,Surgery,5
+0,PX,C4,61340,,-183,-1,Surgery,5
+0,PX,C4,61341,,-183,-1,Surgery,5
+0,PX,C4,61343,,-183,-1,Surgery,5
+0,PX,C4,61345,,-183,-1,Surgery,5
+0,PX,C4,61440,,-183,-1,Surgery,5
+0,PX,C4,61450,,-183,-1,Surgery,5
+0,PX,C4,61458,,-183,-1,Surgery,5
+0,PX,C4,61460,,-183,-1,Surgery,5
+0,PX,C4,61470,,-183,-1,Surgery,5
+0,PX,C4,61480,,-183,-1,Surgery,5
+0,PX,C4,61490,,-183,-1,Surgery,5
+0,PX,C4,61491,,-183,-1,Surgery,5
+0,PX,C4,61500,,-183,-1,Surgery,5
+0,PX,C4,61501,,-183,-1,Surgery,5
+0,PX,C4,61510,,-183,-1,Surgery,5
+0,PX,C4,61512,,-183,-1,Surgery,5
+0,PX,C4,61514,,-183,-1,Surgery,5
+0,PX,C4,61516,,-183,-1,Surgery,5
+0,PX,C4,61517,,-183,-1,Surgery,5
+0,PX,C4,61518,,-183,-1,Surgery,5
+0,PX,C4,61519,,-183,-1,Surgery,5
+0,PX,C4,61520,,-183,-1,Surgery,5
+0,PX,C4,61521,,-183,-1,Surgery,5
+0,PX,C4,61522,,-183,-1,Surgery,5
+0,PX,C4,61524,,-183,-1,Surgery,5
+0,PX,C4,61526,,-183,-1,Surgery,5
+0,PX,C4,61530,,-183,-1,Surgery,5
+0,PX,C4,61537,,-183,-1,Surgery,5
+0,PX,C4,61538,,-183,-1,Surgery,5
+0,PX,C4,61539,,-183,-1,Surgery,5
+0,PX,C4,61540,,-183,-1,Surgery,5
+0,PX,C4,61541,,-183,-1,Surgery,5
+0,PX,C4,61542,,-183,-1,Surgery,5
+0,PX,C4,61543,,-183,-1,Surgery,5
+0,PX,C4,61546,,-183,-1,Surgery,5
+0,PX,C4,61566,,-183,-1,Surgery,5
+0,PX,C4,61567,,-183,-1,Surgery,5
+0,PX,C4,61570,,-183,-1,Surgery,5
+0,PX,C4,61571,,-183,-1,Surgery,5
+0,PX,C4,61680,,-183,-1,Surgery,5
+0,PX,C4,61682,,-183,-1,Surgery,5
+0,PX,C4,61684,,-183,-1,Surgery,5
+0,PX,C4,61686,,-183,-1,Surgery,5
+0,PX,C4,61690,,-183,-1,Surgery,5
+0,PX,C4,61692,,-183,-1,Surgery,5
+0,PX,C4,61697,,-183,-1,Surgery,5
+0,PX,C4,61700,,-183,-1,Surgery,5
+0,PX,C4,61705,,-183,-1,Surgery,5
+0,PX,C4,63081,,-183,-1,Surgery,5
+0,PX,C4,63082,,-183,-1,Surgery,5
+0,PX,C4,63085,,-183,-1,Surgery,5
+0,PX,C4,63086,,-183,-1,Surgery,5
+0,PX,C4,63087,,-183,-1,Surgery,5
+0,PX,C4,63088,,-183,-1,Surgery,5
+0,PX,C4,63090,,-183,-1,Surgery,5
+0,PX,C4,63091,,-183,-1,Surgery,5
+0,PX,C4,63101,,-183,-1,Surgery,5
+0,PX,C4,63102,,-183,-1,Surgery,5
+0,PX,C4,63103,,-183,-1,Surgery,5
+0,PX,C4,63300,,-183,-1,Surgery,5
+0,PX,C4,63301,,-183,-1,Surgery,5
+0,PX,C4,63302,,-183,-1,Surgery,5
+0,PX,C4,63303,,-183,-1,Surgery,5
+0,PX,C4,63304,,-183,-1,Surgery,5
+0,PX,C4,63305,,-183,-1,Surgery,5
+0,PX,C4,63306,,-183,-1,Surgery,5
+0,PX,C4,63307,,-183,-1,Surgery,5
+0,PX,C4,63308,,-183,-1,Surgery,5
+0,PX,09,7815,,-183,-1,Surgery,5
+0,PX,09,7817,,-183,-1,Surgery,5
+0,PX,09,7855,,-183,-1,Surgery,5
+0,PX,09,7857,,-183,-1,Surgery,5
+0,PX,09,7915,,-183,-1,Surgery,5
+0,PX,09,7916,,-183,-1,Surgery,5
+0,PX,09,7926,,-183,-1,Surgery,5
+0,PX,09,7935,,-183,-1,Surgery,5
+0,PX,09,7936,,-183,-1,Surgery,5
+0,PX,09,795,,-183,-1,Surgery,5
+0,PX,09,7985,,-183,-1,Surgery,5
+0,PX,09,7986,,-183,-1,Surgery,5
+0,PX,09,810,,-183,-1,Surgery,5
+0,PX,09,8100,,-183,-1,Surgery,5
+0,PX,09,8101,,-183,-1,Surgery,5
+0,PX,09,8102,,-183,-1,Surgery,5
+0,PX,09,8103,,-183,-1,Surgery,5
+0,PX,09,8104,,-183,-1,Surgery,5
+0,PX,09,8105,,-183,-1,Surgery,5
+0,PX,09,8106,,-183,-1,Surgery,5
+0,PX,09,8107,,-183,-1,Surgery,5
+0,PX,09,8108,,-183,-1,Surgery,5
+0,PX,09,8109,,-183,-1,Surgery,5
+0,PX,09,815,,-183,-1,Surgery,5
+0,PX,09,8151,,-183,-1,Surgery,5
+0,PX,09,8152,,-183,-1,Surgery,5
+0,PX,09,8153,,-183,-1,Surgery,5
+0,PX,09,8154,,-183,-1,Surgery,5
+0,PX,09,8155,,-183,-1,Surgery,5
+0,PX,09,8156,,-183,-1,Surgery,5
+0,PX,09,8157,,-183,-1,Surgery,5
+0,PX,09,8159,,-183,-1,Surgery,5
+0,PX,09,816,,-183,-1,Surgery,5
+0,PX,09,8161,,-183,-1,Surgery,5
+0,PX,09,8162,,-183,-1,Surgery,5
+0,PX,09,8163,,-183,-1,Surgery,5
+0,PX,09,8164,,-183,-1,Surgery,5
+0,PX,09,847,,-183,-1,Surgery,5
+0,PX,09,8471,,-183,-1,Surgery,5
+0,PX,09,8472,,-183,-1,Surgery,5
+0,PX,09,8473,,-183,-1,Surgery,5
+0,DX,09,3530,,-183,-1,Thoracicoutletsyndrome,13
+0,DX,09,3533,,-183,-1,Thoracicoutletsyndrome,13
+0,PX,C2,1032F,,-183,-1,Tobaccouse,9
+0,PX,C2,1034F,,-183,-1,Tobaccouse,9
+0,PX,C2,1035F,,-183,-1,Tobaccouse,9
+0,DX,09,3051,,-183,-1,Tobaccouse,9
+0,PX,C2,4000F,,-183,-1,Tobaccouse,9
+0,PX,C2,4001F,,-183,-1,Tobaccouse,9
+0,PX,C2,4004F,,-183,-1,Tobaccouse,9
+0,DX,09,6490,,-183,-1,Tobaccouse,9
+0,DX,09,64900,,-183,-1,Tobaccouse,9
+0,DX,09,64901,,-183,-1,Tobaccouse,9
+0,DX,09,64902,,-183,-1,Tobaccouse,9
+0,DX,09,64903,,-183,-1,Tobaccouse,9
+0,DX,09,64904,,-183,-1,Tobaccouse,9
+0,DX,09,98984,,-183,-1,Tobaccouse,9
+0,PX,C4,99406,,-183,-1,Tobaccouse,9
+0,PX,C4,99407,,-183,-1,Tobaccouse,9
+0,PX,HC,D1320,,-183,-1,Tobaccouse,9
+0,PX,HC,G0436,,-183,-1,Tobaccouse,9
+0,PX,HC,G0437,,-183,-1,Tobaccouse,9
+0,PX,HC,G8688,,-183,-1,Tobaccouse,9
+0,PX,HC,G8692,,-183,-1,Tobaccouse,9
+0,PX,HC,G9016,,-183,-1,Tobaccouse,9
+0,PX,HC,S4995,,-183,-1,Tobaccouse,9
+0,PX,HC,S9075,,-183,-1,Tobaccouse,9
+0,PX,HC,S9453,,-183,-1,Tobaccouse,9
+0,DX,09,V1582,,-183,-1,Tobaccouse,9
+0,PX,C4,36481,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36500,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36556,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36558,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36561,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36563,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36565,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36566,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36569,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36571,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36575,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36576,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36578,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36580,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36581,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36582,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36583,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36584,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36585,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36589,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36590,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36591,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36592,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36593,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36595,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36596,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36597,,-183,-1,Venouscatheterization ,4
+0,PX,C4,36598,,-183,-1,Venouscatheterization ,4
+0,PX,09,3893,,-183,-1,Venouscatheterization ,4
+0,PX,09,3897,,-183,-1,Venouscatheterization ,4
+0,RX,09,000081117,,-183,-1,AllStudyDrugs,17
+0,RX,09,000082536,,-183,-1,AllStudyDrugs,17
+0,RX,09,000082576,,-183,-1,AllStudyDrugs,17
+0,RX,09,000933134,,-183,-1,AllStudyDrugs,17
+0,RX,09,000936148,,-183,-1,AllStudyDrugs,17
+0,RX,09,003786550,,-183,-1,AllStudyDrugs,17
+0,RX,09,003787281,,-183,-1,AllStudyDrugs,17
+0,RX,09,003787285,,-183,-1,AllStudyDrugs,17
+0,RX,09,003787287,,-183,-1,AllStudyDrugs,17
+0,RX,09,003787298,,-183,-1,AllStudyDrugs,17
+0,RX,09,005559014,,-183,-1,AllStudyDrugs,17
+0,RX,09,005559020,,-183,-1,AllStudyDrugs,17
+0,RX,09,005559045,,-183,-1,AllStudyDrugs,17
+0,RX,09,005559047,,-183,-1,AllStudyDrugs,17
+0,RX,09,005559123,,-183,-1,AllStudyDrugs,17
+0,RX,09,006037625,,-183,-1,AllStudyDrugs,17
+0,RX,09,006037634,,-183,-1,AllStudyDrugs,17
+0,RX,09,007815575,,-183,-1,AllStudyDrugs,17
+0,RX,09,007815583,,-183,-1,AllStudyDrugs,17
+0,RX,09,007815584,,-183,-1,AllStudyDrugs,17
+0,RX,09,167140340,,-183,-1,AllStudyDrugs,17
+0,RX,09,167140359,,-183,-1,AllStudyDrugs,17
+0,RX,09,167140366,,-183,-1,AllStudyDrugs,17
+0,RX,09,216950281,,-183,-1,AllStudyDrugs,17
+0,RX,09,216950514,,-183,-1,AllStudyDrugs,17
+0,RX,09,216950855,,-183,-1,AllStudyDrugs,17
+0,RX,09,216950995,,-183,-1,AllStudyDrugs,17
+0,RX,09,422540260,,-183,-1,AllStudyDrugs,17
+0,RX,09,501020120,,-183,-1,AllStudyDrugs,17
+0,RX,09,501020130,,-183,-1,AllStudyDrugs,17
+0,RX,09,504190408,,-183,-1,AllStudyDrugs,17
+0,RX,09,504190411,,-183,-1,AllStudyDrugs,17
+0,RX,09,504190433,,-183,-1,AllStudyDrugs,17
+0,RX,09,512850058,,-183,-1,AllStudyDrugs,17
+0,RX,09,512850087,,-183,-1,AllStudyDrugs,17
+0,RX,09,512850091,,-183,-1,AllStudyDrugs,17
+0,RX,09,512850092,,-183,-1,AllStudyDrugs,17
+0,RX,09,512850431,,-183,-1,AllStudyDrugs,17
+0,RX,09,516600572,,-183,-1,AllStudyDrugs,17
+0,RX,09,518620510,,-183,-1,AllStudyDrugs,17
+0,RX,09,518620545,,-183,-1,AllStudyDrugs,17
+0,RX,09,525440228,,-183,-1,AllStudyDrugs,17
+0,RX,09,525440268,,-183,-1,AllStudyDrugs,17
+0,RX,09,525440279,,-183,-1,AllStudyDrugs,17
+0,RX,09,525440291,,-183,-1,AllStudyDrugs,17
+0,RX,09,525440295,,-183,-1,AllStudyDrugs,17
+0,RX,09,525440949,,-183,-1,AllStudyDrugs,17
+0,RX,09,525440966,,-183,-1,AllStudyDrugs,17
+0,RX,09,525440967,,-183,-1,AllStudyDrugs,17
+0,RX,09,545694997,,-183,-1,AllStudyDrugs,17
+0,RX,09,545695115,,-183,-1,AllStudyDrugs,17
+0,RX,09,545695798,,-183,-1,AllStudyDrugs,17
+0,RX,09,545696455,,-183,-1,AllStudyDrugs,17
+0,RX,09,545696620,,-183,-1,AllStudyDrugs,17
+0,RX,09,548680507,,-183,-1,AllStudyDrugs,17
+0,RX,09,548680518,,-183,-1,AllStudyDrugs,17
+0,RX,09,548681564,,-183,-1,AllStudyDrugs,17
+0,RX,09,548682316,,-183,-1,AllStudyDrugs,17
+0,RX,09,548683328,,-183,-1,AllStudyDrugs,17
+0,RX,09,548683951,,-183,-1,AllStudyDrugs,17
+0,RX,09,548684239,,-183,-1,AllStudyDrugs,17
+0,RX,09,548684368,,-183,-1,AllStudyDrugs,17
+0,RX,09,548684607,,-183,-1,AllStudyDrugs,17
+0,RX,09,548684860,,-183,-1,AllStudyDrugs,17
+0,RX,09,548685356,,-183,-1,AllStudyDrugs,17
+0,RX,09,548686044,,-183,-1,AllStudyDrugs,17
+0,RX,09,548686210,,-183,-1,AllStudyDrugs,17
+0,RX,09,548686275,,-183,-1,AllStudyDrugs,17
+0,RX,09,548686276,,-183,-1,AllStudyDrugs,17
+0,RX,09,550453782,,-183,-1,AllStudyDrugs,17
+0,RX,09,552890247,,-183,-1,AllStudyDrugs,17
+0,RX,09,681800843,,-183,-1,AllStudyDrugs,17
+0,RX,09,681800844,,-183,-1,AllStudyDrugs,17
+0,RX,09,681800846,,-183,-1,AllStudyDrugs,17
+0,RX,09,681800848,,-183,-1,AllStudyDrugs,17
+0,RX,09,681800854,,-183,-1,AllStudyDrugs,17
+0,RX,09,681800857,,-183,-1,AllStudyDrugs,17
+0,RX,09,684620388,,-183,-1,AllStudyDrugs,17
+0,RX,09,684620637,,-183,-1,AllStudyDrugs,17
+0,RX,09,684620646,,-183,-1,AllStudyDrugs,17
+0,RX,09,684620672,,-183,-1,AllStudyDrugs,17
+0,RX,09,692381531,,-183,-1,AllStudyDrugs,17
+1,RX,09,000081117,,0,0,AllStudyDrugsEE20,18
+1,RX,09,000082576,,0,0,AllStudyDrugsEE20,18
+1,RX,09,000936148,,0,0,AllStudyDrugsEE20,18
+1,RX,09,003787287,,0,0,AllStudyDrugsEE20,18
+1,RX,09,003787298,,0,0,AllStudyDrugsEE20,18
+1,RX,09,005559014,,0,0,AllStudyDrugsEE20,18
+1,RX,09,005559045,,0,0,AllStudyDrugsEE20,18
+1,RX,09,006037634,,0,0,AllStudyDrugsEE20,18
+1,RX,09,007815575,,0,0,AllStudyDrugsEE20,18
+1,RX,09,167140359,,0,0,AllStudyDrugsEE20,18
+1,RX,09,216950281,,0,0,AllStudyDrugsEE20,18
+1,RX,09,216950995,,0,0,AllStudyDrugsEE20,18
+1,RX,09,501020120,,0,0,AllStudyDrugsEE20,18
+1,RX,09,504190408,,0,0,AllStudyDrugsEE20,18
+1,RX,09,512850092,,0,0,AllStudyDrugsEE20,18
+1,RX,09,512850431,,0,0,AllStudyDrugsEE20,18
+1,RX,09,516600572,,0,0,AllStudyDrugsEE20,18
+1,RX,09,518620545,,0,0,AllStudyDrugsEE20,18
+1,RX,09,525440228,,0,0,AllStudyDrugsEE20,18
+1,RX,09,525440295,,0,0,AllStudyDrugsEE20,18
+1,RX,09,525440949,,0,0,AllStudyDrugsEE20,18
+1,RX,09,525440967,,0,0,AllStudyDrugsEE20,18
+1,RX,09,545695798,,0,0,AllStudyDrugsEE20,18
+1,RX,09,548683951,,0,0,AllStudyDrugsEE20,18
+1,RX,09,548684368,,0,0,AllStudyDrugsEE20,18
+1,RX,09,548685356,,0,0,AllStudyDrugsEE20,18
+1,RX,09,548686210,,0,0,AllStudyDrugsEE20,18
+1,RX,09,548686275,,0,0,AllStudyDrugsEE20,18
+1,RX,09,681800848,,0,0,AllStudyDrugsEE20,18
+1,RX,09,681800854,,0,0,AllStudyDrugsEE20,18
+1,RX,09,684620637,,0,0,AllStudyDrugsEE20,18
+1,RX,09,692381531,,0,0,AllStudyDrugsEE20,18
+0,RX,09,000082514,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000250081,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000250161,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000520261,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000520273,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000520283,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621251,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621332,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621714,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621761,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621771,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621781,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621796,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621901,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621903,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621907,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621910,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000621920,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000932090,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000932140,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000935315,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000935316,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000935328,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000935423,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,000935661,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,002471003,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,002471004,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,003783340,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,003787277,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,003787280,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,003787283,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,003787296,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,003787300,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,003787301,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,003787308,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300005,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300010,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300420,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300482,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300530,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300535,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300537,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300540,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300570,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300580,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300581,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300583,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,004300585,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559008,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559009,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559010,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559012,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559016,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559018,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559025,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559026,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559027,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559028,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559032,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559034,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559043,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559049,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559050,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559051,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559064,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559065,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559066,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,005559131,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006033590,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037512,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037521,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037525,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037540,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037606,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037607,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037608,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037609,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037610,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037640,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037642,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037663,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,006037665,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,007814058,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,007814060,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,007814062,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,007815656,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,007815658,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140346,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140347,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140348,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140360,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140363,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140365,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140367,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140370,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140404,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140405,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140406,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140407,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140408,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140416,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,167140464,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,216950407,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,216950685,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,216950769,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,216950770,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,216950856,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,216950857,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,240900801,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,240900961,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560014,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560015,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560021,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560255,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560361,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560363,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560365,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560368,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560370,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560410,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560411,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,353560476,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,422540242,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,422540270,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,422540287,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,501020128,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,501020154,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504190402,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504190403,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504190405,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504190407,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504190409,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504580171,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504580176,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504580178,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504580191,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504580192,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504580196,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504580197,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,504580251,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850079,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850080,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850081,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850082,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850083,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850084,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850114,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850120,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850125,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850126,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850127,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850128,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850129,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,512850131,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620238,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620260,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620279,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620284,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620292,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620318,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620470,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620471,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,518620564,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440054,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440064,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440087,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440143,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440165,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440167,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440175,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440204,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440210,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440219,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440233,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440245,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440247,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440248,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440249,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440254,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440259,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440265,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440274,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440276,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440290,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440292,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440383,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440384,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440526,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440550,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440552,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440554,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440556,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440630,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440631,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440847,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440848,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440935,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440936,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440940,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440950,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440951,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440953,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440954,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440959,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440981,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,525440982,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,529590460,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,530021490,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,530021491,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,530021577,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545690679,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545690689,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545694269,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545694273,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545694817,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545694890,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545694998,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545694999,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695349,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695358,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695413,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695493,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695551,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695796,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695797,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695816,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545695865,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696032,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696144,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696280,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696281,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696448,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696456,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696457,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696458,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696459,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696622,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696623,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,545696624,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548680428,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548680442,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548680443,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548680502,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548680508,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548680509,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548680516,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548680525,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548681276,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548681512,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548682606,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548682701,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548683772,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548683790,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548683863,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548683948,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684045,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684093,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684240,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684538,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684590,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684670,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684730,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684731,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684742,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684744,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684745,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684754,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684776,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684778,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684828,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684832,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684850,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684851,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548684911,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685028,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685031,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685286,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685326,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685826,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685828,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685922,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685935,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548685942,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548686100,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548686161,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548686162,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548686183,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548686213,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548686272,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548686273,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,548686274,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,550453497,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,550453781,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,552890245,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,552890246,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,552890887,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,580164747,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,636292666,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,651620316,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,651620347,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,669930611,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,669930615,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800837,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800838,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800875,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800880,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800882,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800886,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800892,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800893,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800897,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800898,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800899,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,681800902,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,684620309,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,684620316,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,684620318,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,684620394,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,684620556,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,684620565,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,684620720,,-183,-1,Nonstudycontraceptives,19
+0,RX,09,763880283,,-183,-1,Nonstudycontraceptives,19
