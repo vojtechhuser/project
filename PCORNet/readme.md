@@ -33,11 +33,10 @@ select top @itemlimit item_type, item, pt_cnt from
 
 ```SQL
 --this first simple wrapper query is needed for SQLRender to correctly translate the top X feature
-select * from (SELECT  item_type, item, pt_cnt FROM (SELECT item_type, item, count(*) as pt_cnt FROM (SELECT patid, dx_type as item_type, dx as item, count(*) as item_cnt FROM .diagnosis 
+select * from (SELECT  item_type, item, pt_cnt FROM (SELECT item_type, item, count(*) as pt_cnt FROM (SELECT patid, dx_type as item_type, dx as item, count(*) as item_cnt FROM pcornet_cdm_r2.diagnosis 
 		  WHERE dx in ('420') --HIV codes (or other diagnostic codes for your cohort
 		 ) a
     order by pt_cnt
 	 ) b
   WHERE ROWNUM <= 5) c
-
 ```
