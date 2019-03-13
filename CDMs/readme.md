@@ -3,8 +3,6 @@
 References:
 
 
-References
-
 1.	FDA. Framework for FDA RWE program. Available at: https://www.fda.gov/downloads/ScienceResearch/SpecialTopics/RealWorldEvidence/UCM627769.pdf. 
 2.	Eworuke, E., Welch, E. C., Tobenkin, A. & Maro, J. C. Use of FDA’s Sentinel System to Quantify Seizure Risk Immediately Following New Ranolazine Exposure. Drug Saf. (2019). doi:10.1007/s40264-019-00798-2
 3.	Li, J. et al. Association of Risk for Venous Thromboembolism With Use of Low-Dose Extended- and Continuous-Cycle Combined Oral Contraceptives: A Safety Study Using the Sentinel Distributed Database. JAMA Intern. Med. 178, 1482–1488 (2018).
@@ -18,13 +16,20 @@ References
 11.	Califf, R. M. The Patient-Centered Outcomes Research Network: a national infrastructure for comparative effectiveness research. N. C. Med. J. 75, 204–210 (2014).
 12.	Collins, F. S., Hudson, K. L., Briggs, J. P. & Lauer, M. S. PCORnet: turning a dream into reality. J. Am. Med. Inform. Assoc. JAMIA 21, 576–577 (2014).
 13.	Fleurence, R. L. et al. Launching PCORnet, a national patient-centered clinical research network. J. Am. Med. Inform. Assoc. JAMIA 21, 578–582 (2014).
-14.	Qualls, L. G. et al. Evaluating Foundational Data Quality in the National Patient-Centered Clinical Research Network (PCORnet®). EGEMS Wash. DC 6, 3 (2018).
-15.	Toh, S. et al. The National Patient-Centered Clinical Research Network (PCORnet) Bariatric Study Cohort: Rationale, Methods, and Baseline Characteristics. JMIR Res. Protoc. 6, e222 (2017).
-16.	Heerman, W. J. et al. Maternal antibiotic use during pregnancy and childhood obesity at age 5 years. Int. J. Obes. 2005 (2019). doi:10.1038/s41366-018-0316-6
-17.	Block, J. P. et al. Early Antibiotic Exposure and Weight Outcomes in Young Children. Pediatrics 142, (2018).
-18.	Block, J. P. et al. PCORnet Antibiotics and Childhood Growth Study: Process for Cohort Creation and Cohort Description. Acad. Pediatr. 18, 569–576 (2018).
-19.	Fishman, E. et al. Validation of a claims-based algorithm identifying eligible study subjects in the ADAPTABLE pragmatic clinical trial. Contemp. Clin. Trials Commun. 12, 154–160 (2018).
-20.	Johnston, A., Jones, W. S. & Hernandez, A. F. The ADAPTABLE Trial and Aspirin Dosing in Secondary Prevention for Patients with Coronary Artery Disease. Curr. Cardiol. Rep. 18, 81 (2016).
-21.	Pletcher, M. J., Forrest, C. B. & Carton, T. W. PCORnet’s Collaborative Research Groups. Patient Relat. Outcome Meas. 9, 91–95 (2018).
-22.	Waitzfelder, B. et al. Treatment Initiation for New Episodes of Depression in Primary Care Settings. J. Gen. Intern. Med. 33, 1283–1291 (2018).
+14.	Kaushal, R. et al. Changing the research landscape: the New York City Clinical Data Research Network. J. Am. Med. Inform. Assoc. JAMIA 21, 587–590 (2014).
+15.	Ohno-Machado, L. et al. pSCANNER: patient-centered Scalable National Network for Effectiveness Research. J. Am. Med. Inform. Assoc. JAMIA 21, 621–626 (2014).
+16.	Qualls, L. G. et al. Evaluating Foundational Data Quality in the National Patient-Centered Clinical Research Network (PCORnet®). EGEMS Wash. DC 6, 3 (2018).
+17.	Toh, S. et al. The National Patient-Centered Clinical Research Network (PCORnet) Bariatric Study Cohort: Rationale, Methods, and Baseline Characteristics. JMIR Res. Protoc. 6, e222 (2017).
+18.	Heerman, W. J. et al. Maternal antibiotic use during pregnancy and childhood obesity at age 5 years. Int. J. Obes. 2005 (2019). doi:10.1038/s41366-018-0316-6
+19.	Block, J. P. et al. Early Antibiotic Exposure and Weight Outcomes in Young Children. Pediatrics 142, (2018).
+20.	Block, J. P. et al. PCORnet Antibiotics and Childhood Growth Study: Process for Cohort Creation and Cohort Description. Acad. Pediatr. 18, 569–576 (2018).
+21.	Fishman, E. et al. Validation of a claims-based algorithm identifying eligible study subjects in the ADAPTABLE pragmatic clinical trial. Contemp. Clin. Trials Commun. 12, 154–160 (2018).
+22.	Johnston, A., Jones, W. S. & Hernandez, A. F. The ADAPTABLE Trial and Aspirin Dosing in Secondary Prevention for Patients with Coronary Artery Disease. Curr. Cardiol. Rep. 18, 81 (2016).
+23.	Pletcher, M. J., Forrest, C. B. & Carton, T. W. PCORnet’s Collaborative Research Groups. Patient Relat. Outcome Meas. 9, 91–95 (2018).
+24.	Khare, R. et al. A longitudinal analysis of data quality in a large pediatric data research network. J. Am. Med. Inform. Assoc. JAMIA 24, 1072–1079 (2017).
+25.	Lang, J. E. et al. Being Overweight or Obese and the Development of Asthma. Pediatrics 142, (2018).
+26.	Jean, J. et al. Retrospective Analysis of Candida-related Conditions in Infancy and Early Childhood Caries. Pediatr. Dent. 40, 131–135 (2018).
+27.	Hubbard, R. A. et al. A Bayesian latent class approach for EHR-based phenotyping. Stat. Med. 38, 74–87 (2019).
+28.	Waitzfelder, B. et al. Treatment Initiation for New Episodes of Depression in Primary Care Settings. J. Gen. Intern. Med. 33, 1283–1291 (2018).
+
 
