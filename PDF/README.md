@@ -33,3 +33,11 @@ Scientific journal articles provide an example of complex text. PubMed Central (
 Example EPUB https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4832051/epub/
 (same article as PDF https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4832051/pdf/kwv254.pdf )
 
+
+# Modern examples 
+
+This section shows examples where information is shared in a non-PDF format.
+
+## Notice of Proposed Rulemaking to Improve the Interoperability of Health Information
+
+Users can download a .docx version. See overal page here https://www.healthit.gov/topic/laws-regulation-and-policy/notice-proposed-rulemaking-improve-interoperability-health and actual nonPDF document here https://www.healthit.gov/sites/default/files/page/2019-03/ONCCuresActProposedRule.docx
