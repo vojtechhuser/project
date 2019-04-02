@@ -41,3 +41,9 @@ This section shows examples where information is shared in a non-PDF format.
 ## Notice of Proposed Rulemaking to Improve the Interoperability of Health Information
 
 Users can download a .docx version. See overal page here https://www.healthit.gov/topic/laws-regulation-and-policy/notice-proposed-rulemaking-improve-interoperability-health and actual nonPDF document here https://www.healthit.gov/sites/default/files/page/2019-03/ONCCuresActProposedRule.docx
+
+## Executive oder of US President
+
+per link here https://www.whitehouse.gov/presidential-actions/executive-order-maintaining-american-leadership-artificial-intelligence/
+section 
+(b)  the term “open data” shall, in accordance with OMB Circular A-130 and memorandum M-13-13, mean “publicly available data structured in a way that enables the data to be fully discoverable and usable by end users.”
