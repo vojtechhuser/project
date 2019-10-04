@@ -1,0 +1,534 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Enriched Linkages between LOINC terms and LOINC Parts</title>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato|Source+Code+Pro&display=swap" rel="stylesheet"><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+    --bg-color:  #fff;
+    --monospace: "Source Code Pro"; /*monospace font for codes, fences*/
+}
+
+/* Not supported...need to find a host with woff files
+@include-when-export url(https://fonts.loli.net/css?family=Lato:400italic,700italic,700,400&subset=latin,latin-ext);
+*/
+/* lato-300 - latin */
+/* lato-regular - latin */
+/* lato-300italic - latin */
+/* lato-italic - latin */
+/* lato-700 - latin */
+/* lato-700italic - latin */
+/* source-code-pro-300 - latin */
+/* source-code-pro-regular - latin */
+/* crimson-text-regular - latin */
+/* crimson-text-italic - latin */
+/* crimson-text-600 - latin */
+/* crimson-text-600italic - latin */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Crimson Text",serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+#write {
+    max-width: 1200px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #e06328;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+    font-family: "Lato","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    /*background: url("file:///Users/dvreeman/Library/Application%20Support/images/modules/styleguide/para.png") no-repeat 10px center;*/
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.8em;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.7em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 4px 2px 4px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0.2em 1em;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: 2px;
+    margin-right: 2px;  
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.8em;
+    padding: 0;
+    padding: 2px 4px 2px 4px;
+}
+
+/** Hide H1 from TOC for page titles **/
+.md-toc-h1 {
+  display: none;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><div style="background-color: #29a9e1;">&nbsp;</div><h1><a name='header-n1072' class='md-header-anchor '></a>Enriched Linkages between LOINC terms and LOINC Parts</h1><p><code>Version 1.0 | Released with LOINC 2.66</code></p><p>&nbsp;</p><p><img src='https://loinc.org/wp-content/uploads/2016/07/loinc-logo-tmp.png' alt='LOINC Logo' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>&nbsp;</p><div style="page-break-after: always;"></div><h1><a name='header-n12' class='md-header-anchor '></a>Overview</h1><p>Historically, the published connections between LOINC terms and LOINC Parts have been incomplete and imprecise. We have undertaken a major overhaul to refine and enrich our <code>LoincPartLink.csv</code> file. </p><p>We have enhanced our model of how LOINC terms relate to LOINC Parts, recognizing the need for overlapping linkages for different purposes. The first key aspect of this effort is clearly labeling the specialized aspects of our names into defined relationships. The second key aspect is labeling pieces of the LOINC term name (especially <em>Components</em>) in such a way to makes linkages to other extant terminologies more straightforward.</p><p>We have previously used <code>PartTypeName</code> and  <code>LinkTypeName</code> to identify different kinds of parts and relationships. The new approach extends this model further and organizes certain kinds of Part Types into groups that would be identified as a specific <code>LinkType</code>. We have now defined 7 groups of <code>LinkTypes</code>:</p><ol start='' ><li>Primary</li><li>DetailedModel</li><li>SyntaxEnhancement</li><li>SemanticEnhancement</li><li>Metadata</li><li>Radiology</li><li>DocumentOntology</li><li>Search</li></ol><p>In addition, rather than exploding into a gazillion <code>PartTypeNames</code> (and having too many duplicate Part concepts across various types) to handle the more complex set of attributes we want to represent, we have added a new attribute to the  <code>LoincPartLink.csv</code> file that describes the specific attribute (or &quot;property&quot; as FHIR calls them). Here, we will follow the pattern already established, of using URI&#39;s to identify the property. We reuse the URI&#39;s we&#39;ve already defined, and create new ones in the common FHIR style that uses dashes to separate words (e.g. <a href='http://loinc.org/property/rad-modality-subtype' target='_blank' class='url'>http://loinc.org/property/rad-modality-subtype</a>).</p><p>The last major enhancement we have enabled borrows from the open ontology style with a model that allows the direct reference to other external vocabularies where they represent the definitive or authoritative source for concepts in a particular domain. This may not ever obviate the need for LOINC Parts, but we can start laying a path that makes it easier to connect LOINC to these other sources. To do this we will add a new attribute to the  <code>LoincPartLink.csv</code> file to describe the <code>CodeSystem</code> for the &quot;Part&quot;. Most will be from LOINC to begin with, but we&#39;ll pilot referencing some external codes in our <code>LinkType</code> of <strong>SemanticEnhancement</strong>.</p><p>Looking ahead, we can imagine a scenario where for some domains (e.g. chemicals, bacteria, anatomy, etc) we explicitly draw from another reference terminology (e.g. CHEBI, UBERON, etc) as the basis for creating some of our Parts.</p><p>&nbsp;</p><h1><a name='header-n37' class='md-header-anchor '></a>A comprehensive model for linking LOINC Parts to LOINC Terms</h1><div class='md-toc' mdtype='toc'><p class="md-toc-content"><span class="md-toc-item md-toc-h1" data-ref="n1072"><a class="md-toc-inner" href="#header-n1072">Enriched Linkages between LOINC terms and LOINC Parts</a></span><span class="md-toc-item md-toc-h1" data-ref="n12"><a class="md-toc-inner" href="#header-n12">Overview</a></span><span class="md-toc-item md-toc-h1" data-ref="n37"><a class="md-toc-inner" href="#header-n37">A comprehensive model for linking LOINC Parts to LOINC Terms</a></span><span class="md-toc-item md-toc-h2" data-ref="n40"><a class="md-toc-inner" href="#header-n40">Primary</a></span><span class="md-toc-item md-toc-h3" data-ref="n65"><a class="md-toc-inner" href="#header-n65">Examples</a></span><span class="md-toc-item md-toc-h3" data-ref="n261"><a class="md-toc-inner" href="#header-n261">Special Notes</a></span><span class="md-toc-item md-toc-h2" data-ref="n271"><a class="md-toc-inner" href="#header-n271">DetailedModel</a></span><span class="md-toc-item md-toc-h3" data-ref="n338"><a class="md-toc-inner" href="#header-n338">Special Notes</a></span><span class="md-toc-item md-toc-h3" data-ref="n346"><a class="md-toc-inner" href="#header-n346">Examples</a></span><span class="md-toc-item md-toc-h2" data-ref="n479"><a class="md-toc-inner" href="#header-n479">Syntax Enhancement</a></span><span class="md-toc-item md-toc-h3" data-ref="n514"><a class="md-toc-inner" href="#header-n514">Special Notes</a></span><span class="md-toc-item md-toc-h3" data-ref="n529"><a class="md-toc-inner" href="#header-n529">Examples</a></span><span class="md-toc-item md-toc-h2" data-ref="n617"><a class="md-toc-inner" href="#header-n617">Semantic Enhancement</a></span><span class="md-toc-item md-toc-h3" data-ref="n692"><a class="md-toc-inner" href="#header-n692">Special Notes</a></span><span class="md-toc-item md-toc-h3" data-ref="n698"><a class="md-toc-inner" href="#header-n698">Examples</a></span><span class="md-toc-item md-toc-h2" data-ref="n728"><a class="md-toc-inner" href="#header-n728">Metadata</a></span><span class="md-toc-item md-toc-h3" data-ref="n762"><a class="md-toc-inner" href="#header-n762">Special Notes</a></span><span class="md-toc-item md-toc-h3" data-ref="n766"><a class="md-toc-inner" href="#header-n766">Examples</a></span><span class="md-toc-item md-toc-h2" data-ref="n797"><a class="md-toc-inner" href="#header-n797">Radiology</a></span><span class="md-toc-item md-toc-h3" data-ref="n896"><a class="md-toc-inner" href="#header-n896">Special Notes</a></span><span class="md-toc-item md-toc-h3" data-ref="n902"><a class="md-toc-inner" href="#header-n902">Examples</a></span><span class="md-toc-item md-toc-h2" data-ref="n960"><a class="md-toc-inner" href="#header-n960">DocumentOntology</a></span><span class="md-toc-item md-toc-h3" data-ref="n994"><a class="md-toc-inner" href="#header-n994">Special Notes</a></span><span class="md-toc-item md-toc-h3" data-ref="n1000"><a class="md-toc-inner" href="#header-n1000">Examples</a></span><span class="md-toc-item md-toc-h2" data-ref="n1049"><a class="md-toc-inner" href="#header-n1049">Discussion</a></span><span class="md-toc-item md-toc-h3" data-ref="n1051"><a class="md-toc-inner" href="#header-n1051">Known Issues</a></span><span class="md-toc-item md-toc-h3" data-ref="n1057"><a class="md-toc-inner" href="#header-n1057">Future Work</a></span></p></div><div style="page-break-after: always;"></div><h2><a name='header-n40' class='md-header-anchor '></a>Primary</h2><p>This <code>LinkType</code> identifies the key six Parts that comprise the LOINC Fully Specified Name. For every LOINC term we will have 5 (or 6 if <em>Method</em> is specified) Parts that represent the full contents of the corresponding field in the LOINC Table. For a given LOINC term, this set of Parts will have names that exactly match the contents of the LOINC Table. Based on conventions established a few years ago and documented in the LOINC Users&#39; Guide, we have already defined these Properties and have published them in the <a href='https://loinc.org/fhir/loinc.xml'>loinc.xml</a> FHIR specification.</p><p><strong>Primary Properties</strong></p><figure><table><thead><tr><th>PropertyLabel</th><th>Property</th></tr></thead><tbody><tr><td>COMPONENT</td><td><a href='http://loinc.org/property/COMPONENT' target='_blank' class='url'>http://loinc.org/property/COMPONENT</a></td></tr><tr><td>PROPERTY</td><td><a href='http://loinc.org/property/PROPERTY' target='_blank' class='url'>http://loinc.org/property/PROPERTY</a></td></tr><tr><td>TIME</td><td><a href='http://loinc.org/property/TIME_ASPCT' target='_blank' class='url'>http://loinc.org/property/TIME_ASPCT</a></td></tr><tr><td>SYSTEM</td><td><a href='http://loinc.org/property/SYSTEM' target='_blank' class='url'>http://loinc.org/property/SYSTEM</a></td></tr><tr><td>SCALE</td><td><a href='http://loinc.org/property/SCALE_TYP' target='_blank' class='url'>http://loinc.org/property/SCALE_TYP</a></td></tr><tr><td>METHOD</td><td><a href='http://loinc.org/property/METHOD_TYP' target='_blank' class='url'>http://loinc.org/property/METHOD_TYP</a></td></tr></tbody></table></figure><h3><a name='header-n65' class='md-header-anchor '></a>Examples</h3><p><strong>Example rows from <code>LoincPartLink.csv</code></strong> <strong>for <a href='https://loinc.org/10000-8'>10000-8</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>10000-8</td><td>R wave duration in lead AVR</td><td>LP31088-5</td><td>R wave duration.lead AVR</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>COMPONENT</td><td>Primary</td><td><a href='http://loinc.org/property/COMPONENT' target='_blank' class='url'>http://loinc.org/property/COMPONENT</a></td></tr><tr><td>10000-8</td><td>R wave duration in lead AVR</td><td>LP6879-3</td><td>Time</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>PROPERTY</td><td>Primary</td><td><a href='http://loinc.org/property/PROPERTY' target='_blank' class='url'>http://loinc.org/property/PROPERTY</a></td></tr><tr><td>10000-8</td><td>R wave duration in lead AVR</td><td>LP6960-1</td><td>Pt</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>TIME</td><td>Primary</td><td><a href='http://loinc.org/property/TIME_ASPCT' target='_blank' class='url'>http://loinc.org/property/TIME_ASPCT</a></td></tr><tr><td>10000-8</td><td>R wave duration in lead AVR</td><td>LP7289-4</td><td>Heart</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SYSTEM</td><td>Primary</td><td><a href='http://loinc.org/property/SYSTEM' target='_blank' class='url'>http://loinc.org/property/SYSTEM</a></td></tr><tr><td>10000-8</td><td>R wave duration in lead AVR</td><td>LP7753-9</td><td>Qn</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SCALE</td><td>Primary</td><td><a href='http://loinc.org/property/SCALE_TYP' target='_blank' class='url'>http://loinc.org/property/SCALE_TYP</a></td></tr><tr><td>10000-8</td><td>R wave duration in lead AVR</td><td>LP6244-0</td><td>EKG</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>METHOD</td><td>Primary</td><td><a href='http://loinc.org/property/METHOD_TYP' target='_blank' class='url'>http://loinc.org/property/METHOD_TYP</a></td></tr></tbody></table></figure><p><strong>Example rows from <code>LoincPartLink.csv</code></strong> <strong>for <a href='https://loinc.org/3097-3'>3097-3</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in   Serum or Plasma</td><td>LP287338-0</td><td>Urea nitrogen/Creatinine</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>COMPONENT</td><td>Primary</td><td><a href='http://loinc.org/property/COMPONENT' target='_blank' class='url'>http://loinc.org/property/COMPONENT</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in   Serum or Plasma</td><td>LP6834-8</td><td>MRto</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>PROPERTY</td><td>Primary</td><td><a href='http://loinc.org/property/PROPERTY' target='_blank' class='url'>http://loinc.org/property/PROPERTY</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in   Serum or Plasma</td><td>LP6960-1</td><td>Pt</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>TIME</td><td>Primary</td><td><a href='http://loinc.org/property/TIME_ASPCT' target='_blank' class='url'>http://loinc.org/property/TIME_ASPCT</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in   Serum or Plasma</td><td>LP7576-4</td><td>Ser/Plas</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SYSTEM</td><td>Primary</td><td><a href='http://loinc.org/property/SYSTEM' target='_blank' class='url'>http://loinc.org/property/SYSTEM</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in   Serum or Plasma</td><td>LP7753-9</td><td>Qn</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SCALE</td><td>Primary</td><td><a href='http://loinc.org/property/SCALE_TYP' target='_blank' class='url'>http://loinc.org/property/SCALE_TYP</a></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><p><strong>Example rows from <code>LoincPartLink.csv</code></strong> <strong>for <a href='https://loinc.org/17876-4'>17876-4</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>17876-4</td><td>Bacteria # 5 identified in Bone by Aerobe   culture</td><td>LP308260-1</td><td>Bacteria identified<sup>^</sup>5</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>COMPONENT</td><td>Primary</td><td><a href='http://loinc.org/property/COMPONENT' target='_blank' class='url'>http://loinc.org/property/COMPONENT</a></td></tr><tr><td>17876-4</td><td>Bacteria # 5 identified in Bone by Aerobe   culture</td><td>LP6850-4</td><td>Prid</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>PROPERTY</td><td>Primary</td><td><a href='http://loinc.org/property/PROPERTY' target='_blank' class='url'>http://loinc.org/property/PROPERTY</a></td></tr><tr><td>17876-4</td><td>Bacteria # 5 identified in Bone by Aerobe   culture</td><td>LP6960-1</td><td>Pt</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>TIME</td><td>Primary</td><td><a href='http://loinc.org/property/TIME_ASPCT' target='_blank' class='url'>http://loinc.org/property/TIME_ASPCT</a></td></tr><tr><td>17876-4</td><td>Bacteria # 5 identified in Bone by Aerobe   culture</td><td>LP29159-8</td><td>Bone</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SYSTEM</td><td>Primary</td><td><a href='http://loinc.org/property/SYSTEM' target='_blank' class='url'>http://loinc.org/property/SYSTEM</a></td></tr><tr><td>17876-4</td><td>Bacteria # 5 identified in Bone by Aerobe   culture</td><td>LP7750-5</td><td>Nom</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SCALE</td><td>Primary</td><td><a href='http://loinc.org/property/SCALE_TYP' target='_blank' class='url'>http://loinc.org/property/SCALE_TYP</a></td></tr><tr><td>17876-4</td><td>Bacteria # 5 identified in Bone by Aerobe   culture</td><td>LP6103-8</td><td>Aerobic culture</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>METHOD</td><td>Primary</td><td><a href='http://loinc.org/property/METHOD_TYP' target='_blank' class='url'>http://loinc.org/property/METHOD_TYP</a></td></tr></tbody></table></figure><h3><a name='header-n261' class='md-header-anchor '></a>Special Notes</h3><ul><li>We created a {Crap-ton} of new Parts (especially <em>Component</em> parts) in order to have entities that covered the full space of these attributes (e.g. Parts that included both the numerator and denominator). This large bolus of Parts was included with the LOINC 2.66 release.</li><li>There should be a maximum of 6 Primary linkages for any LOINC term, and <strong>there should be only one per</strong> <code>PartTypeName</code>, i.e. only one <strong>COMPONENT</strong> linkage of <code>LinkTypeName</code> = <strong>Primary</strong>.</li><li>We recommend that all FHIR terminology servers implementing LOINC as a CodeSystem include these &quot;core&quot; attributes for every term and deploy them as coded entities.</li><li>In Loinc_2.65_PartFile_2.65-Beta.2 and prior, the linkage to the <strong>CLASS</strong> <code>PartTypeName</code> was as <code>LinkTypeName</code> <strong>Primary</strong>.  These links have now been re-labeled as as <code>LinkTypeName</code> <strong>Metadata</strong> as described below. </li></ul><h2><a name='header-n271' class='md-header-anchor '></a>DetailedModel</h2><p>This <code>LinkType</code> identifies the more detailed compositional subparts defined by the official LOINC semantic model, which is specified in Chapter 2 of the LOINC Users&#39; Guide. In the LOINC Table, the main Parts are divided further into subparts by separation with the carat (^) character.</p><p>Not all of these detailed subparts are required for a particular term.</p><p><strong>DetailedModel Links, Properties, and PartTypeNames</strong></p><figure><table><thead><tr><th>PropertyLabel</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>analyte</td><td>COMPONENT</td><td>DetailedModel</td><td><a href='http://loinc.org/property/analyte' target='_blank' class='url'>http://loinc.org/property/analyte</a></td></tr><tr><td>challenge</td><td>CHALLENGE</td><td>DetailedModel</td><td><a href='http://loinc.org/property/challenge' target='_blank' class='url'>http://loinc.org/property/challenge</a></td></tr><tr><td>adjustment</td><td>ADJUSTMENT</td><td>DetailedModel</td><td><a href='http://loinc.org/property/adjustment' target='_blank' class='url'>http://loinc.org/property/adjustment</a></td></tr><tr><td>count</td><td>COUNT</td><td>DetailedModel</td><td><a href='http://loinc.org/property/count' target='_blank' class='url'>http://loinc.org/property/count</a></td></tr><tr><td>property<sup>†</sup></td><td>PROPERTY</td><td>DetailedModel</td><td><a href='http://loinc.org/property/PROPERTY' target='_blank' class='url'>http://loinc.org/property/PROPERTY</a></td></tr><tr><td>time-core</td><td>TIME</td><td>DetailedModel</td><td><a href='http://loinc.org/property/time-core' target='_blank' class='url'>http://loinc.org/property/time-core</a></td></tr><tr><td>time-modifier</td><td>TIME MODIFIER</td><td>DetailedModel</td><td><a href='http://loinc.org/property/time-modifier' target='_blank' class='url'>http://loinc.org/property/time-modifier</a></td></tr><tr><td>system-core</td><td>SYSTEM</td><td>DetailedModel</td><td><a href='http://loinc.org/property/system-core' target='_blank' class='url'>http://loinc.org/property/system-core</a></td></tr><tr><td>super-system</td><td>SUPER SYSTEM</td><td>DetailedModel</td><td><a href='http://loinc.org/property/super-system' target='_blank' class='url'>http://loinc.org/property/super-system</a></td></tr><tr><td>scale<sup>†</sup></td><td>SCALE</td><td>DetailedModel</td><td><a href='http://loinc.org/property/SCALE_TYP' target='_blank' class='url'>http://loinc.org/property/SCALE_TYP</a></td></tr><tr><td>method<sup>†</sup></td><td>METHOD</td><td>DetailedModel</td><td><a href='http://loinc.org/property/METHOD_TYP' target='_blank' class='url'>http://loinc.org/property/METHOD_TYP</a></td></tr></tbody></table></figure><p><strong>Footnotes</strong></p><p>† In cases where we have not defined a &quot;sub&quot; Part in the LOINC semantic model, we reuse the main Properties because they correspond exactly in meaning. While a little redundant, putting them together in both <code>LinkTypes</code> ensures you can grab the full set of relationships you want via <code>LinkType</code>.</p><h3><a name='header-n338' class='md-header-anchor '></a>Special Notes</h3><ul><li>Overall, this set contains the Parts that comprise the detailed Fully-Specified Name. It does NOT contain divisors, suffixes, &quot;method subtypes&quot;, or other special pieces that we have not documented as official parts of the name. As such, the definition here for Anayle corresponds exactly to the whole &quot;first subpart&quot; described in the LOINC User&#39;s Guide. It does not strip out suffixes or divisors. Those extra details will be characterized in other relationships (described below).</li><li>The collection of strings (with delimiters) identified by <strong>Primary</strong> <code>LinkTypes</code> will equal exactly the collection of strings (with delimiters) identified by <strong>DetailedModel</strong> <code>LinkTypes</code>, and these both will add up to the exact string name corresponding to our <strong>Fully Specified Name</strong>.</li><li>For LOINC terms representing radiology procedures and terms in the LOINC Document Ontology, LOINC has created specialized semantic models that fit within the main LOINC attributes (as represented by <strong>Primary</strong> <code>LinkTypes</code>). The detailed LOINC Parts that would be represented by <strong>DetailedModel</strong> <code>LinkTypes</code> are irrelevant for these kinds of terms and the specialized relationships represented by <strong>Radiology</strong> and <strong>DocumentOntology</strong> <code>LinkTypes</code> should be used instead. As such, we have elected not to publish <strong>DetailedModel</strong> <code>LinkTypes</code> for these terms.</li></ul><h3><a name='header-n346' class='md-header-anchor '></a>Examples</h3><p><strong>Example rows from <code>LoincPartLink.csv</code></strong> <strong>for <a href='https://loinc.org/3097-3'>3097-3</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma</td><td>LP287338-0</td><td>Urea nitrogen/Creatinine</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>COMPONENT</td><td>DetailedModel</td><td><a href='http://loinc.org/property/analyte' target='_blank' class='url'>http://loinc.org/property/analyte</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma</td><td>LP6834-8</td><td>MRto</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>PROPERTY</td><td>DetailedModel</td><td><a href='http://loinc.org/property/PROPERTY' target='_blank' class='url'>http://loinc.org/property/PROPERTY</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma</td><td>LP6960-1</td><td>Pt</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>TIME</td><td>DetailedModel</td><td><a href='http://loinc.org/property/time-core' target='_blank' class='url'>http://loinc.org/property/time-core</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma</td><td>LP7576-4</td><td>Ser/Plas</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SYSTEM</td><td>DetailedModel</td><td><a href='http://loinc.org/property/system-core' target='_blank' class='url'>http://loinc.org/property/system-core</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma</td><td>LP7753-9</td><td>Qn</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SCALE</td><td>DetailedModel</td><td><a href='http://loinc.org/property/SCALE_TYP' target='_blank' class='url'>http://loinc.org/property/SCALE_TYP</a></td></tr></tbody></table></figure><p>&nbsp;</p><p><strong>Example rows from <code>LoincPartLink.csv</code> for <a href='https://loinc.org/66134-8'>66134-8</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>66134-8</td><td>Blasts [#/volume] in Blood from Fetus by Manual count</td><td>LP15100-8</td><td>Blasts</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>COMPONENT</td><td>DetailedModel</td><td><a href='http://loinc.org/property/analyte' target='_blank' class='url'>http://loinc.org/property/analyte</a></td></tr><tr><td>66134-8</td><td>Blasts [#/volume] in Blood from Fetus by Manual count</td><td>LP6836-3</td><td>NCnc</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>PROPERTY</td><td>DetailedModel</td><td><a href='http://loinc.org/property/PROPERTY' target='_blank' class='url'>http://loinc.org/property/PROPERTY</a></td></tr><tr><td>66134-8</td><td>Blasts [#/volume] in Blood from Fetus by Manual count</td><td>LP6960-1</td><td>Pt</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>TIME</td><td>DetailedModel</td><td><a href='http://loinc.org/property/time-core' target='_blank' class='url'>http://loinc.org/property/time-core</a></td></tr><tr><td>66134-8</td><td>Blasts [#/volume] in Blood from Fetus by Manual count</td><td>LP6836-3</td><td>Bld</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SYSTEM</td><td>DetailedModel</td><td><a href='http://loinc.org/property/SystemCore' target='_blank' class='url'>http://loinc.org/property/SystemCore</a></td></tr><tr><td>66134-8</td><td>Blasts [#/volume] in Blood from Fetus by Manual count</td><td>LP6982-5</td><td>Fetus</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SUPER SYSTEM</td><td>DetailedModel</td><td><a href='http://loinc.org/property/super-system' target='_blank' class='url'>http://loinc.org/property/super-system</a></td></tr><tr><td>66134-8</td><td>Blasts [#/volume] in Blood from Fetus by Manual count</td><td>LP7753-9</td><td>Qn</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SCALE</td><td>DetailedModel</td><td><a href='http://loinc.org/property/SCALE_TYP' target='_blank' class='url'>http://loinc.org/property/SCALE_TYP</a></td></tr><tr><td>66134-8</td><td>Blasts [#/volume] in Blood from Fetus by Manual count</td><td>LP6377-8</td><td>Manual count</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>METHOD</td><td>DetailedModel</td><td><a href='http://loinc.org/property/METHOD_TYP' target='_blank' class='url'>http://loinc.org/property/METHOD_TYP</a></td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name='header-n479' class='md-header-anchor '></a>Syntax Enhancement</h2><p>This  <code>LinkType</code> identifies more detailed Parts that represent useful pieces of the LOINC term name that are not officially part of the semantic model. Historically, many of these linkages have not been obvious to most LOINC users. The main purpose of these links is further decompose the structure of the LOINC name into defined fragments. Behind the scenes, they are used for several things, including synonym linkages, language translation, and linking descriptive text. </p><p>Here, we use a naming style with the <strong>DetailedModel</strong> <code>PropertyLabels</code> as the first piece of the name (e.g. <em>analyte</em>). This helps organize where these little bits fit into the overall LOINC model.</p><p><strong>SyntaxEnhancement Links, Properties, and PartTypeNames</strong></p><figure><table><thead><tr><th>PropertyLabel</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th><th>Repeat</th></tr></thead><tbody><tr><td>analyte-core</td><td>COMPONENT</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-core' target='_blank' class='url'>http://loinc.org/property/analyte-core</a></td><td>N</td></tr><tr><td>analyte-suffix</td><td>SUFFIX</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-suffix' target='_blank' class='url'>http://loinc.org/property/analyte-suffix</a></td><td>N</td></tr><tr><td>analyte-divisor</td><td>DIVISOR</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-divisor' target='_blank' class='url'>http://loinc.org/property/analyte-divisor</a></td><td>N</td></tr><tr><td>analyte-divisor-suffix</td><td>SUFFIX</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-divisor-suffix' target='_blank' class='url'>http://loinc.org/property/analyte-divisor-suffix</a></td><td>N</td></tr></tbody></table></figure><h3><a name='header-n514' class='md-header-anchor '></a>Special Notes</h3><ul><li><p>[Future Work] For now, we are keeping the current model for DIVISORs, which is internally uses a specialized <code>PartTypeName</code> (called <strong>DIVSOR</strong>) and postfixes the relevant <strong>System</strong>. For example, consider  <strong>[LOINC:<a href='https://loinc.org/48149-9'>48149-9</a>] Osmolality.urine/Osmolality.serum</strong>. In the long run, we are considering getting rid of the <strong>DIVISOR</strong> <code>PartType</code>. These could all be regular <em>Component</em> parts, if we had a model that supported grouped relationships. Such a term could instead be modeled as:</p><ul><li>48149-9 | analyte-core = Osmolality</li><li>48149-9 | analyte-divisor = Osmolality</li><li>48149-9 | system-core = Urine</li><li>48149-9 | system-divisor = Ser/Plas</li></ul></li><li><p>[Future Work] In several places of the LOINC name we use a dot &quot;.&quot; to indicate subclass and other relationships. For example, <strong>Calcium.ionized</strong> or <strong>RR interval.standard deviation</strong>. Additional <strong>SyntaxEnhancement</strong> <code>LinkType</code> associations could be considered to make these terms more computable.</p></li></ul><h3><a name='header-n529' class='md-header-anchor '></a>Examples</h3><p><strong>Example rows from <code>LoincPartLink.csv</code></strong> for <a href='https://loinc.org/50995-0'>50995-0</a></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>50995-0</td><td>BRCA1+BRCA2 gene targeted mutation analysis in Blood or Tissue by Molecular genetics method Narrative</td><td>LP65897-8</td><td>BRCA1+BRCA2 gene</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>COMPONENT</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-core' target='_blank' class='url'>http://loinc.org/property/analyte-core</a></td></tr><tr><td>50995-0</td><td>BRCA1+BRCA2 gene targeted mutation analysis in Blood or Tissue by Molecular genetics method Narrative</td><td>LP32419-1</td><td>targeted mutation analysis</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>SUFFIX</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-suffix' target='_blank' class='url'>http://loinc.org/property/analyte-suffix</a></td></tr></tbody></table></figure><p><strong>Example rows from <code>LoincPartLink.csv</code> for <a href='https://loinc.org/3097-3'>3097-3</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma</td><td>LP14492-0</td><td>Urea nitrogen</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>COMPONENT</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-core' target='_blank' class='url'>http://loinc.org/property/analyte-core</a></td></tr><tr><td>3097-3</td><td>Urea nitrogen/Creatinine [Mass Ratio] in Serum or Plasma</td><td>LP32035-5</td><td>Creatinine</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>DIVISOR</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-divisor' target='_blank' class='url'>http://loinc.org/property/analyte-divisor</a></td></tr></tbody></table></figure><p><strong>Example rows from <code>LoincPartLink.csv</code> for <a href='https://loinc.org/48149-9'>48149-9</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>48149-9</td><td>Osmolality.urine/Osmolality.serum</td><td>LP69215-9</td><td>Osmolality.urine</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>COMPONENT</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-core' target='_blank' class='url'>http://loinc.org/property/analyte-core</a></td></tr><tr><td>48149-9</td><td>Osmolality.urine/Osmolality.serum</td><td>LP69216-7</td><td>Osmolality.serum</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>DIVSOR</td><td>SyntaxEnhancement</td><td><a href='http://loinc.org/property/analyte-divisor' target='_blank' class='url'>http://loinc.org/property/analyte-divisor</a></td></tr></tbody></table></figure><h2><a name='header-n617' class='md-header-anchor '></a>Semantic Enhancement</h2><p>This <code>LinkType</code> identifies relationships that enhance semantics of the LOINC term by providing additional sub-typing and/or special linkages to external ontologies and vocabularies. These linkages are not officially part of the LOINC naming model that defines a term, but they can be extremely helpful for advanced processing of LOINC-coded data. For example, they help separate the different kinds of entities (chemicals, organisms, etc) that can serve as a <em>Component</em>.</p><p>As before, we use a naming style that includes the <strong>DetailedModel</strong> <code>PropertyLabel</code> as the first piece of the name. This helps organize where these little bits fit into the overall LOINC model. With this <code>LinkType</code> , we do allow repeat linkages within a particular term. For example, a LOINC term may represent testing about multiple genes.</p><p><strong>SemanticEnhancement Links, Properties, and PartTypeNames</strong></p><figure><table><thead><tr><th>PropertyLabel</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th><th>Repeat</th><th>Comments</th></tr></thead><tbody><tr><td>analyte-gene</td><td>GENE</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-gene' target='_blank' class='url'>http://loinc.org/property/analyte-gene</a></td><td>Y</td><td>Could link to HGNC (or Entrez gene)</td></tr><tr><td>analyte-genetic-variant</td><td>GENETIC VARIANT</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-genetic-variant' target='_blank' class='url'>http://loinc.org/property/analyte-genetic-variant</a></td><td>Y</td><td>Could link to ClinVar</td></tr><tr><td>analyte-chemical</td><td>CHEMICAL</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-chemical' target='_blank' class='url'>http://loinc.org/property/analyte-chemical</a></td><td>Y</td><td>Could link to CHEBI</td></tr><tr><td>analyte-divisor-chemical</td><td>CHEMICAL</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-divisor-chemical' target='_blank' class='url'>http://loinc.org/property/analyte-divisor-chemical</a></td><td>Y</td><td>Could link to CHEBI</td></tr><tr><td>analyte-clinical-drug</td><td>CLINICAL DRUG</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-clinical-drug' target='_blank' class='url'>http://loinc.org/property/analyte-clinical-drug</a></td><td>Y</td><td>Could link to RxNORM</td></tr><tr><td>system-core-anatomic-entity</td><td>ANATOMIC</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/system-core-anatomic-entity' target='_blank' class='url'>http://loinc.org/property/system-core-anatomic-entity</a></td><td>Y</td><td>Could link to UBERON or RadLex</td></tr><tr><td>analyte-organism</td><td>ORGANISM</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-organism' target='_blank' class='url'>http://loinc.org/property/analyte-organism</a></td><td>Y</td><td>Could link to NCBI</td></tr><tr><td>challenge-route</td><td>ROUTE</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/challenge-route' target='_blank' class='url'>http://loinc.org/property/challenge-route</a></td><td>Y</td><td>Could link to HL7</td></tr><tr><td>analyte-allergen</td><td>ALLERGEN</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-allergen' target='_blank' class='url'>http://loinc.org/property/analyte-allergen</a></td><td>Y</td><td>Could link to UNII?</td></tr></tbody></table></figure><h3><a name='header-n692' class='md-header-anchor '></a>Special Notes</h3><ul><li>As of LOINC version 2.66, we have only implemented the one of these (analyte-gene) as an exemplar.</li><li>We are considering implementing some kind of ordering/sequence to help group and order blocks or repeats of relationships. For example, a given LOINC term may contain multiple genes in its <em>Component</em>.</li></ul><h3><a name='header-n698' class='md-header-anchor '></a>Examples</h3><p><strong>Example rows from <code>LoincPartLink.csv</code></strong> for <a href='https://loinc.org/50995-0'>50995-0</a></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>50995-0</td><td>BRCA1+BRCA2 gene targeted mutation analysis in Blood or Tissue by Molecular genetics method Narrative</td><td>LP288105-2</td><td>BRCA1 gene</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>GENE</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-gene' target='_blank' class='url'>http://loinc.org/property/analyte-gene</a></td></tr><tr><td>50995-0</td><td>BRCA1+BRCA2 gene targeted mutation analysis in Blood or Tissue by Molecular genetics method Narrative</td><td>LP288106-0</td><td>BRCA2 gene</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>GENE</td><td>SemanticEnhancement</td><td><a href='http://loinc.org/property/analyte-gene' target='_blank' class='url'>http://loinc.org/property/analyte-gene</a></td></tr></tbody></table></figure><h2><a name='header-n728' class='md-header-anchor '></a>Metadata</h2><p>This new <code>LinkType</code> will identify accessory term attributes that are coded but not part of the concept model (a.k.a. the structured term name).</p><p><strong>Metadata Links, Properties, and PartTypeNames</strong></p><figure><table><thead><tr><th>PropertyLabel</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th><th>Repeat</th><th>Comments</th></tr></thead><tbody><tr><td>class</td><td>CLASS</td><td>Metadata</td><td><a href='http://loinc.org/property/CLASS' target='_blank' class='url'>http://loinc.org/property/CLASS</a></td><td>N</td><td>Is already specified in the canonical LOINC CodeSystem representation for FHIR. LOINC&#39;s current model allows a term to belong to one and only one <em>Class</em>.</td></tr><tr><td>category</td><td>CLASS</td><td>Metadata</td><td><a href='http://loinc.org/property/category' target='_blank' class='url'>http://loinc.org/property/category</a></td><td>Y</td><td>A categorization such as general clinical domain, service area, or other grouping useful for indexing, searching, or grouping for display (e.g. Cardiology, Neurology, Laboratory, etc). See discussion @ <a href='https://loinc.org/download/proposal-on-enhancing-loinc-with-more-category-tags/'>2018 10 Clinical meeting</a> and FHIR&#39;s <strong>category</strong> element for <a href='https://www.hl7.org/fhir/observation-definitions.html#Observation.category'>Observation</a>,  <a href='https://www.hl7.org/fhir/diagnosticreport-definitions.html#DiagnosticReport.category'>DiagnosticReport</a>, and <a href='https://www.hl7.org/fhir/documentreference-definitions.html#DocumentReference.category'>DocumentReference</a>.</td></tr><tr><td>tag<sup>†</sup></td><td>TAG</td><td>Metadata</td><td><a href='http://loinc.org/property/tag' target='_blank' class='url'>http://loinc.org/property/tag</a></td><td>Y</td><td>A proposal here, not yet for implementation. Internally, Regenstrief has created some groupings/labels for terms that are useful in including/excluding terms for search purposes. We could potentially use this mechanism to here in a very generic structure.</td></tr></tbody></table></figure><p><strong>Footnotes</strong></p><p>† Use of <code>tag</code> as a property is just a thought experiement for the time being.</p><h3><a name='header-n762' class='md-header-anchor '></a>Special Notes</h3><ul><li>[Future Work] We have not yet undertaken the work of linking categories to LOINC terms. We have some ideas, including the organization of the Multiaxial Hierarchy to add additional linkages. In the inaugural release, we used some existing work to populate a <strong>Neurology</strong> <em>category</em> as an exemplar. But even that prior work was not comprehensive.</li></ul><h3><a name='header-n766' class='md-header-anchor '></a>Examples</h3><p><strong>Example rows from <code>LoincPartLink.csv</code></strong> for <a href='https://loinc.org/11523-8'>11523-8</a></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>11523-8</td><td>EEG study</td><td>LP7759-6</td><td>ATTACH.CLINRPT</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>CLASS</td><td>Metadata</td><td><a href='http://loinc.org/property/CLASS' target='_blank' class='url'>http://loinc.org/property/CLASS</a></td></tr><tr><td>11523-8</td><td>EEG study</td><td>LP201883-8</td><td>Neurology</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>CLASS</td><td>Metadata</td><td><a href='http://loinc.org/property/category' target='_blank' class='url'>http://loinc.org/property/category</a></td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name='header-n797' class='md-header-anchor '></a>Radiology</h2><p>This <code>LinkType</code> identifies the specialized properties defined by the LOINC/RSNA Radiology Playbook. A full description of these attributes is given in the Annex LOINC/RSNA Radiology Playbook User Guide.</p><p><strong>Radiology PartTypeNames and their Properties</strong></p><figure><table><thead><tr><th>PropertyLabel</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>rad-anatomic-location-imaging-focus</td><td>Rad.Anatomic Location.Imaging Focus</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-anatomic-location-imaging-focus' target='_blank' class='url'>http://loinc.org/property/rad-anatomic-location-imaging-focus</a></td></tr><tr><td>rad-anatomic-location-laterality</td><td>Rad.Anatomic Location.Laterality</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-anatomic-location-laterality' target='_blank' class='url'>http://loinc.org/property/rad-anatomic-location-laterality</a></td></tr><tr><td>rad-anatomic-location-laterality-presence</td><td>Rad.Anatomic Location.Laterality.Presence</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-anatomic-location-laterality-presence' target='_blank' class='url'>http://loinc.org/property/rad-anatomic-location-laterality-presence</a></td></tr><tr><td>rad-anatomic-location-region-imaged</td><td>Rad.Anatomic Location.Region Imaged</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-anatomic-location-region-imaged' target='_blank' class='url'>http://loinc.org/property/rad-anatomic-location-region-imaged</a></td></tr><tr><td>rad-guidance-for-action</td><td>Rad.Guidance for.Action</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-guidance-for-action' target='_blank' class='url'>http://loinc.org/property/rad-guidance-for-action</a></td></tr><tr><td>rad-guidance-for-approach</td><td>Rad.Guidance for.Approach</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-guidance-for-approach' target='_blank' class='url'>http://loinc.org/property/rad-guidance-for-approach</a></td></tr><tr><td>rad-guidance-for-object</td><td>Rad.Guidance for.Object</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-guidance-for-object' target='_blank' class='url'>http://loinc.org/property/rad-guidance-for-object</a></td></tr><tr><td>rad-guidance-for-presence</td><td>Rad.Guidance for.Presence</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-guidance-for-presence' target='_blank' class='url'>http://loinc.org/property/rad-guidance-for-presence</a></td></tr><tr><td>rad-maneuver-maneuver-type</td><td>Rad.Maneuver.Maneuver type</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-maneuver-maneuver-type' target='_blank' class='url'>http://loinc.org/property/rad-maneuver-maneuver-type</a></td></tr><tr><td>rad-modality-subtype</td><td>Rad.Modality.Modality subtype</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-modality-subtype' target='_blank' class='url'>http://loinc.org/property/rad-modality-subtype</a></td></tr><tr><td>rad-modality-type</td><td>Rad.Modality.Modality type</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-modality-type' target='_blank' class='url'>http://loinc.org/property/rad-modality-type</a></td></tr><tr><td>rad-pharmaceutical-route</td><td>Rad.Pharmaceutical.Route</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-pharmaceutical-route' target='_blank' class='url'>http://loinc.org/property/rad-pharmaceutical-route</a></td></tr><tr><td>rad-pharmaceutical-substance-given</td><td>Rad.Pharmaceutical.Substance Given</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-pharmaceutical-substance-given' target='_blank' class='url'>http://loinc.org/property/rad-pharmaceutical-substance-given</a></td></tr><tr><td>rad-reason-for-exam</td><td>Rad.Reason for Exam</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-reason-for-exam' target='_blank' class='url'>http://loinc.org/property/rad-reason-for-exam</a></td></tr><tr><td>rad-subject</td><td>Rad.Subject</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-subject' target='_blank' class='url'>http://loinc.org/property/rad-subject</a></td></tr><tr><td>rad-timing</td><td>Rad.Timing</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-timing' target='_blank' class='url'>http://loinc.org/property/rad-timing</a></td></tr><tr><td>rad-view-aggregation</td><td>Rad.View.Aggregation</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-view-aggregation' target='_blank' class='url'>http://loinc.org/property/rad-view-aggregation</a></td></tr><tr><td>rad-view-view-type</td><td>Rad.View.View type</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-view-view-type' target='_blank' class='url'>http://loinc.org/property/rad-view-view-type</a></td></tr></tbody></table></figure><h3><a name='header-n896' class='md-header-anchor '></a>Special Notes</h3><ul><li>These properties were already identified in our loinc.xml FHIR code system resource, so we use the same URIs here.</li><li>LOINC terms for which <strong>Radiology</strong>  <code>LinkType</code> relationships defined will NOT have <strong>DetailedModel</strong>  <code>LinkType</code> relationships defined because the Radiology model supersedes.</li></ul><h3><a name='header-n902' class='md-header-anchor '></a>Examples</h3><p><strong>Example rows from <code>LoincPartLink.csv</code> for <a href='https://loinc.org/36283-0'>36283-0</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>36283-0</td><td>MR Chest WO and W contrast IV</td><td>LP199962-4</td><td>Chest</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Rad.Anatomic Location.Region Imaged</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-anatomic-location-region-imaged' target='_blank' class='url'>http://loinc.org/property/rad-anatomic-location-region-imaged</a></td></tr><tr><td>36283-0</td><td>MR Chest WO and W contrast IV</td><td>LP200085-1</td><td>Contrast</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Rad.Pharmaceutical.Substance Given</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-pharmaceutical-substance-given' target='_blank' class='url'>http://loinc.org/property/rad-pharmaceutical-substance-given</a></td></tr><tr><td>36283-0</td><td>MR Chest WO and W contrast IV</td><td>LP200090-1</td><td>WO &amp; W</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Rad.Timing</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-timing' target='_blank' class='url'>http://loinc.org/property/rad-timing</a></td></tr><tr><td>36283-0</td><td>MR Chest WO and W contrast IV</td><td>LP206549-0</td><td>MR</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Rad.Modality.Modality type</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-modality-type' target='_blank' class='url'>http://loinc.org/property/rad-modality-type</a></td></tr><tr><td>36283-0</td><td>MR Chest WO and W contrast IV</td><td>LP200078-6</td><td>IV</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Rad.Pharmaceutical.Route</td><td>Radiology</td><td><a href='http://loinc.org/property/rad-pharmaceutical-route' target='_blank' class='url'>http://loinc.org/property/rad-pharmaceutical-route</a></td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name='header-n960' class='md-header-anchor '></a>DocumentOntology</h2><p>This  <code>LinkType</code> identifies the specialized properties defined by LOINC Document Ontology. A full description of these attributes is given in the LOINC Document Ontology chapter of the LOINC Users&#39; Guide.</p><p><strong>Radiology PartTypeNames and their Properties</strong></p><figure><table><thead><tr><th>PropertyLabel</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>document-kind</td><td>Document.Kind</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-kind' target='_blank' class='url'>http://loinc.org/property/document-kind</a></td></tr><tr><td>document-role</td><td>Document.Role</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-role' target='_blank' class='url'>http://loinc.org/property/document-role</a></td></tr><tr><td>document-setting</td><td>Document.Setting</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-setting' target='_blank' class='url'>http://loinc.org/property/document-setting</a></td></tr><tr><td>document-subject-matter-domain</td><td>Document.SubjectMatterDomain</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-subject-matter-domain' target='_blank' class='url'>http://loinc.org/property/document-subject-matter-domain</a></td></tr><tr><td>document-type-of-service</td><td>Document.TypeOfService</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-type-of-service' target='_blank' class='url'>http://loinc.org/property/document-type-of-service</a></td></tr></tbody></table></figure><h3><a name='header-n994' class='md-header-anchor '></a>Special Notes</h3><ul><li>These properties were already identified in our loinc.xml FHIR code system resource, so we use the same URIs here.</li><li>LOINC terms for which <strong>DocumentOntology</strong>  <code>LinkType</code> relationships defined will NOT have <strong>DetailedModel</strong>  <code>LinkType</code> relationships defined because the Document Ontology model supersedes.</li></ul><h3><a name='header-n1000' class='md-header-anchor '></a>Examples</h3><p><strong>Example rows from <code>LoincPartLink.csv</code> for <a href='https://loinc.org/11508-9'>11508-9</a></strong></p><figure><table><thead><tr><th>LoincNumber</th><th>LongCommonName</th><th>PartNumber</th><th>PartName</th><th>PartCodeSystem</th><th>PartTypeName</th><th>LinkTypeName</th><th>Property</th></tr></thead><tbody><tr><td>11508-9</td><td>Physical therapy Progress note</td><td>LP173418-7</td><td>Note</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Document.Kind</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-kind' target='_blank' class='url'>http://loinc.org/property/document-kind</a></td></tr><tr><td>11508-9</td><td>Physical therapy Progress note</td><td>LP173213-2</td><td>Progress</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Document.TypeOfService</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-type-of-service' target='_blank' class='url'>http://loinc.org/property/document-type-of-service</a></td></tr><tr><td>11508-9</td><td>Physical therapy Progress note</td><td>LP173061-5</td><td>{Setting}</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Document.Setting</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-setting' target='_blank' class='url'>http://loinc.org/property/document-setting</a></td></tr><tr><td>11508-9</td><td>Physical therapy Progress note</td><td>LP173005-2</td><td>Physical therapy</td><td><a href='http://loinc.org' target='_blank' class='url'>http://loinc.org</a></td><td>Document.SubjectMatterDomain</td><td>DocumentOntology</td><td><a href='http://loinc.org/property/document-subject-matter-domain' target='_blank' class='url'>http://loinc.org/property/document-subject-matter-domain</a></td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name='header-n1049' class='md-header-anchor '></a>Discussion</h2><p>&nbsp;</p><h3><a name='header-n1051' class='md-header-anchor '></a>Known Issues</h3><ul><li>[Issue] The size of  <code>LoincPartLink.csv</code> is big! In fact, it exceeds the row capacity of Excel and LibreOffice. The overall zip file is quite small (b/c of compression). We are considering splitting up the file (e.g. by  <code>LinkTypeName</code>) and are seeking user feedback about this.</li><li>[Issue] These links are not fully implemented in our FHIR server that provides the LOINC API.</li></ul><h3><a name='header-n1057' class='md-header-anchor '></a>Future Work</h3><ul><li>[Future work] To be maximally useful, this file should specify a Sequence that allows for ordering and grouping sets of links. We do this now in the LoincRsnaRadiologyPlaybook File.</li><li>[Future work] Consider replacing the linkages to LOINC Parts in some <strong>SemanticEnhancement</strong>  <code>LinkTypeName</code> relationships with concepts from domain-specific ontologies.</li><li>[Future Work] Consider replacing the current model for DIVISORs with  a model that supports grouped relationships.</li><li>[Future Work] In several places of the LOINC name we use a dot &quot;.&quot; to indicate subclass and other relationships. For example, <strong>Calcium.ionized</strong> or <strong>RR interval.standard deviation</strong>. Additional <strong>SyntaxEnhancement</strong> <code>LinkType</code> associations could be considered to make these terms more computable.</li><li>[Future Work] Expand linkages of categories to LOINC terms.</li><li>[Future Work] Explore use of <strong>Tag</strong> <code>LinkType</code> associations for special purposes (e.g terms representing tests performed only in a veterinary or public health context).</li></ul><p>&nbsp;</p></div>
+</body>
+</html>

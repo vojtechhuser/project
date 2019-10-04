@@ -1,0 +1,93 @@
+Part file release notes
+
+Please see the associated Readme for technical details about the contents of each file.
+
+---------------------------------------------------------
+ Version 3.0, Alpha 1, published with LOINC Version 2.66
+ Released June 2019
+---------------------------------------------------------
+
+We have made significant changes to the contents and structure of this file since the last release; therefore, the Version has been incremented from 2.65, Beta 2 to 3.0, Alpha 1.
+
+This file contains all of the parts associated with any LOINC term published in the current release. For this release, we have enhanced our model of how LOINC terms relate to LOINC Parts. The three major changes are summarized below and are described in detail in the companion file, LoincPartLinkEnrichmentReleaseNotes.html, that is included in this directory. Note that these enhancements have been implemented to varying degrees, and we plan to continue working on this content during the next release cycle.
+
+1. Specialized aspects of our names have been clearly labeled in terms of defined relationships by adding a new attribute called Property following the HL7 FHIR standard (note that this Property describes the relationship between a Part and a LOINC term and is different from the term's Property axis).
+
+2. Pieces of the LOINC term name (especially Components) have been labeled using an extended set of PartTypeName values that make linkages to other extant terminologies more straightforward.
+
+3. Direct reference to external vocabularies that represent the definitive or authoritative source for concepts in aparticular domain has been enabled by adding a field for the PartCodeSystem.
+
+In addition, several new LinkTypeName values - DetailedModel, SyntaxEnhancement, SemanticEnhancement, and Metadata - have been added to the existing Primary, Search, DocumentOntology, and Radiology values.
+
+The Part file contains 63824 rows of data that represent all of the primary, search, Document Ontology, and radiology parts associated with any LOINC term published in the current release.
+
+The LOINC Part link file contains 1481908 rows representing links between 91388 unique LOINC terms and 63824 unique parts. This release contains an enhanced model for LOINC part linkages that recognizes the need for overlapping linkages for different purposes.
+
+The Part Related Code Mapping file contains 9153 rows of data representing maps between 7745 unique LOINC parts and 8702 unique concepts from external coding systems.
+
+
+-----------------------
+ Version 2.65, Beta 2
+ Released December 2018 
+-----------------------
+
+This release contains all of the parts associated with any LOINC term published in the current release. We have received no significant public comments about its structure, but we are continuing to evaluate our approach to linking LOINC Terms to Parts, including for suffixes, divisors, and core components versus full components. Before incrementing the version for this file or moving to production status, we would like further testing and feedback about these approaches.
+
+The Part file contains 53488 rows of data that represent all of the primary, search, Document Ontology, and radiology parts associated with any LOINC term published in the current release.
+
+The LOINC Part link file contains 916616 rows representing links between 89271 unique LOINC terms and 53488 unique parts.
+
+A known issue in this release is that some terms contain multiple Component parts with a LinkTypeName of "Primary".
+
+The Part Related Code Mapping file contains 9145 rows of data representing maps between 7737 unique LOINC parts and 8696 unique concepts from external coding systems.
+
+
+-----------------------
+ Version 2.64, Beta 2
+ Released June 2018 
+-----------------------
+
+This release contains all of the parts associated with any LOINC term published in the current release. The release has been upgraded from version "Beta.1" to "Beta.2". We have received no significant public comments about its structure and have not identified any major format changes needed at this time. We are continuing to evaluate our approach to linking LOINC Terms to Parts, including for suffixes, divisors, and core components. Before moving to production status, we would like further testing and feedback about these approaches.
+
+The Part file contains 52330 rows of data that represent all of the primary, search, Document Ontology, and radiology parts associated with any LOINC term published in the current release.
+
+The LOINC Part link file contains 899234 rows representing links between 87863 unique LOINC terms and 52330 unique parts.
+
+The Part Related Code Mapping file contains 9120 rows of data representing maps between 7716 unique LOINC parts and 8671 unique concepts from external coding systems. The RadLex mappings have been updated based on the version 3.15 release, and we have added new mappings to PubChem for several hundred analytes.
+ 
+Please see the primary LOINC Release Notes for information regarding the file versioning that was implemented in this release.
+
+-----------------------
+ Version 2.63, Beta 1
+ Released December 2017  
+-----------------------
+
+This artifact contains all of the parts associated with any LOINC term published in the current release. The release has been upgraded to "Beta" VersionType because we received no significant public comments about its structure and have not identified any major format changes that are needed.
+
+The Part file contains 51357 rows of data that represent all of the primary, search, Document Ontology, and radiology parts associated with any LOINC term published in the current release.
+
+The LOINC Part link file contains 884014 rows representing links between 86528 unique LOINC terms and 51357 unique parts.
+
+The Part Related Code Mapping file contains 8790 rows of data representing maps between 7639 unique LOINC parts and 8346 unique concepts from external coding systems. The version for approximately 50 RadLex RID codes was incorrectly stated in the June 2.61 release as "RadLex 3.14" when it should have been "RadLex 3.15 pre-release." This has been corrected for the 2.63 release. The SNOMED CT mappings have been updated based on the July 2017 International Release and the September 2017 US Edition of SNOMED CT, as documented in the ExtCodeSystemVersion field. 
+
+Notice of changes to the public LOINC data files for the June 2018 Release: 
+Please see the primary LOINC Release Notes for information regarding file versioning that will be implemented in the June 2018 release.
+
+-----------------------
+ Version 2.61, Alpha 1
+ Released June 2017  
+-----------------------
+
+This is the inaugural release of the LOINC Part artifact. This artifact contains the following files:
+
+1. Part_Alpha_1.csv 
+ - Contains all of the primary parts associated with any LOINC term published in the current release.
+ - The first release contains 50308 rows of data.
+
+2. LoincPartLink_Alpha_1.csv
+ - Contains the links between each LOINC term and the primary parts related to that term, as well as parts that are linked to that term to make searching easier. For radiology terms and terms in the Document Ontology, this file also includes the links to the corresponding radiology and document ontology parts.
+ - The first release contains 864186 rows representing links between 84868 unique LOINC terms and 50308 unique parts.
+
+3. PartRelatedCodeMapping_Alpha_1.csv
+ - Contains mappings from LOINC Parts to the corresponding concepts in other terminologies, such as SNOMED CT and RadLex, for the subset of Parts that have such mappings.
+ - The first release contains 8700 rows of data representing maps between 7553 unique LOINC parts and 8262 unique concepts from external coding systems.
