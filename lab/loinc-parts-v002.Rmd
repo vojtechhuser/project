@@ -1,0 +1,183 @@
+---
+title: "loinc-parts"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# LOINC
+
+Only code will be included. Few or no comments.
+
+```{r cars}
+library(tidyverse);library(magrittr);library(knitr);options(tibble.print_max = 200)
+
+fname='n:/loinc/Loinc_2.66/AccessoryFiles/PartFile/LoincPartLink.csv'
+d<-read_csv(fname)
+names(d)
+nrow(d)
+#d %>% write_rds('c:/temp/lp.rds')
+```
+
+# filtering 
+```{r}
+d %>% count(LinkTypeName)
+d %>% count(Property)
+d2 <-d  %>% filter(LinkTypeName=='Primary')
+d2 %>% write_csv('LoincPartLinkPrimary.csv')
+
+nrow(d2)
+d2 %>% count(Property)
+```
+
+# HIV use case
+```{r}
+source_code='20447-9'
+d2 %>% filter(LoincNumber==source_code) %>% kable()
+#component
+component='LP38425-2'
+aa<-d2 %>% filter(PartNumber==component & PartTypeName=='COMPONENT')
+
+#second
+#only one deprecated
+component='LP68352-1'  #cd4
+aa2<-d2 %>% filter(PartNumber==component & PartTypeName=='COMPONENT')
+
+source_code='80223-1' #cd4
+d2 %>% filter(LoincNumber==source_code) %>% kable()
+
+
+source_code='20416-4' #cd4
+d2 %>% filter(LoincNumber==source_code) %>% kable()
+
+
+
+# CPT4 to LOINC equivalent (SNOMED)
+# Hepatitis C virus RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection
+# 3016770
+# LOINC
+# Hepatitis C virus RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification
+# 3024429
+# LOINC
+
+#LP38335-3	Hepatitis C virus RNA
+
+component='LP38335-3'
+aa3<-d2 %>% filter(PartNumber==component & PartTypeName=='COMPONENT')
+aa3 %>% write_csv('hepc.csv')
+```
+
+## 31 tests of HIV RNA and 34 tests of hep C RNA
+```{r}
+kable(aa)
+
+
+kable(aa3)
+```
+
+
+### What methods they use
+```{r}
+ab<-d2 %>% filter(LoincNumber %in% aa$LoincNumber) 
+
+ac<-ab  %>% filter(PartTypeName=='METHOD') %>% count(PartTypeName,PartName,PartNumber) 
+kable(ac %>%  arrange(desc(n)))
+  
+```
+Thanks to the parts, we can navigate test by component and see their methods. 
+
+# More analysis
+```{r}
+names(d2)
+d3<-d2 %>% select(-Property,-LinkTypeName) %>% spread(PartTypeName,PartNumber)
+d3<-d2 %>% select(LoincNumber,LongCommonName,PartTypeName,PartNumber) %>% spread(PartTypeName,PartNumber)
+d4<-d2 %>% select(LoincNumber,LongCommonName,PartTypeName, PartName) %>% spread(PartTypeName,PartName)
+names(d4)
+d4 %>% write_csv('loinc-d4-matrix.csv')
+#hiv
+hiv<-d4 %>% filter(str_detect(COMPONENT,'HIV')) %>%  filter(str_detect(SCALE,'Qn'))
+hiv<-d4 %>% filter(str_detect(COMPONENT,'HIV')) %>%  filter(str_detect(SCALE,'Qn')) %>% filter(str_detect(SYSTEM,'Ser|Plas|Bld'))
+hiv %>% count(SCALE)
+hiv %>% count(SYSTEM)
+hiv %>% write_csv('hiv-qn-tests.csv')
+load('o:/athena/concept.rda')
+
+hiv2<-hiv %>% rename(concept_code=LoincNumber) %>%  left_join(concept)
+hiv2$concept_id %>% paste(.,collapse = ',') %>% writeClipboard()
+#3013180,3025330,3007679,3022655,3010747,3028148,3013230,3010358,3014347,3010021,3020171,3020089,3017385,3010074,3026532,3029093,3032527,3031382,3031527,3031839,3031067,3031080,3043306,3049147,3048528,3048506,3048535,3052999,3032517,3039421,3039370,3037274,3021850,3012733,3042525,40761994,40762510,40765206,40771875,42868715,44816746,46236976,46236978,21493878,36204238,3026601
+
+
+#methodless codes
+mc<-d4 %>% filter(is.na(METHOD))
+mc %>% write_csv('loinc-methodless1.csv')
+mc %>% count(SYSTEM) %>% arrange(desc(n))
+mc %>% count(PROPERTY) %>% arrange(desc(n))
+#mcc<-mc %>% filter(!str_detect(PROPERTY,'Hx|!='Hx')
+#find all components that have a method
+names(d4)
+hm<-d4 %>% filter(!is.na(METHOD))
+d2 %>% group_by()
+
+nom<-d4 %>% inner_join(hm %>% select(LoincNumber)) %>% filter(is.na(METHOD))
+
+
+#try 2
+ea<-d2 %>% filter(LoincNumber %in% hm$LoincNumber) 
+
+#try 3
+names(d)
+eb <-d2  %>% filter(PartTypeName=='METHOD') %>% group_by(LoincNumber,LongCommonName,PartTypeName,PartName,PartNumber) %>% summarize(n=n()
+                                                                                                                                   ,methods=paste(PartName,collapse = '|')) 
+#some have two methods, used d first, but correct is to use only primary model
+#goal: for component, how many methods - must use d4
+d4 %>% group_by()
+
+
+#components by number of codes
+ccount<-d2 %>% filter(PartTypeName=='COMPONENT') %>%  group_by(PartName) %>% summarize(cd_cnt=n()) 
+d5<-d4 %>% group_by(COMPONENT,SYSTEM) %>% summarize(n=n(),methods=paste(METHOD,collapse = '|'))
+names(d4)
+d6<-d4 %>% group_by(COMPONENT,SYSTEM,METHOD) %>% summarize(n=n(),tests=paste(LongCommonName,collapse = '|')) 
+d7<-d6 %>% filter(str_detect(SYSTEM,'bld|Bld')) %>% arrange(COMPONENT,desc(n))
+d7 %>% write_csv('loinc-groupedby-bld.csv')
+
+
+#more work 2019-10-25
+#per component and system, how many methods there are and two or more
+ec<-d4 %>% select(COMPONENT,SYSTEM,METHOD) %>%  distinct() %>% group_by(COMPONENT,SYSTEM) %>% summarize(n=n(),methods=paste(METHOD,collapse = '|',)) %>% filter(n>=2)
+
+#paste coerces NA to string NA, check if method NA indeed is not in the data
+d4 %>% count(METHOD) %>% View()
+#indeed no NA as string so safe to continue
+
+#which of those include methodless code
+ed <- ec %>% filter(str_detect(methods,'NA'))
+
+#get back the codes
+##ee is BEST !!! has HIV 1 RNA clearly
+ee<-d4 %>% group_by(COMPONENT,SYSTEM) %>% summarize(n2=n()
+                               ,codes=paste(LoincNumber,collapse = ',')
+                               ,methods=paste(METHOD,collapse = '|')
+                                                           ) %>% filter(n>=2)
+
+
+#adding scale type now
+ee<-d4 %>% group_by(COMPONENT,SYSTEM,SCALE) %>% summarize(n2=n()
+                               ,codes=paste(LoincNumber,collapse = ',')
+                               ,methods=paste(METHOD,collapse = '|')
+                                                           ) %>% filter(n2>=2)
+
+ee %>% write_csv('loinc-ee-methods-per-component-overview.csv')
+
+#ignore below
+ef<-ee %>% inner_join(ed)
+
+# d %<>% rename(vocabulary_id=Type,concept_code=ev) %>% mutate(vocabulary_id=recode(vocabulary_id, 
+#                          `PX`="ICD10PCS",
+#                          `DX`="ICD10CM"))
+
+```
+
+

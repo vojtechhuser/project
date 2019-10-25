@@ -1,0 +1,47 @@
+LoincNumber,LongCommonName,COMPONENT,METHOD,PROPERTY,SCALE,SYSTEM,TIME
+10351-5,HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification,HIV 1 RNA,Probe.amp,ACnc,Qn,Ser/Plas,Pt
+10682-3,Deprecated HIV 1 RNA [Units/volume] in Serum or Plasma by Probe with amplification,HIV 1 RNA,Probe.amp,ACnc,Qn,Ser/Plas,Pt
+16976-3,HIV 1 Ag [Units/volume] in Serum,HIV 1 Ag,NA,ACnc,Qn,Ser,Pt
+16978-9,HIV 1 p24 Ab [Units/volume] in Serum,HIV 1 p24 Ab,NA,ACnc,Qn,Ser,Pt
+20447-9,HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection,HIV 1 RNA,Probe.amp.tar,NCnc,Qn,Ser/Plas,Pt
+21008-8,HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe,HIV 1 RNA,Probe,NCnc,Qn,Ser/Plas,Pt
+21331-4,HIV 1 p24 Ab [Titer] in Serum by Immunoblot,HIV 1 p24 Ab,IB,Titr,Qn,Ser,Pt
+21332-2,HIV 1 p41 Ab [Titer] in Serum by Immunoblot,HIV 1 p41 Ab,IB,Titr,Qn,Ser,Pt
+21333-0,HIV 1 RNA [#/volume] in Serum,HIV 1 RNA,NA,NCnc,Qn,Ser,Pt
+22356-0,HIV 1 Ab [Units/volume] in Serum,HIV 1 Ab,NA,ACnc,Qn,Ser,Pt
+22357-8,HIV 1+2 Ab [Units/volume] in Serum,HIV 1+2 Ab,NA,ACnc,Qn,Ser,Pt
+22358-6,HIV 2 Ab [Units/volume] in Serum,HIV 2 Ab,NA,ACnc,Qn,Ser,Pt
+23876-6,HIV 1 RNA [Units/volume] (viral load) in Plasma by Probe with signal amplification,HIV 1 RNA,Probe.amp.sig,ACnc,Qn,Plas,Pt
+29539-4,HIV 1 RNA [Log #/volume] (viral load) in Plasma by Probe with signal amplification,HIV 1 RNA,Probe.amp.sig,LnCnc,Qn,Plas,Pt
+29541-0,HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection,HIV 1 RNA,Probe.amp.tar,LnCnc,Qn,Ser/Plas,Pt
+41290-8,HIV 1+2 IgM Ab [Units/volume] in Serum or Plasma by Immunoassay,HIV 1+2 Ab.IgM,IA,ACnc,Qn,Ser/Plas,Pt
+41513-3,HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 400 copies/mL,HIV 1 RNA,Probe.amp detection limit = 400 copies/mL,NCnc,Qn,Ser/Plas,Pt
+41514-1,HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 2.6 log copies/mL,HIV 1 RNA,Probe.amp detection limit = 2.6 log copies/mL,LnCnc,Qn,Ser/Plas,Pt
+41515-8,HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 75 copies/mL,HIV 1 RNA,Probe.amp detection limit = 75 copies/mL,NCnc,Qn,Ser/Plas,Pt
+41516-6,HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 1.9 log copies/mL,HIV 1 RNA,Probe.amp detection limit = 1.9 log copies/mL,LnCnc,Qn,Ser/Plas,Pt
+42339-2,HIV 1 p24 Ag [Mass/volume] in Serum or Plasma by Immunoassay,HIV 1 p24 Ag,IA,MCnc,Qn,Ser/Plas,Pt
+43008-2,HIV 1+2 IgM Ab [Units/volume] in Serum,HIV 1+2 Ab.IgM,NA,ACnc,Qn,Ser,Pt
+43599-0,HIV 1 Ab [Units/volume] in Serum by Immunofluorescence,HIV 1 Ab,IF,ACnc,Qn,Ser,Pt
+48346-1,HIV 1+O+2 Ab [Units/volume] in Serum or Plasma,HIV 1+O+2 Ab,NA,ACnc,Qn,Ser/Plas,Pt
+48510-2,HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 1.7 log copies/mL,HIV 1 RNA,Probe.amp.tar detection limit = 1.7 log copies/mL,LnCnc,Qn,Ser/Plas,Pt
+48511-0,HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 copies/mL,HIV 1 RNA,Probe.amp.tar detection limit = 50 copies/mL,NCnc,Qn,Ser/Plas,Pt
+48551-6,HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 400 copies/mL,HIV 1 RNA,Probe.amp.tar detection limit = 400 copies/mL,NCnc,Qn,Ser/Plas,Pt
+48552-4,HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 2.6 log copies/mL,HIV 1 RNA,Probe.amp.tar detection limit = 2.6 log copies/mL,LnCnc,Qn,Ser/Plas,Pt
+49965-7,Deprecated HIV 1 Ab/HIV 2 Ab Ab [Ratio] in Serum by Immunoblot (IB),HIV 1 Ab/HIV 2 Ab,IB,Ratio,Qn,Ser,Pt
+51780-5,HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 0.5 log copies/mL,HIV 1 RNA,Probe.amp.tar detection limit = 0.5 log copies/mL,LnCnc,Qn,Ser/Plas,Pt
+51786-2,HIV 2 Ab Signal/Cutoff in Serum or Plasma by Immunoassay,HIV 2 Ab Signal/Cutoff,IA,RelACnc,Qn,Ser/Plas,Pt
+5220-9,HIV 1 Ab [Units/volume] in Serum or Plasma by Immunoassay,HIV 1 Ab,IA,ACnc,Qn,Ser/Plas,Pt
+5223-3,HIV 1+2 Ab [Units/volume] in Serum or Plasma by Immunoassay,HIV 1+2 Ab,IA,ACnc,Qn,Ser/Plas,Pt
+5224-1,HIV 2 Ab [Units/volume] in Serum or Plasma by Immunoassay,HIV 2 Ab,IA,ACnc,Qn,Ser/Plas,Pt
+53601-1,HIV 1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay,HIV 1 p24 Ag,IA,ACnc,Qn,Ser/Plas,Pt
+58900-2,HIV 1+2 Ab+HIV1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay,HIV 1+2 Ab+HIV1 p24 Ag,IA,ACnc,Qn,Ser/Plas,Pt
+59419-2,HIV 1 RNA [#/volume] (viral load) in Plasma by Probe with signal amplification,HIV 1 RNA,Probe.amp.sig,NCnc,Qn,Plas,Pt
+62469-2,HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,HIV 1 RNA,Probe.amp.tar,ACnc,Qn,Ser/Plas,Pt
+69354-9,HIV 2 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection,HIV 2 RNA,Probe.amp.tar,ACnc,Qn,Ser/Plas,Pt
+70241-5,HIV 1 RNA [#/volume] (viral load) in Plasma by Probe and target amplification method detection limit = 20 copies/mL,HIV 1 RNA,Probe.amp.tar detection limit = 20 copies/mL,NCnc,Qn,Plas,Pt
+74854-1,HIV 1 proviral DNA [#/volume] (viral load) in Blood by NAA with probe detection,HIV 1 proviral DNA,Probe.amp.tar,NCnc,Qn,Bld,Pt
+78007-2,HIV 1 proviral DNA [Logarithmic entitic number] (viral load) in Blood mononuclear cells by NAA with probe detection,HIV 1 proviral DNA,Probe.amp.tar,EntLogNum,Qn,Bld MC,Pt
+78009-8,HIV 1 proviral DNA [Entitic number] (viral load) in Blood mononuclear cells by NAA with probe detection,HIV 1 proviral DNA,Probe.amp.tar,EntNum,Qn,Bld MC,Pt
+81652-0,HIV 2 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection,HIV 2 RNA,Probe.amp.tar,LnCnc,Qn,Ser/Plas,Pt
+86548-5,HIV 2 RNA [#/volume] (viral load) in Plasma by NAA with probe detection,HIV 2 RNA,Probe.amp.tar,NCnc,Qn,Plas,Pt
+9665-1,HIV 1 p24 Ag [Units/volume] in Serum,HIV 1 p24 Ag,NA,ACnc,Qn,Ser,Pt
