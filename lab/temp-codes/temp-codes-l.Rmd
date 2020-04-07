@@ -1,0 +1,56 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    toc: true
+
+    df_print: paged
+---
+
+
+
+```{r rc, include=FALSE}
+url<-'https://loinc.org/prerelease'
+library(rvest)
+#library(httr)
+library(tidyverse)
+library(xml2)
+
+webpage <- read_html(url)
+
+#read tables (there is just one, luckily)
+aa<- webpage %>%  html_nodes("table") %>% html_table(fill = TRUE)
+d<-aa[[1]]
+
+#make a link
+d$link_to_code=paste0('https://loinc.org/',d$LOINC)
+#names(d)
+#install.packages('janitor')
+library(janitor)
+d <- clean_names(d)
+
+#names(d)
+#reorder columns
+d2<-d %>% select(link_to_code,created_on,shortname,long_common_name, 5:10,loinc)
+
+library(knitr)
+library(kableExtra)
+
+library(tidyverse)
+```
+
+# LOINC
+```{r rcode, echo=FALSE}
+d2 %>%  kable("html", escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("hover", "condensed")) 
+
+d2 %>% write_csv('LOINC-temp-codes.csv')
+```
+
+# Sortable List
+```{r}
+library(DT)
+options(DT.options = list(pageLength = 1500, language = list(search = 'Filter:')))
+d2 %>%  datatable(rownames = FALSE)
+```
+
