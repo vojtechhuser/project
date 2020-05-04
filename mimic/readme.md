@@ -13,7 +13,13 @@ https://physionet.org/content/mimiciii/1.4/
 
 # Options
 ## Cloud GBC
-preferred
+- preferred
+- notes below
+- use prefix physionet-data.mimiciii_clinical
+- literals - not in quotes
+- WITH constructs works OK
+- replace mimic_id with subject_id
+
 
 
 ## Files
