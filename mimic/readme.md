@@ -23,5 +23,6 @@ https://physionet.org/content/mimiciii/1.4/
 
 
 ## Files
-get gzipped files (6+GB) and use local Postgres
+- get gzipped files (6+GB) and use local Postgres
+- no need to modify the ETL
 
