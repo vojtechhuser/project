@@ -10,3 +10,12 @@ Convert PERSON table using ETL here https://github.com/MIT-LCP/mimic-omop/blob/m
 
 https://physionet.org/content/mimiciii/1.4/
 
+
+# Options
+## Cloud GBC
+preferred
+
+
+## Files
+get gzipped files (6+GB) and use local Postgres
+
