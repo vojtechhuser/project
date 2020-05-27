@@ -2,4 +2,4 @@
 
 This repository contains R markdown code used in analysis of LOINC answers. Relationship to SNOMED CT is explored.
 
-HTML output can be explored using github io link.
+HTML output can be explored using github io link. Link: https://vojtechhuser.github.io/project/lab/linkage/lans.html
