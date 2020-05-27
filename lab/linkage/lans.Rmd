@@ -1,0 +1,177 @@
+---
+title: "LOINC Answers"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+```{r}
+
+folder='k:/w/loinc'
+folder=getwd()
+library(tidyverse)
+library(readr)
+library(magrittr)
+library(dplyr)
+
+a<-fs::path(folder,'l','LoincAnswerListLink.csv')
+l<-read_csv(a)
+
+b<-fs::path(folder,'l','AnswerList.csv')
+al<-read_csv(b)
+#install.packages("glue")
+names(l)
+names(al)
+c<-b<-fs::path(folder,'l','Loinc.csv')
+#all problems are related to all chars as type
+codes<-read_csv(c,col_types = cols(.default = "c"))
+za<-problems(codes)
+#names(za)
+#za
+za %>% count(col)  
+zb<-za %>% filter(col=='PanelType')
+
+#make l data to be one row per AL
+l2<-l %>% group_by(AnswerListId,AnswerListName) %>% summarise( loincNumber=paste(LoincNumber,collapse = '|') ,loincCommonName=paste(LongCommonName,collapse = '|')
+,n=n()
+                                               )
+
+
+#join them
+#just one line per list
+d<-al %>% left_join(l2)
+
+#multiple lines per list for each loinc code it is linked to
+big<-l %>% left_join(al)
+
+#get just lists from two different directions
+lkup1<-al %>% count(AnswerListId,AnswerListName)
+lkup2<-l %>% count(AnswerListId,AnswerListName,AnswerListLinkType) %>% 
+  arrange(AnswerListLinkType) %>% 
+  group_by(AnswerListId,AnswerListName) %>% summarise(AnswerListLinkType=paste(AnswerListLinkType,collapse = '|')) %>% ungroup
+
+#majority are normative
+lkup2 %>% count(AnswerListLinkType,sort = TRUE)
+
+
+```
+
+# Ext codes
+
+```{r}
+#names(al)
+#al %>% count(ExtCodeId)
+ca0<-al %>% count(is.na(ExtCodeDisplayName))
+100*1948/nrow(al)
+
+# ca<-al %>%  filter(!is.na(ExtCodeDisplayName))%>% count(ExtCodeDisplayName,sort = TRUE)
+
+ca<-al %>%  filter(!is.na(ExtCodeSystem))%>% count(ExtCodeSystem,sort = TRUE)%>% mutate(p=100*n/sum(n))
+#what external terminologies (ppoint25)
+ca
+
+#just to check
+ca2<-al %>% count(ExtCodeSystem,sort = TRUE)%>% mutate(p=100*n/sum(n))
+
+
+#snomed is the answer in 1943
+ca
+#in 7.8% snomed value is the answer for a loinc list 
+#prop.table(table(ca$n))
+
+#if snomed, is it all snomed
+
+options(scipen = 999)
+sal<-al %>% filter(ExtCodeSystem=='http://snomed.info/sct')
+names(big)
+names(codes)
+big2=big %>% left_join(codes, by = c("LoincNumber"="LOINC_NUM"))
+
+sbig<-big2 %>% filter(ExtCodeSystem=='http://snomed.info/sct')
+fa<-sbig %>% select(LoincNumber,CLASSTYPE) %>% distinct
+fa %>% count(CLASSTYPE)
+#ppoint 30
+#fa
+codesWSct=fa %>% filter(CLASSTYPE==1)
+nrow(codesWSct)
+
+#in all LOINC there are that many lab codes (value 1 for type)
+fb<-codes %>% count(CLASSTYPE)
+fb
+
+lab_sbig = sbig %>% inner_join(codesWSct)
+
+# Type	Allowed values:
+# 1
+# 
+# 2
+# 
+# 3
+# 
+# 4
+# 
+# Numeric representation of the class type. To search for all the LOINC codes containing glucose with a class type of 2 use the query:
+# glucose Type:2
+# 
+# See the LOINC Users' Guide for definitions of each class type.
+# TypeName	Allowed values:
+# Lab
+# Clinical
+# Attachment
+# Survey
+# String representation of the class type. To search for all the LOINC codes containing glucose with a class type of clinical use the query:
+# glucose TypeName:clinical
+
+#LL construct (interim) between lab test and PV
+```
+# next part 
+
+```{r}
+ga=codes %>% group_by(CLASSTYPE,SCALE_TYP) %>% summarize(n=n()) %>% ungroup() %>%  group_by(CLASSTYPE) %>% mutate(perc=100*n/sum(n))
+ga
+```
+
+# SNOMED CT link
+
+```{r}
+#lab_sbig #has one row per answer
+lcnt<-lab_sbig %>% select(LoincNumber) %>% distinct() %>% nrow()
+
+#percentage of all lab concepts
+lcnt/56364 #ppoint 40
+
+#what type of tests refence SCT
+ua<-lab_sbig %>% select(LoincNumber,PROPERTY) %>% distinct() %>% count(PROPERTY, sort=TRUE)
+
+ub<-lab_sbig %>% select(LoincNumber,SCALE_TYP) %>% distinct() %>% count(SCALE_TYP, sort=TRUE)
+# 
+# Ord
+# 3204
+# 
+# Nom
+# 287
+(3204+287)/lcnt
+#what value is most represented
+names(lab_sbig)
+va<-lab_sbig %>% group_by(DisplayText) %>% summarize(n=n()
+  ,shortnames=paste(SHORTNAME,collapse = '|')
+  ,LONG_COMMON_NAMEs=paste(LONG_COMMON_NAME,collapse = '|')
+  ) %>% arrange(desc(n)) %>%  ungroup() %>% mutate(perc=n/sum(n))
+
+va %>% count(n)
+```
+
+# next
+```{r}
+names(l)
+xa<-l %>% count(AnswerListId,AnswerListName)
+xb<-l %>% count(AnswerListId,AnswerListName,AnswerListLinkType)
+xc<-l %>% count(AnswerListLinkType)
+
+xd <- l %>% select(LoincNumber,AnswerListId,AnswerListName,AnswerListLinkType) %>% distinct()
+xe <- lab_sbig %>% select(LoincNumber,AnswerListId,AnswerListName,AnswerListLinkType) %>% distinct()
+xf<-xe %>% count(AnswerListLinkType, sort=TRUE)
+xf %<>% mutate(perc=n/sum(n))
+```
+
