@@ -1,10 +1,11 @@
 ---
 title: "LOINC Answers"
 output:
-  html_document:
-    df_print: paged
+  html_document: 
+    toc: yes
+    toc_float: true
 ---
-
+This file
 
 ```{r}
 
@@ -14,6 +15,7 @@ library(tidyverse)
 library(readr)
 library(magrittr)
 library(dplyr)
+library(DT)
 
 a<-fs::path(folder,'l','LoincAnswerListLink.csv')
 l<-read_csv(a)
@@ -125,7 +127,7 @@ lab_sbig = sbig %>% inner_join(codesWSct)
 
 #LL construct (interim) between lab test and PV
 ```
-# next part 
+# Type
 
 ```{r}
 ga=codes %>% group_by(CLASSTYPE,SCALE_TYP) %>% summarize(n=n()) %>% ungroup() %>%  group_by(CLASSTYPE) %>% mutate(perc=100*n/sum(n))
@@ -145,6 +147,8 @@ lcnt/56364 #ppoint 40
 ua<-lab_sbig %>% select(LoincNumber,PROPERTY) %>% distinct() %>% count(PROPERTY, sort=TRUE)
 
 ub<-lab_sbig %>% select(LoincNumber,SCALE_TYP) %>% distinct() %>% count(SCALE_TYP, sort=TRUE)
+ub
+
 # 
 # Ord
 # 3204
@@ -158,11 +162,13 @@ va<-lab_sbig %>% group_by(DisplayText) %>% summarize(n=n()
   ,shortnames=paste(SHORTNAME,collapse = '|')
   ,LONG_COMMON_NAMEs=paste(LONG_COMMON_NAME,collapse = '|')
   ) %>% arrange(desc(n)) %>%  ungroup() %>% mutate(perc=n/sum(n))
-
+va %>% datatable(rownames = FALSE)
+va %>% write_csv('LA-answers.csv')
+#how many SCT answers  appear on only 1 loinc code?
 va %>% count(n)
 ```
 
-# next
+# LinkType
 ```{r}
 names(l)
 xa<-l %>% count(AnswerListId,AnswerListName)
@@ -173,5 +179,38 @@ xd <- l %>% select(LoincNumber,AnswerListId,AnswerListName,AnswerListLinkType) %
 xe <- lab_sbig %>% select(LoincNumber,AnswerListId,AnswerListName,AnswerListLinkType) %>% distinct()
 xf<-xe %>% count(AnswerListLinkType, sort=TRUE)
 xf %<>% mutate(perc=n/sum(n))
+xf
+
+#LAs not linked to SCT
+
+non<-big2 %>% filter(is.na(ExtCodeSystem))
+nonfa<-non %>% select(LoincNumber,CLASSTYPE) %>% distinct
+nonfa %>% count(CLASSTYPE)
+#ppoint 130
+nonfa
+
+# codesWSct=fa %>% filter(CLASSTYPE==1)
+# nrow(codesWSct)
+# 
+# 
+# lab_sbig = sbig %>% inner_join(codesWSct)
+
+ya<-non %>% count(CLASSTYPE,DisplayText, sort=TRUE)
+nonterms<-non %>% count(DisplayText, sort=TRUE) %>% mutate(term=tolower(DisplayText))
+nonterms2<-non %>% count(CLASSTYPE,DisplayText, sort=TRUE) %>% mutate(term=tolower(DisplayText))
+
+load('C:/c/OneDrive - National Institutes of Health/snomed/snomedct.rda')
+SYNONYM=900000000000013056
+
+SCTSyns<-d %>% filter(typeId==SYNONYM) %>% filter(active==1) %>% mutate(term=tolower(term))
+
+yc<-nonterms %>% left_join(SCTSyns)
+#additional grouping by loinc type (lab vs clinical vs survey)
+yc2<-nonterms2 %>% left_join(SCTSyns) %>% filter(!is.na(conceptId))
+yc2 %>% write_csv('LA-nonMapped.csv')
+nrow(yc)
+names(yc)
+yd=yc %>% count(!is.na(conceptId))
+yd
 ```
 
