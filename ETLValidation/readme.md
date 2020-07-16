@@ -18,11 +18,11 @@ A possible future work is to improve a set of convensions (and even code support
 
 PERSON, VISIT_OCCURRENCE, MEASUREMENT, DRUG_EXPOSURE, CONDITION_OCURRENCE, and PROCEDURE_OCCURRENCE
 
-https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/PERSON/check_etl.sql
-https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/VISIT_OCCURRENCE/check_etl.sql
-https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/MEASUREMENT/check_etl.sql
-https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/DRUG_EXPOSURE/check_etl.sql
-https://github.com/MIT-LCP/mimic-omop/tree/master/etl/StandardizedClinicalDataTables/CONDITION_OCCURRENCE
-https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/PROCEDURE_OCCURRENCE/check_etl.sql
+https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/PERSON/check_etl.sql  
+https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/VISIT_OCCURRENCE/check_etl.sql  
+https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/MEASUREMENT/check_etl.sql  
+https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/DRUG_EXPOSURE/check_etl.sql  
+https://github.com/MIT-LCP/mimic-omop/tree/master/etl/StandardizedClinicalDataTables/CONDITION_OCCURRENCE  
+https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/PROCEDURE_OCCURRENCE/check_etl.sql  
 
 
