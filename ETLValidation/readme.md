@@ -60,3 +60,6 @@ https://github.com/MIT-LCP/mimic-omop/tree/master/etl/StandardizedClinicalDataTa
 https://github.com/MIT-LCP/mimic-omop/blob/master/etl/StandardizedClinicalDataTables/PROCEDURE_OCCURRENCE/check_etl.sql  
 
 
+# HCUP Unit Tests
+https://github.com/OHDSI/JCdmBuilder/blob/master/tests/HCUPETLToV5/HcupTests.R
+http://ohdsi.github.io/WhiteRabbit/riah_test_framework.html
