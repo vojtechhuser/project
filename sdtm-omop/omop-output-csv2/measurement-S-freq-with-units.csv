@@ -1,0 +1,11 @@
+measurement_source_value,unit_source_value,n
+Diastolic Blood Pressure~DIABP,mmHg,8205
+Systolic Blood Pressure~SYSBP,mmHg,8205
+Pulse Rate~PULSE,beats/min,8201
+Temperature~TEMP,C,2720
+Weight~WEIGHT,kg,2050
+Height~HEIGHT,cm,254
+NA~NA,kg,57
+Pulse Rate~PULSE,NA,3
+Systolic Blood Pressure~SYSBP,NA,3
+Diastolic Blood Pressure~DIABP,NA,2
