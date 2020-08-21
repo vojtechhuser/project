@@ -96,7 +96,7 @@ measurement=measurement2
 measurement %>% write_csv(file.path(outpath,'measurement.csv'))
 nrow(measurement)
 #50k is about 3.6 mb
-measurement %>%sample_n(size=40000) %>%  write_csv(file.path(outpath,'measurement-small.csv'))
+measurement %>%sample_n(size=1000) %>%  write_csv(file.path(outpath,'measurement-small.csv'))
 names(measurement)
 aa<-measurement %>% count(measurement_source_value) %>% arrange(desc(n))
 ac<-measurement %>% count(measurement_source_value,unit_source_value) %>% arrange(desc(n))
